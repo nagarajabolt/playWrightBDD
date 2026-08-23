@@ -18,6 +18,8 @@ test.describe('Open Google', () => {
 
 // == technical section ==
 
+test.beforeEach('BeforeEach Hooks', ({ $runScenarioHooks, page }) => $runScenarioHooks('before', { page }));
+
 test.use({
   $test: [({}, use) => use(test), { scope: 'test', box: true }],
   $uri: [({}, use) => use('features/sample.feature'), { scope: 'test', box: true }],
