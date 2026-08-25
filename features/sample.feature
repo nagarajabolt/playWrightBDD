@@ -16,8 +16,9 @@ Feature: Open Google
         Given Navigate to "<Url>"
         Then Enter username "<Username>"
         Then Enter password "<Password>"
+        Then Validate header text is: "<HeaderText>"
         Then Click on Login Button
 
         Examples:
-            | Url | Username | Password |
-            | https://www.saucedemo.com/  | standard_user  | secret_sauce |
+            | Url | Username | Password | HeaderText |
+            | https://www.saucedemo.com/  | standard_user  | secret_sauce |Swag Labs|

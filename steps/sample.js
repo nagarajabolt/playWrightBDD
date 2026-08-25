@@ -2,6 +2,8 @@ import { createBdd } from 'playwright-bdd';
 const { Before, Given, When, Then} = createBdd();
 import { navigateToUrl, enterData } from '../utils/navigation.js';
 import { Loginpage } from '../pageObjects/login.js';
+import { expect } from '@playwright/test';
+import { log } from 'node:console';
 
 let login;
 Before(async({page}) => {
@@ -38,6 +40,13 @@ Then('Enter password {string}' , async ({page}, arg) =>{
 
 Then('Click on Login Button' , async ({page}) =>{
   await login.loginButton.click();
+  await page.waitForTimeout(3000); 
+  await console.log(`Clicked on Login button`)
+});
+
+Then('Validate header text is: {string}' , async ({page}, arg) =>{
+  const header = await login.headerText;
+  await expect(header).toHaveText(arg);
   await page.waitForTimeout(3000); 
   await console.log(`Clicked on Login button`)
 });
