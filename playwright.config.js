@@ -4,6 +4,8 @@ import { defineBddConfig } from 'playwright-bdd';
 import dotenv from 'dotenv';
 import path from 'path';
 
+const timestamp = new Date().toISOString().replace(/T/, '_').replace(/\..+/, '').replace(/:/g, '-');
+
 const environment = process.env.NODE_ENV || 'qa'; 
 // 2. Load the specific properties file
 dotenv.config({
@@ -31,7 +33,16 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: 1,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  // reporter: 'html',
+  // Dynamically name folders for Cucumber logs and Playwright traces
+  outputDir: `./test-results/run_${timestamp}`, 
+  
+  reporter: [
+    ['html', { outputFolder: `./playwright-report/run_${timestamp}`, open: 'never' }]
+    // ['cucumber-html-reporter', { output: `./cucumber-report/run_${timestamp}/report.html` }] // If using cucumber reporter
+  ],
+
+
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
         trace: 'on',
