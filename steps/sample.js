@@ -48,5 +48,5 @@ Then('Validate header text is: {string}' , async ({page}, arg) =>{
   const header = await login.headerText;
   await expect(header).toHaveText(arg);
   await page.waitForTimeout(3000); 
-  await console.log(`Clicked on Login button`)
+  await console.log(`Header text is matching`)
 });
