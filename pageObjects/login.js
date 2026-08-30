@@ -6,6 +6,9 @@ export const Loginpage = class loginPage{
         this.password_textBox = page.locator('#password')
         this.headerText = page.locator('.login_logo');
         this.loginButton = page.locator('#login-button')
+        this.productFilter = page.locator('[data-test="product-sort-container"]');
+        this.navigationMenuButton = page.locator('#react-burger-menu-btn');
+        this.logoutLink = page.locator('#logout_sidebar_link');
 
     }
 

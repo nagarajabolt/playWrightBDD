@@ -44,6 +44,23 @@ Then('Click on Login Button' , async ({page}) =>{
   await console.log(`Clicked on Login button`)
 });
 
+When('Open the product filter', async () => {
+  await login.productFilter.click();
+});
+
+Then('Validate the product filter options are available', async ({}, dataTable) => {
+  const expectedOptions = dataTable.raw().map(([option]) => option);
+  await expect(login.productFilter.locator('option')).toHaveText(expectedOptions);
+});
+
+When('Open the navigation menu', async () => {
+  await login.navigationMenuButton.click();
+});
+
+Then('Click on Logout', async () => {
+  await login.logoutLink.click();
+});
+
 Then('Validate header text is: {string}' , async ({page}, arg) =>{
   const header = await login.headerText;
   await expect(header).toHaveText(arg);
