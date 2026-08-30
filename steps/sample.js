@@ -5,6 +5,7 @@ import { Loginpage } from '../pageObjects/login.js';
 import { expect } from '@playwright/test';
 import { log } from 'node:console';
 
+//page object file initialization
 let login;
 Before(async({page}) => {
 login = await new Loginpage(page);  
@@ -12,6 +13,7 @@ login = await new Loginpage(page);
 
 Given('Navigate to properties url', async ({page}) => {
   await navigateToUrl(page, process.env.APP_URL);
+  await page.evaluate(() => document.body.style.zoom = '50%');
   await page.waitForTimeout(3000); 
 });
 
@@ -32,7 +34,7 @@ Then('Enter username {string}' , async ({page}, arg) =>{
     await console.log(`Entered username: ${arg}`)
 });
 
-Then('Enter password {string}' , async ({page}, arg) =>{
+Then('Enter password for sample{string}' , async ({page}, arg) =>{
     await enterData(page, login.password_textBox , arg)
     await page.waitForTimeout(3000); 
     await console.log(`Entered password: ${arg}`)

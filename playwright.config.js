@@ -48,7 +48,11 @@ export default defineConfig({
         trace: 'on',
         headless: false,
         channel: 'chrome',
-        screenshot: 'on'
+        screenshot: 'on',
+        launchOptions: {
+          args: ['--start-maximized',
+                   '--window-size=1920,1080'],},
+        viewport:  { width: 1920, height: 1080 },
   },
 
   /* Configure projects for major browsers */
