@@ -55,3 +55,27 @@ Then('Click on Second Sign In button', async ({page}) => {
   console.log(`Clicked on second Sign in button`)
   await page.waitForTimeout(3000); 
 });
+
+Then('Click on App Launcher menu', async ({page}) => {
+  await hpbwPageObjects.appLauncher.click();
+  console.log('Clicked on App Launcher menu');
+  await page.waitForTimeout(3000);
+});
+
+Then('Click on Organization', async ({page}) => {
+  await hpbwPageObjects.organizationMenuItem.click();
+  console.log('Clicked on Organization');
+  await page.waitForTimeout(3000);
+});
+
+Then('Search for organization {string}', async ({page}, arg) => {
+  await hpbwPageObjects.searchInput.fill(arg);
+  console.log(`Searched for organization ${arg}`);
+  await page.waitForTimeout(2000);
+});
+
+Then('Select organization {string}', async ({page}, arg) => {
+  await hpbwPageObjects.organizationResult.click();
+  console.log(`Selected organization ${arg}`);
+  await page.waitForTimeout(3000);
+});
