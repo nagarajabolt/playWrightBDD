@@ -20,6 +20,18 @@ hpbwPageObjects = new hpbw(page);
   });
 });
 
+Given('Open chrome browser and navigate to {string}', async ({page}, url) => {
+  await page.goto(url);
+  console.log(`Opened browser and navigated to ${url}`);
+  await page.waitForTimeout(3000);
+});
+
+Then('Click on Login button', async ({page}) => {
+  await hpbwPageObjects.loginButton.click();
+  console.log('Clicked on Login button');
+  await page.waitForTimeout(3000);
+});
+
 Then('Click on Sign In button', async ({page}) => {
   await hpbwPageObjects.signInButton.click();
   console.log(`Clicked on Sign in button`)
@@ -50,8 +62,32 @@ Then('Click on Next button', async ({page}) => {
   await page.waitForTimeout(3000); 
 });
 
+Then('Click on Signin button', async ({page}) => {
+  await hpbwPageObjects.signinButton.click();
+  console.log('Clicked on Signin button');
+  await page.waitForTimeout(3000);
+});
+
 Then('Click on Second Sign In button', async ({page}) => {
   await hpbwPageObjects.secondSignInButton.click();
   console.log(`Clicked on second Sign in button`)
   await page.waitForTimeout(3000); 
+});
+
+Then('Click on Tokens button', async ({page}) => {
+  await hpbwPageObjects.tokensButton.click();
+  console.log('Clicked on Tokens button');
+  await page.waitForTimeout(3000);
+});
+
+Then('Click on Get more tokens', async ({page}) => {
+  await hpbwPageObjects.getMoreTokensButton.click();
+  console.log('Clicked on Get more tokens');
+  await page.waitForTimeout(3000);
+});
+
+Then('Click on 5 token package', async ({page}) => {
+  await hpbwPageObjects.tokenPackageButton.click();
+  console.log('Clicked on 5 token package');
+  await page.waitForTimeout(3000);
 });
