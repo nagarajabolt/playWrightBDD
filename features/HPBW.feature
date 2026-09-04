@@ -18,12 +18,15 @@ Feature: Open Google
     @BuyTokens
     Scenario: Buy tokens
         Given Open chrome browser and navigate to "https://aec-itg.hpcloud.hp.com/projects"
-        Then Click on Login button
-        Then Enter email address "nagaraj11@mailsac.com"
-        Then Click on Next button
-        Then Click on use password
-        Then Enter password "Test123@"
-        Then Click on Signin button
+        Then Login to application
+            | Username      | Password  |
+            | "nagaraj11@mailsac.com" | Test123@  |
+        # Then Click on Login button
+        # Then Enter email address "nagaraj11@mailsac.com"
+        # Then Click on Next button
+        # Then Click on use password
+        # Then Enter password "Test123@"
+        # Then Click on Signin button
         Then Click on Tokens button and validate api response
         Then Click on Get more tokens
         Then Click on 5 token package

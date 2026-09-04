@@ -1,6 +1,6 @@
 import { createBdd } from 'playwright-bdd';
 const { Before, Given, When, Then} = createBdd();
-import { navigateToUrl, enterData } from '../utils/navigation.js';
+import { navigateToUrl, enterData, clickOnButton } from '../utils/navigation.js';
 import { Loginpage } from '../pageObjects/login.js';
 import { expect } from '@playwright/test';
 import { log } from 'node:console';
@@ -26,6 +26,18 @@ Given('Open chrome browser and navigate to {string}', async ({page}, url) => {
   await page.goto(url);
   console.log(`Opened browser and navigated to ${url}`);
   await page.waitForTimeout(3000);
+});
+
+Then('Login to application', async ({page}, datatable) => {
+  const { Username, Password } = datatable.hashes()[0];  
+  clickOnButton(page, hpbwPageObjects.loginButton);
+  enterData(page, hpbwPageObjects.emailAddress, Username);
+  clickOnButton(page, hpbwPageObjects.NextButton);
+  clickOnButton(page, hpbwPageObjects.usePassword);
+  enterData(page, hpbwPageObjects.password, Password);
+  clickOnButton(page, hpbwPageObjects.signinButtonHPBW);
+  await page.waitForTimeout(3000);
+
 });
 
 Then('Click on Login button', async ({page}) => {
