@@ -6,6 +6,7 @@ import { expect } from '@playwright/test';
 import { log } from 'node:console';
 const test = require('@playwright/test');
 import { hpbw } from '../pageObjects/hpbw.js';
+const expectedTokensApiResponse = require('../testData/tokensResponse.json');
 
 /** @type {hpbw} */
 let hpbwPageObjects;
@@ -78,10 +79,39 @@ Then('Click on Second Sign In button', async ({page}) => {
 });
 
 Then('Click on 6 Tokens button', async ({page}) => {
-  await hpbwPageObjects.tokensButton.click();
-  console.log('Clicked on Tokens button');
-  // await page.waitForTimeout(30000);
+  const responsePromise = page.waitForResponse(
+    // response => /user?type=tokens/i.test(response.url()) && 
+    response => response.url().includes('/user?type=tokens') &&
+    response.request().method() === 'GET', {timeout: 80000});
+
+    await Promise.all([
+      responsePromise,
+      hpbwPageObjects.tokensButton.waitFor({state: 'visible', timeout: 80000}),
+      hpbwPageObjects.tokensButton.click({timeout: 80000})
+    ]);
+  console.log('Clicked on 6 Tokens button');
+  await page.waitForTimeout(3000);
+
+    const response = await responsePromise;
+    const tokensResponseData = await response.json();
+    console.log('Tokens API response:', tokensResponseData);
+
+    expect(tokensResponseData.purchaseAvailable).toEqual(expectedTokensApiResponse.purchaseAvailable);
+    expect(tokensResponseData.products).toEqual(expectedTokensApiResponse.products);
 });
+
+
+
+  // await page.waitForTimeout(10000);
+  // const response = await page.waitForResponse(response => 
+  // response.url().includes('/user?type=tokens') && response.request().method === 'GET', {timeout: 80000});
+  // await hpbwPageObjects.tokensButton.click();
+  // console.log('Clicked on Tokens button');
+  // const response2 = await responsePromise;
+  // const responseBody = await response2.json();
+  // console.log('Tokens API response:', responseBody);
+  // await page.waitForTimeout(30000);
+// });
 
 Then('Click on Get more tokens', async ({page}) => {
   await hpbwPageObjects.getMoreTokensButton.waitFor({state: 'visible', timeout: 80000});
@@ -221,6 +251,11 @@ Then('Click on see orders and invoices', async ({page}) => {
   await hpbwPageObjects.seeOrdersAndInvoices.waitFor({state: 'visible', timeout: 160000});
   await hpbwPageObjects.seeOrdersAndInvoices.click({timeout: 160000});
   console.log('Clicked on see orders and invoices');
+  await page.waitForTimeout(3000);
+}); 
+
+Then('Check tokens api response', async ({page}) => {
+
   await page.waitForTimeout(3000);
 }); 
 

@@ -1,0 +1,32 @@
+{
+  "purchaseAvailable": true,
+  "products": [
+    {
+      "sku": "HPBW-TOKENS-PACK",
+      "type": "tokens",
+      "name": "1 Token Package",
+      "description": "HPBW Tokens Pack Offer",
+      "quantity": 1,
+      "price": "35",
+      "currencySymbol": "USD"
+    },
+    {
+      "sku": "HPBW-TOKENS-PACK",
+      "type": "tokens",
+      "name": "5 Token Package",
+      "description": "HPBW Tokens Pack Offer",
+      "quantity": 5,
+      "price": "160",
+      "currencySymbol": "USD"
+    },
+    {
+      "sku": "HPBW-TOKENS-PACK",
+      "type": "tokens",
+      "name": "10 Token Package",
+      "description": "HPBW Tokens Pack Offer",
+      "quantity": 10,
+      "price": "302",
+      "currencySymbol": "USD"
+    }
+  ]
+}
