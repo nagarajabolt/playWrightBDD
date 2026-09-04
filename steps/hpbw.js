@@ -78,26 +78,29 @@ Then('Click on Second Sign In button', async ({page}) => {
   await page.waitForTimeout(3000); 
 });
 
-Then('Click on 6 Tokens button', async ({page}) => {
+Then('Click on Tokens button and validate api response', async ({page}) => {
+  //initiate response object to wait for the tokens API response
   const responsePromise = page.waitForResponse(
-    // response => /user?type=tokens/i.test(response.url()) && 
     response => response.url().includes('/user?type=tokens') &&
     response.request().method() === 'GET', {timeout: 80000});
 
+  //Click on the tokens button and wait for the response
     await Promise.all([
       responsePromise,
       hpbwPageObjects.tokensButton.waitFor({state: 'visible', timeout: 80000}),
       hpbwPageObjects.tokensButton.click({timeout: 80000})
     ]);
-  console.log('Clicked on 6 Tokens button');
-  await page.waitForTimeout(3000);
+  console.log('Clicked on Tokens button');
 
+    //get the response and validate the response data
     const response = await responsePromise;
     const tokensResponseData = await response.json();
     console.log('Tokens API response:', tokensResponseData);
 
     expect(tokensResponseData.purchaseAvailable).toEqual(expectedTokensApiResponse.purchaseAvailable);
     expect(tokensResponseData.products).toEqual(expectedTokensApiResponse.products);
+
+
 });
 
 

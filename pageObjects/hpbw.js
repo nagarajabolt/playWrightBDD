@@ -11,7 +11,7 @@ export const hpbw = class hpbw{
         this.secondSignInButton = page.locator('#sign-in')
         this.signinButton = page.getByRole('button', { name: /sign\s*in/i }).first();
         this.signinButtonHPBW = page.getByRole('button', { name: 'submit-button' })
-        this.tokensButton =  page.getByText('11 Tokens', { exact: true })
+        this.tokensButton =  page.locator("//span[text()=' Tokens ']")
         this.getMoreTokensButton = page.getByRole('button', { name: /get more tokens/i }).first();
         this.tokenPackageButton = page.getByText('5 Token Package', { exact: true })
         this.addToCartButton = page.getByText(' Add to Cart ', { exact: true })
