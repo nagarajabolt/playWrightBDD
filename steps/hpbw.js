@@ -7,7 +7,8 @@ import { log } from 'node:console';
 const test = require('@playwright/test');
 import { hpbw } from '../pageObjects/hpbw.js';
 const expectedTokensApiResponse = require('../testData/tokensResponse.json');
-
+import fs from 'fs';
+import path from 'path';
 
 /** @type {hpbw} */
 let hpbwPageObjects;
@@ -19,10 +20,28 @@ hpbwPageObjects = new hpbw(page);
     // height: window.screen.availHeight,
     // }));
     // await page.setViewportSize(screenSize); 
-    await page.evaluate(() => {
-    document.body.style.zoom = "1.5";
-  });
+    // await page.evaluate(() => {
+    // document.body.style.zoom = "1.5";
+  // });
+  const logsDir = path.join(__dirname, 'logs');
+  const logFilePath = path.join(logsDir, 'console-logs.txt');
+  if (!fs.existsSync(logsDir)) {
+    fs.mkdirSync(logsDir, { recursive: true });
+  }
+
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+  const logFileName = `console-logs-${timestamp}.txt`;
+  const logFilePathWithTimestamp = path.join(logsDir, logFileName);
+
+   const originalLog = console.log;
+   console.log = (...args) => {
+    originalLog(...args);
+    const logMessage = args.map(arg => (typeof arg === 'object' ? JSON.stringify(arg) : String(arg))).join(' ') + '\n';
+    fs.appendFileSync(logFilePathWithTimestamp, logMessage);
+  };
+ 
 });
+
 
 Given('Open chrome browser and navigate to {string}', async ({page}, url) => {
   await page.goto(url);

@@ -1,0 +1,1159 @@
+[2026-09-06T16:18:05.286Z] log: AWS RUM not initialized
+[2026-09-06T16:18:16.603Z] warning: Error with Feature-Policy header: Unrecognized feature: 'vr'.
+[2026-09-06T16:18:20.109Z] log: mu.js _A 260526|v5.21 JS https://login3.stg.cd.id.hp.com/login3?flow=https://directory.stg.cd.id.hp.com/directory/v1/authentication/login/AWc7nCRAeesaa3d7C6NSzroEywK1AAAAAAAAAAC2sAYU4qQ0O-iO62du3_eCpsS10j65pdn8JXyP2NZp06N-EzkGBbrtmOpNdutA8lZoTs0kZiL480hyWjYKIidc8h6xr38nK0GKcjxOCtNpVHLGobpLZhPYbrWRVrxY_hGMqB1F_a6lsbO8mHwuESbbWClZ3GXgVNxiguZ78nvXkdCL7O6tBKCy8LSV1bvH4HgjWBzyih_XZyyp3QOz_a1BsgO4M376bzZGXbngXlTcutioeZv9dlPD8mKnocIBAFpv0Yu1_ZVWzHLX47xZbwwWtOR_xqWZsPhkv_nKmfPjqN6CjVpNohJ8hPrUXvOXeFBJE_VWBcqq6J-2si_ugY8tyA9A2jXiYPbefN6q5v2lJtu_ZOCBV0T7IZCzHQNI2XJKln-eM12Uh8F0mBBL7kkbtd9bqqFX_vhJrFD5pW30RWQQOetmmItJhohmHy1xoDucqKM-75dMwlOr_wmHgPR2EPB9uWDApm95ED_zq_Z_2QOZoOXe2k7OTfz_7MQ78iz9iyzJxq0oCNUA6LNppx8hRUW-hiVOxhr0BFvsKxESgh1ROb-jokeZI7V5ga0BCR4kY8QXH60ynOzpcn4fkElio1Cg773QXJp4Nb9p3lXrxg&consent=&given_name=&target=&login_hint=&hide_create=&remember_me=&family_name=&email=
+[2026-09-06T16:18:20.129Z] log: mu.js _O 240131b|v2.11 JS https://login3.stg.cd.id.hp.com/login3?flow=https://directory.stg.cd.id.hp.com/directory/v1/authentication/login/AWc7nCRAeesaa3d7C6NSzroEywK1AAAAAAAAAAC2sAYU4qQ0O-iO62du3_eCpsS10j65pdn8JXyP2NZp06N-EzkGBbrtmOpNdutA8lZoTs0kZiL480hyWjYKIidc8h6xr38nK0GKcjxOCtNpVHLGobpLZhPYbrWRVrxY_hGMqB1F_a6lsbO8mHwuESbbWClZ3GXgVNxiguZ78nvXkdCL7O6tBKCy8LSV1bvH4HgjWBzyih_XZyyp3QOz_a1BsgO4M376bzZGXbngXlTcutioeZv9dlPD8mKnocIBAFpv0Yu1_ZVWzHLX47xZbwwWtOR_xqWZsPhkv_nKmfPjqN6CjVpNohJ8hPrUXvOXeFBJE_VWBcqq6J-2si_ugY8tyA9A2jXiYPbefN6q5v2lJtu_ZOCBV0T7IZCzHQNI2XJKln-eM12Uh8F0mBBL7kkbtd9bqqFX_vhJrFD5pW30RWQQOetmmItJhohmHy1xoDucqKM-75dMwlOr_wmHgPR2EPB9uWDApm95ED_zq_Z_2QOZoOXe2k7OTfz_7MQ78iz9iyzJxq0oCNUA6LNppx8hRUW-hiVOxhr0BFvsKxESgh1ROb-jokeZI7V5ga0BCR4kY8QXH60ynOzpcn4fkElio1Cg773QXJp4Nb9p3lXrxg&consent=&given_name=&target=&login_hint=&hide_create=&remember_me=&family_name=&email=
+[2026-09-06T16:18:20.138Z] log: load3PPcontainer _A and _O defined
+[2026-09-06T16:18:20.140Z] log: UDL Video Processor Part 1 25.06.10
+[2026-09-06T16:18:26.969Z] verbose: [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o
+[2026-09-06T16:18:28.351Z] debug: Error
+[2026-09-06T16:18:28.884Z] debug: Error
+[2026-09-06T16:18:33.351Z] log: AWS RUM not initialized
+[2026-09-06T16:18:43.702Z] error: Failed to load resource: the server responded with a status of 404 ()
+[2026-09-06T16:19:06.161Z] log: global::initializeGlobal
+[2026-09-06T16:19:06.172Z] log: global::initializeGlobal: did not find global JWebRegistry, will set global JWebRegistry
+[2026-09-06T16:19:06.174Z] log: global::jWebReady
+[2026-09-06T16:19:06.175Z] log: global::jWebReady: did not find global JWeb, will set bridge timeout and event listener
+[2026-09-06T16:19:06.176Z] log: global::addJWebReadyEventListener
+[2026-09-06T16:19:06.177Z] log: global::setBridgeTimeout: called with retries=2 duration=0 increment=25
+[2026-09-06T16:19:06.181Z] log: global::registerPlugin: called with name=EventService
+[2026-09-06T16:19:06.182Z] log: global::registerPlugin: enqueued plugin EventService for registration in JWeb
+[2026-09-06T16:19:06.183Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:06.184Z] log: global::registerPlugin: enqueued plugin DataCollection for registration in JWeb
+[2026-09-06T16:19:06.185Z] log: global::registerPlugin: called with name=ValueStore
+[2026-09-06T16:19:06.186Z] log: global::registerPlugin: enqueued plugin ValueStore for registration in JWeb
+[2026-09-06T16:19:06.187Z] debug: JShell: called the JWeb plugins registers.
+[2026-09-06T16:19:06.203Z] debug: {timestamp: 2026-09-06T16:19:06.207Z, title: Configuration Loaded, level: debug, serviceName: @clientos/commons-northbound-api, message: Starting commons initialization...}
+[2026-09-06T16:19:06.204Z] debug: {timestamp: 2026-09-06T16:19:06.208Z, title: Variable State Changed, level: debug, serviceName: @clientos/commons-northbound-api, message: [BootstrapManager] Bootstrap state was changed. Loading and enhancing manifest configuration...}
+[2026-09-06T16:19:06.207Z] log: global::setBridgeTimeout: bridge timed out, will retry
+[2026-09-06T16:19:06.210Z] log: global::setBridgeTimeout: called with retries=1 duration=25 increment=25
+[2026-09-06T16:19:06.232Z] log: global::setBridgeTimeout: bridge timed out, will retry
+[2026-09-06T16:19:06.234Z] log: global::setBridgeTimeout: called with retries=0 duration=50 increment=25
+[2026-09-06T16:19:06.283Z] log: global::setBridgeTimeout: bridge timed out
+[2026-09-06T16:19:06.286Z] log: global::jWebReady::resolveJWebCallback: called with event.type=undefined
+[2026-09-06T16:19:06.289Z] log: global::removeJWebReadyEventListener
+[2026-09-06T16:19:06.291Z] log: global::clearBridgeTimeout
+[2026-09-06T16:19:06.293Z] log: global::resolveJWeb
+[2026-09-06T16:19:06.295Z] log: global::resolveJWeb: did not find global JWeb, will create web platform JWeb
+[2026-09-06T16:19:06.297Z] log: global::registerPlugin: called with name=EventService
+[2026-09-06T16:19:06.298Z] log: global::registerPlugin: registered plugin EventService in JWeb
+[2026-09-06T16:19:06.301Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:06.302Z] log: global::registerPlugin: registered plugin DataCollection in JWeb
+[2026-09-06T16:19:06.306Z] log: global::registerPlugin: called with name=ValueStore
+[2026-09-06T16:19:06.307Z] log: global::registerPlugin: registered plugin ValueStore in JWeb
+[2026-09-06T16:19:06.308Z] log: FacadeRegistry::adaptJWeb
+[2026-09-06T16:19:06.309Z] log: global::resolveJWeb: did not find global JWeb, will set global JWeb
+[2026-09-06T16:19:06.311Z] log: global::resolveJWeb: ready!
+[2026-09-06T16:19:06.312Z] info: publisher is created with com.hp.jarvis.value.store.publisher
+[2026-09-06T16:19:06.313Z] info: subscriber is created
+[2026-09-06T16:19:06.315Z] debug: JShell: jWebReady fully loaded.
+[2026-09-06T16:19:06.316Z] log: FacadeRegistry::addEventUnsubscriber: %o e
+[2026-09-06T16:19:06.317Z] log: Event Hub: Add Subscription
+[2026-09-06T16:19:06.318Z] log: eventName: com.hp.jarvis.datacollection.cdm.event, publisherId: undefined
+[2026-09-06T16:19:06.319Z] log: Subscriber: subscribe()
+[2026-09-06T16:19:06.321Z] log: Subscriptions: [object Object]
+[2026-09-06T16:19:06.322Z] info: DataCollectionService::initialize: Subscribed to CDM events
+[2026-09-06T16:19:06.323Z] debug: {timestamp: 2026-09-06T16:19:06.295Z, title: Method Execution Completed, level: debug, serviceName: @clientos/commons-northbound-api, message: e.getPlatform completed}
+[2026-09-06T16:19:06.325Z] debug: {timestamp: 2026-09-06T16:19:06.296Z, title: Method Execution Completed, level: debug, serviceName: @clientos/commons-northbound-api, message: e.getPlatform completed}
+[2026-09-06T16:19:06.359Z] debug: Processing current route: /enrollment
+[2026-09-06T16:19:06.365Z] info: publisher is created with aec-itg.hpcloud.hp.com.publisher
+[2026-09-06T16:19:06.371Z] info: subscriber is created
+[2026-09-06T16:19:06.373Z] log: FacadeRegistry::addEventUnsubscriber: %o e
+[2026-09-06T16:19:06.374Z] warning: Default Fallback Key is invalid. Please, check if the key is correct.
+[2026-09-06T16:19:06.377Z] log: Put Value Store Key/Value pair with Key: [object Object]
+[2026-09-06T16:19:06.379Z] warning: Using default value store key!
+[2026-09-06T16:19:06.381Z] warning: Using default value store key!
+[2026-09-06T16:19:06.382Z] log: Event Hub: Publish
+[2026-09-06T16:19:06.384Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"VisitUuid","newValue":"2c8a2a99-cf7d-47bc-b655-bf019449f153","oldValue":null}]}
+[2026-09-06T16:19:06.385Z] log: Event Hub: Add Subscription
+[2026-09-06T16:19:06.386Z] log: eventName: com.hp.jarvis.datacollection.cdm.event.status, publisherId: undefined
+[2026-09-06T16:19:06.388Z] log: Subscriber: subscribe()
+[2026-09-06T16:19:06.389Z] log: Subscriptions: [object Object]
+[2026-09-06T16:19:06.539Z] log: mu.js _A 260526|v5.21 JS https://aec-itg.hpcloud.hp.com/enrollment?productSku=HPBW-TOKENS-PACK&quantity=5
+[2026-09-06T16:19:06.541Z] log: mu.js _O 240131b|v2.11 JS https://aec-itg.hpcloud.hp.com/enrollment?productSku=HPBW-TOKENS-PACK&quantity=5
+[2026-09-06T16:19:06.561Z] log: _O privacy-banner.js 260210 https://aec-itg.hpcloud.hp.com/enrollment?productSku=HPBW-TOKENS-PACK&quantity=5
+[2026-09-06T16:19:06.645Z] warning: This key ld-ai-trial-client 'is not match any information in manifest file
+[2026-09-06T16:19:06.649Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:19:06.651Z] warning: Using default value store key!
+[2026-09-06T16:19:06.652Z] warning: Using default value store key!
+[2026-09-06T16:19:06.654Z] warning: Using default value store key!
+[2026-09-06T16:19:06.656Z] warning: Using default value store key!
+[2026-09-06T16:19:06.657Z] warning: Using default value store key!
+[2026-09-06T16:19:06.658Z] warning: Using default value store key!
+[2026-09-06T16:19:06.661Z] warning: Using default value store key!
+[2026-09-06T16:19:06.662Z] warning: Using default value store key!
+[2026-09-06T16:19:06.664Z] warning: Using default value store key!
+[2026-09-06T16:19:06.666Z] warning: Using default value store key!
+[2026-09-06T16:19:06.668Z] log: Event Hub: Publish
+[2026-09-06T16:19:06.669Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":null},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":null},{"key":"SelectedPrinterUUID","newValue":"","oldValue":null},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":null},{"key":"UcdeCorrelationId","newValue":"","oldValue":null}]}
+[2026-09-06T16:19:06.671Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:06.672Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:19:06.674Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object]
+[2026-09-06T16:19:06.675Z] warning: Using default value store key!
+[2026-09-06T16:19:06.676Z] warning: Using default value store key!
+[2026-09-06T16:19:06.678Z] warning: Using default value store key!
+[2026-09-06T16:19:06.679Z] warning: Using default value store key!
+[2026-09-06T16:19:06.680Z] warning: Using default value store key!
+[2026-09-06T16:19:06.683Z] warning: Using default value store key!
+[2026-09-06T16:19:06.684Z] log: Event Hub: Publish
+[2026-09-06T16:19:06.685Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"VisitorUuid","newValue":"00000000-0000-0000-0000-000000000000","oldValue":null},{"key":"WebApplicationConsent","newValue":"","oldValue":null},{"key":"ApplicationInstanceId","newValue":"00000000-0000-0000-0000-000000000000","oldValue":null}]}
+[2026-09-06T16:19:06.686Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:19:06.688Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:19:06.689Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:19:06.690Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:19:06.691Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:19:06.693Z] warning: 2026-09-06T16:19:06.661Z warn @clientos/commons-northbound-api HP Build Workspace authz stage Analytics: Event(s) not sent. No AnalyticsOptInGroup.
+[2026-09-06T16:19:06.695Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:06.696Z] warning: Using default value store key!
+[2026-09-06T16:19:06.697Z] warning: Using default value store key!
+[2026-09-06T16:19:06.699Z] warning: Using default value store key!
+[2026-09-06T16:19:06.700Z] warning: Using default value store key!
+[2026-09-06T16:19:06.701Z] warning: Using default value store key!
+[2026-09-06T16:19:06.702Z] warning: Using default value store key!
+[2026-09-06T16:19:06.708Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:06.709Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:06.710Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:07.338Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:19:07.339Z] warning: Using default value store key!
+[2026-09-06T16:19:07.341Z] warning: Using default value store key!
+[2026-09-06T16:19:07.343Z] warning: Using default value store key!
+[2026-09-06T16:19:07.344Z] warning: Using default value store key!
+[2026-09-06T16:19:07.345Z] warning: Using default value store key!
+[2026-09-06T16:19:07.346Z] warning: Using default value store key!
+[2026-09-06T16:19:07.347Z] warning: Using default value store key!
+[2026-09-06T16:19:07.349Z] warning: Using default value store key!
+[2026-09-06T16:19:07.350Z] warning: Using default value store key!
+[2026-09-06T16:19:07.351Z] warning: Using default value store key!
+[2026-09-06T16:19:07.353Z] log: Event Hub: Publish
+[2026-09-06T16:19:07.354Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:19:07.356Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:19:07.357Z] warning: Using default value store key!
+[2026-09-06T16:19:07.358Z] warning: Using default value store key!
+[2026-09-06T16:19:07.360Z] warning: Using default value store key!
+[2026-09-06T16:19:07.361Z] warning: Using default value store key!
+[2026-09-06T16:19:07.362Z] warning: Using default value store key!
+[2026-09-06T16:19:07.363Z] warning: Using default value store key!
+[2026-09-06T16:19:07.365Z] warning: Using default value store key!
+[2026-09-06T16:19:07.367Z] warning: Using default value store key!
+[2026-09-06T16:19:07.369Z] warning: Using default value store key!
+[2026-09-06T16:19:07.370Z] warning: Using default value store key!
+[2026-09-06T16:19:07.371Z] log: Event Hub: Publish
+[2026-09-06T16:19:07.373Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:19:07.374Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:07.375Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:19:07.376Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:07.377Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:19:07.381Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:19:07.383Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:19:07.384Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:19:07.385Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:19:07.386Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:19:07.388Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:19:07.389Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:19:07.390Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:19:07.391Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:19:07.393Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:19:07.394Z] warning: 2026-09-06T16:19:07.350Z warn @clientos/commons-northbound-api HP Build Workspace authz stage Analytics: Event(s) not sent. No AnalyticsOptInGroup.
+[2026-09-06T16:19:07.395Z] warning: 2026-09-06T16:19:07.350Z warn @clientos/commons-northbound-api HP Build Workspace authz stage Analytics: Event(s) not sent. No AnalyticsOptInGroup.
+[2026-09-06T16:19:07.396Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:07.398Z] warning: Using default value store key!
+[2026-09-06T16:19:07.399Z] warning: Using default value store key!
+[2026-09-06T16:19:07.401Z] warning: Using default value store key!
+[2026-09-06T16:19:07.404Z] warning: Using default value store key!
+[2026-09-06T16:19:07.405Z] warning: Using default value store key!
+[2026-09-06T16:19:07.407Z] warning: Using default value store key!
+[2026-09-06T16:19:07.408Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:07.409Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:07.411Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:07.414Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:07.415Z] warning: Using default value store key!
+[2026-09-06T16:19:07.416Z] warning: Using default value store key!
+[2026-09-06T16:19:07.420Z] warning: Using default value store key!
+[2026-09-06T16:19:07.421Z] warning: Using default value store key!
+[2026-09-06T16:19:07.422Z] warning: Using default value store key!
+[2026-09-06T16:19:07.423Z] warning: Using default value store key!
+[2026-09-06T16:19:07.425Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:07.426Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:07.427Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:07.931Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:19:07.934Z] warning: Using default value store key!
+[2026-09-06T16:19:07.939Z] warning: Using default value store key!
+[2026-09-06T16:19:07.941Z] warning: Using default value store key!
+[2026-09-06T16:19:07.946Z] warning: Using default value store key!
+[2026-09-06T16:19:07.949Z] warning: Using default value store key!
+[2026-09-06T16:19:07.952Z] warning: Using default value store key!
+[2026-09-06T16:19:07.955Z] warning: Using default value store key!
+[2026-09-06T16:19:07.958Z] warning: Using default value store key!
+[2026-09-06T16:19:07.961Z] warning: Using default value store key!
+[2026-09-06T16:19:07.964Z] warning: Using default value store key!
+[2026-09-06T16:19:07.968Z] log: Event Hub: Publish
+[2026-09-06T16:19:07.970Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:19:07.972Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:07.974Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:19:07.975Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:19:07.978Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:19:07.980Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:19:07.984Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:19:07.987Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:19:07.990Z] warning: 2026-09-06T16:19:07.940Z warn @clientos/commons-northbound-api HP Build Workspace authz stage Analytics: Event(s) not sent. No AnalyticsOptInGroup.
+[2026-09-06T16:19:07.993Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:07.996Z] warning: Using default value store key!
+[2026-09-06T16:19:07.998Z] warning: Using default value store key!
+[2026-09-06T16:19:08.002Z] warning: Using default value store key!
+[2026-09-06T16:19:08.003Z] warning: Using default value store key!
+[2026-09-06T16:19:08.004Z] warning: Using default value store key!
+[2026-09-06T16:19:08.006Z] warning: Using default value store key!
+[2026-09-06T16:19:08.007Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:08.008Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:08.010Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:08.566Z] error: Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+[2026-09-06T16:19:14.944Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:19:14.946Z] warning: Using default value store key!
+[2026-09-06T16:19:14.948Z] warning: Using default value store key!
+[2026-09-06T16:19:14.951Z] warning: Using default value store key!
+[2026-09-06T16:19:14.954Z] warning: Using default value store key!
+[2026-09-06T16:19:14.956Z] warning: Using default value store key!
+[2026-09-06T16:19:14.958Z] warning: Using default value store key!
+[2026-09-06T16:19:14.961Z] warning: Using default value store key!
+[2026-09-06T16:19:14.964Z] warning: Using default value store key!
+[2026-09-06T16:19:14.967Z] warning: Using default value store key!
+[2026-09-06T16:19:14.970Z] warning: Using default value store key!
+[2026-09-06T16:19:14.973Z] log: Event Hub: Publish
+[2026-09-06T16:19:14.976Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:19:14.978Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:19:14.982Z] warning: Using default value store key!
+[2026-09-06T16:19:14.985Z] warning: Using default value store key!
+[2026-09-06T16:19:14.988Z] warning: Using default value store key!
+[2026-09-06T16:19:14.991Z] warning: Using default value store key!
+[2026-09-06T16:19:14.994Z] warning: Using default value store key!
+[2026-09-06T16:19:14.997Z] warning: Using default value store key!
+[2026-09-06T16:19:15.000Z] warning: Using default value store key!
+[2026-09-06T16:19:15.003Z] warning: Using default value store key!
+[2026-09-06T16:19:15.005Z] warning: Using default value store key!
+[2026-09-06T16:19:15.008Z] warning: Using default value store key!
+[2026-09-06T16:19:15.012Z] log: Event Hub: Publish
+[2026-09-06T16:19:15.015Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:19:15.018Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:19:15.019Z] warning: Using default value store key!
+[2026-09-06T16:19:15.022Z] warning: Using default value store key!
+[2026-09-06T16:19:15.025Z] warning: Using default value store key!
+[2026-09-06T16:19:15.028Z] warning: Using default value store key!
+[2026-09-06T16:19:15.031Z] warning: Using default value store key!
+[2026-09-06T16:19:15.035Z] warning: Using default value store key!
+[2026-09-06T16:19:15.038Z] warning: Using default value store key!
+[2026-09-06T16:19:15.041Z] warning: Using default value store key!
+[2026-09-06T16:19:15.044Z] warning: Using default value store key!
+[2026-09-06T16:19:15.048Z] warning: Using default value store key!
+[2026-09-06T16:19:15.051Z] log: Event Hub: Publish
+[2026-09-06T16:19:15.053Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:19:15.055Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:15.058Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:19:15.060Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:15.063Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:19:15.067Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:15.070Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:19:15.072Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:19:15.076Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:19:15.078Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:19:15.080Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:19:15.082Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:19:15.083Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:19:15.089Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:19:15.094Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:19:15.097Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:19:15.102Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:19:15.107Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:19:15.112Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:19:15.117Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:19:15.121Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:19:15.126Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:19:15.131Z] warning: 2026-09-06T16:19:14.959Z warn @clientos/commons-northbound-api HP Build Workspace authz stage Analytics: Event(s) not sent. No AnalyticsOptInGroup.
+[2026-09-06T16:19:15.133Z] warning: 2026-09-06T16:19:14.960Z warn @clientos/commons-northbound-api HP Build Workspace authz stage Analytics: Event(s) not sent. No AnalyticsOptInGroup.
+[2026-09-06T16:19:15.136Z] warning: 2026-09-06T16:19:14.960Z warn @clientos/commons-northbound-api HP Build Workspace authz stage Analytics: Event(s) not sent. No AnalyticsOptInGroup.
+[2026-09-06T16:19:15.140Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:15.143Z] warning: Using default value store key!
+[2026-09-06T16:19:15.146Z] warning: Using default value store key!
+[2026-09-06T16:19:15.150Z] warning: Using default value store key!
+[2026-09-06T16:19:15.153Z] warning: Using default value store key!
+[2026-09-06T16:19:15.157Z] warning: Using default value store key!
+[2026-09-06T16:19:15.160Z] warning: Using default value store key!
+[2026-09-06T16:19:15.164Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:15.168Z] warning: Using default value store key!
+[2026-09-06T16:19:15.172Z] warning: Using default value store key!
+[2026-09-06T16:19:15.175Z] warning: Using default value store key!
+[2026-09-06T16:19:15.178Z] warning: Using default value store key!
+[2026-09-06T16:19:15.180Z] warning: Using default value store key!
+[2026-09-06T16:19:15.182Z] warning: Using default value store key!
+[2026-09-06T16:19:15.183Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:15.185Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:15.187Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:15.188Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:15.190Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:15.191Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:15.195Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:15.197Z] warning: Using default value store key!
+[2026-09-06T16:19:15.200Z] warning: Using default value store key!
+[2026-09-06T16:19:15.204Z] warning: Using default value store key!
+[2026-09-06T16:19:15.206Z] warning: Using default value store key!
+[2026-09-06T16:19:15.207Z] warning: Using default value store key!
+[2026-09-06T16:19:15.209Z] warning: Using default value store key!
+[2026-09-06T16:19:15.211Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:15.213Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:15.213Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:15.636Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:19:15.638Z] warning: Using default value store key!
+[2026-09-06T16:19:15.639Z] warning: Using default value store key!
+[2026-09-06T16:19:15.642Z] warning: Using default value store key!
+[2026-09-06T16:19:15.644Z] warning: Using default value store key!
+[2026-09-06T16:19:15.645Z] warning: Using default value store key!
+[2026-09-06T16:19:15.646Z] warning: Using default value store key!
+[2026-09-06T16:19:15.647Z] warning: Using default value store key!
+[2026-09-06T16:19:15.649Z] warning: Using default value store key!
+[2026-09-06T16:19:15.651Z] warning: Using default value store key!
+[2026-09-06T16:19:15.655Z] warning: Using default value store key!
+[2026-09-06T16:19:15.657Z] log: Event Hub: Publish
+[2026-09-06T16:19:15.659Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:19:15.660Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object]
+[2026-09-06T16:19:15.662Z] warning: Using default value store key!
+[2026-09-06T16:19:15.663Z] warning: Using default value store key!
+[2026-09-06T16:19:15.663Z] warning: Using default value store key!
+[2026-09-06T16:19:15.664Z] warning: Using default value store key!
+[2026-09-06T16:19:15.665Z] warning: Using default value store key!
+[2026-09-06T16:19:15.665Z] warning: Using default value store key!
+[2026-09-06T16:19:15.666Z] log: Event Hub: Publish
+[2026-09-06T16:19:15.667Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"VisitorUuid","newValue":"b5d1ff11-19e6-426b-99c5-29a514266862","oldValue":"00000000-0000-0000-0000-000000000000"},{"key":"WebApplicationConsent","newValue":"urn:onetrust:isGpcEnabled=0&datestamp=Sun+Sep+06+2026+21:49:15+GMT+0530+(India+Standard+Time)&version=202505.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b5d1ff11-19e6-426b-99c5-29a514266862&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1:1,2:1,3:1,4:1&intType=1","oldValue":""},{"key":"ApplicationInstanceId","newValue":"b5d1ff11-19e6-426b-99c5-29a514266862","oldValue":"00000000-0000-0000-0000-000000000000"}]}
+[2026-09-06T16:19:15.667Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:15.668Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:19:15.669Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object]
+[2026-09-06T16:19:15.669Z] warning: Using default value store key!
+[2026-09-06T16:19:15.670Z] warning: Using default value store key!
+[2026-09-06T16:19:15.671Z] warning: Using default value store key!
+[2026-09-06T16:19:15.671Z] warning: Using default value store key!
+[2026-09-06T16:19:15.675Z] warning: Using default value store key!
+[2026-09-06T16:19:15.675Z] warning: Using default value store key!
+[2026-09-06T16:19:15.676Z] log: Event Hub: Publish
+[2026-09-06T16:19:15.677Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"VisitorUuid","newValue":"b5d1ff11-19e6-426b-99c5-29a514266862","oldValue":"b5d1ff11-19e6-426b-99c5-29a514266862"},{"key":"WebApplicationConsent","newValue":"urn:onetrust:isGpcEnabled=0&datestamp=Sun+Sep+06+2026+21:49:15+GMT+0530+(India+Standard+Time)&version=202505.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b5d1ff11-19e6-426b-99c5-29a514266862&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1:1,2:1,3:1,4:1&intType=1","oldValue":"urn:onetrust:isGpcEnabled=0&datestamp=Sun+Sep+06+2026+21:49:15+GMT+0530+(India+Standard+Time)&version=202505.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b5d1ff11-19e6-426b-99c5-29a514266862&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1:1,2:1,3:1,4:1&intType=1"},{"key":"ApplicationInstanceId","newValue":"b5d1ff11-19e6-426b-99c5-29a514266862","oldValue":"b5d1ff11-19e6-426b-99c5-29a514266862"}]}
+[2026-09-06T16:19:15.677Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:19:15.678Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:19:15.679Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:19:15.680Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:19:15.681Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:19:15.682Z] log: Event Hub: Publish
+[2026-09-06T16:19:15.683Z] log: eventName: com.hp.jarvis.datacollection.cdm.event, publisherId: aec-itg.hpcloud.hp.com.publisher, eventData: {"events":[{"dateTime":"2026-09-06T16:19:15.640Z","eventDetailType":"com.hp.cdm.domain.telemetry.type.eventDetail.category.visitContextRaw.version.1","eventCategory":"visitContextRaw","version":"1.4.0","eventDetail":{"referrer":"","url":"aec-itg.hpcloud.hp.com","urlParamsRedacted":"productSku=_redacted_&quantity=_redacted_","version":"1.0.0"}}],"valveControllerMetadata":{"assetUnit":"desktop"}}
+[2026-09-06T16:19:15.684Z] log: Subscription received notification for eventName
+[2026-09-06T16:19:15.685Z] log: com.hp.jarvis.datacollection.cdm.event', publisherId: 'aec-itg.hpcloud.hp.com.publisher
+[2026-09-06T16:19:15.686Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:15.686Z] warning: Using default value store key!
+[2026-09-06T16:19:15.687Z] warning: Using default value store key!
+[2026-09-06T16:19:15.688Z] warning: Using default value store key!
+[2026-09-06T16:19:15.688Z] warning: Using default value store key!
+[2026-09-06T16:19:15.690Z] warning: Using default value store key!
+[2026-09-06T16:19:15.691Z] warning: Using default value store key!
+[2026-09-06T16:19:15.692Z] log: web-data-collection : BuildEnvelopeAndSendNotification::CDMEvents: [Object]
+[2026-09-06T16:19:15.693Z] log: web-data-collection : BuildEnvelopeAndSendNotification::Metadata: {assetUnit: desktop}
+[2026-09-06T16:19:15.693Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:19:15.694Z] warning: Using default value store key!
+[2026-09-06T16:19:15.695Z] warning: Using default value store key!
+[2026-09-06T16:19:15.696Z] warning: Using default value store key!
+[2026-09-06T16:19:15.697Z] warning: Using default value store key!
+[2026-09-06T16:19:15.698Z] warning: Using default value store key!
+[2026-09-06T16:19:15.700Z] warning: Using default value store key!
+[2026-09-06T16:19:15.703Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:15.704Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:15.705Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:15.706Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:isBatchingEnabled false
+[2026-09-06T16:19:15.707Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:: e
+[2026-09-06T16:19:15.710Z] log: web-data-collection : IndexDB::EventDB::count: 0
+[2026-09-06T16:19:15.711Z] log: web-data-collection : Queue::addToQueue::isBatchingEnabled:false:preBuilt:undefined
+[2026-09-06T16:19:15.712Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:15.713Z] warning: Using default value store key!
+[2026-09-06T16:19:15.715Z] warning: Using default value store key!
+[2026-09-06T16:19:15.715Z] warning: Using default value store key!
+[2026-09-06T16:19:15.716Z] warning: Using default value store key!
+[2026-09-06T16:19:15.718Z] warning: Using default value store key!
+[2026-09-06T16:19:15.719Z] warning: Using default value store key!
+[2026-09-06T16:19:15.719Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:15.720Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:15.721Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:15.721Z] log: web-data-collection : IndexDB::EventDB::add::Item Created with id:1788711555657101 & Queue Worker Running? false
+[2026-09-06T16:19:15.722Z] log: web-data-collection : IndexDB::EventDB::add:starting the Queue Worker
+[2026-09-06T16:19:15.723Z] log: web-data-collection : QueueWorker::startSendData:Queue is processing
+[2026-09-06T16:19:15.724Z] log: web-data-collection : QueueWorker::startSendData:queueSizeLimit 1000 publishRetries 3 queueItemTTLInHours 24 publishRetryDelay 30
+[2026-09-06T16:19:15.725Z] log: web-data-collection : QueueWorker::startSendData::online? true
+[2026-09-06T16:19:15.726Z] log: web-data-collection : QueueWorker::startSendData::Schema Validation result before filtering: true 
+[2026-09-06T16:19:15.726Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:19:15.727Z] warning: Using default value store key!
+[2026-09-06T16:19:15.729Z] warning: Using default value store key!
+[2026-09-06T16:19:15.730Z] warning: Using default value store key!
+[2026-09-06T16:19:15.732Z] warning: Using default value store key!
+[2026-09-06T16:19:15.733Z] warning: Using default value store key!
+[2026-09-06T16:19:15.734Z] warning: Using default value store key!
+[2026-09-06T16:19:15.734Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:15.735Z] warning: Using default value store key!
+[2026-09-06T16:19:15.736Z] warning: Using default value store key!
+[2026-09-06T16:19:15.737Z] warning: Using default value store key!
+[2026-09-06T16:19:15.738Z] warning: Using default value store key!
+[2026-09-06T16:19:15.739Z] warning: Using default value store key!
+[2026-09-06T16:19:15.740Z] warning: Using default value store key!
+[2026-09-06T16:19:15.741Z] log: web-data-collection : QueueWorker::startSendData:Trying to send the event
+[2026-09-06T16:19:15.741Z] warning: web-data-collection : BEFORE {version: 1.3.0, events: Array(2), originator: Object, originatorContext: Object}
+[2026-09-06T16:19:18.257Z] warning: web-data-collection : AFTER {data: Object, status: 200, statusText: , headers: e, config: Object}
+[2026-09-06T16:19:18.260Z] log: web-data-collection : IndexDB::EventDB::removeById:event 1788711555657101 is deleted successfully
+[2026-09-06T16:19:18.262Z] log: web-data-collection : QueueWorker::startSendData:NO element in the Queue Stopping execution
+[2026-09-06T16:19:22.364Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:19:22.367Z] warning: Using default value store key!
+[2026-09-06T16:19:22.370Z] warning: Using default value store key!
+[2026-09-06T16:19:22.373Z] warning: Using default value store key!
+[2026-09-06T16:19:22.375Z] warning: Using default value store key!
+[2026-09-06T16:19:22.377Z] warning: Using default value store key!
+[2026-09-06T16:19:22.378Z] warning: Using default value store key!
+[2026-09-06T16:19:22.378Z] warning: Using default value store key!
+[2026-09-06T16:19:22.379Z] warning: Using default value store key!
+[2026-09-06T16:19:22.382Z] warning: Using default value store key!
+[2026-09-06T16:19:22.384Z] warning: Using default value store key!
+[2026-09-06T16:19:22.386Z] log: Event Hub: Publish
+[2026-09-06T16:19:22.387Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:19:22.388Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:22.389Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:19:22.391Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:19:22.392Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:19:22.394Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:19:22.400Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:19:22.402Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:19:22.404Z] log: Event Hub: Publish
+[2026-09-06T16:19:22.405Z] log: eventName: com.hp.jarvis.datacollection.cdm.event, publisherId: aec-itg.hpcloud.hp.com.publisher, eventData: {"events":[{"eventCategory":"simpleUi","version":"1.5.0","dateTime":"2026-09-06T16:19:22.341Z","eventDetailType":"com.hp.cdm.domain.telemetry.type.eventDetail.category.simpleUi.version.1","eventDetail":{"version":"1.5.0","activity":"MonetizationCheckout-v01","action":"controlButtonClicked","screenName":"BillingAddressSection","screenPath":"/MonetizationCheckout/PurchasePage/","controlName":"SaveAddressButton","actionAuxParams":"checkoutId=73f5ebfc-181d-4028-aaf4-2cc921d3de2b&tenantId=020f5ef0-f2df-47fb-a03e-e60a33ec4b4e&sku=HPBW-TOKENS-PACK"}}],"valveControllerMetadata":{"assetUnit":"desktop"}}
+[2026-09-06T16:19:22.407Z] log: Subscription received notification for eventName
+[2026-09-06T16:19:22.408Z] log: com.hp.jarvis.datacollection.cdm.event', publisherId: 'aec-itg.hpcloud.hp.com.publisher
+[2026-09-06T16:19:22.410Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:22.411Z] warning: Using default value store key!
+[2026-09-06T16:19:22.413Z] warning: Using default value store key!
+[2026-09-06T16:19:22.415Z] warning: Using default value store key!
+[2026-09-06T16:19:22.416Z] warning: Using default value store key!
+[2026-09-06T16:19:22.417Z] warning: Using default value store key!
+[2026-09-06T16:19:22.419Z] warning: Using default value store key!
+[2026-09-06T16:19:22.421Z] log: web-data-collection : BuildEnvelopeAndSendNotification::CDMEvents: [Object]
+[2026-09-06T16:19:22.422Z] log: web-data-collection : BuildEnvelopeAndSendNotification::Metadata: {assetUnit: desktop}
+[2026-09-06T16:19:22.423Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:19:22.425Z] warning: Using default value store key!
+[2026-09-06T16:19:22.427Z] warning: Using default value store key!
+[2026-09-06T16:19:22.428Z] warning: Using default value store key!
+[2026-09-06T16:19:22.430Z] warning: Using default value store key!
+[2026-09-06T16:19:22.432Z] warning: Using default value store key!
+[2026-09-06T16:19:22.434Z] warning: Using default value store key!
+[2026-09-06T16:19:22.435Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:22.437Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:22.439Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:22.440Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:isBatchingEnabled false
+[2026-09-06T16:19:22.442Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:: e
+[2026-09-06T16:19:22.456Z] log: web-data-collection : IndexDB::EventDB::count: 0
+[2026-09-06T16:19:22.458Z] log: web-data-collection : Queue::addToQueue::isBatchingEnabled:false:preBuilt:undefined
+[2026-09-06T16:19:22.460Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:22.461Z] warning: Using default value store key!
+[2026-09-06T16:19:22.463Z] warning: Using default value store key!
+[2026-09-06T16:19:22.464Z] warning: Using default value store key!
+[2026-09-06T16:19:22.466Z] warning: Using default value store key!
+[2026-09-06T16:19:22.467Z] warning: Using default value store key!
+[2026-09-06T16:19:22.469Z] warning: Using default value store key!
+[2026-09-06T16:19:22.470Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:22.472Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:22.473Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:22.475Z] log: web-data-collection : IndexDB::EventDB::add::Item Created with id:1788711562387102 & Queue Worker Running? false
+[2026-09-06T16:19:22.476Z] log: web-data-collection : IndexDB::EventDB::add:starting the Queue Worker
+[2026-09-06T16:19:22.481Z] log: web-data-collection : QueueWorker::startSendData:Queue is processing
+[2026-09-06T16:19:22.483Z] log: web-data-collection : QueueWorker::startSendData:queueSizeLimit 1000 publishRetries 3 queueItemTTLInHours 24 publishRetryDelay 30
+[2026-09-06T16:19:22.485Z] log: web-data-collection : QueueWorker::startSendData::online? true
+[2026-09-06T16:19:22.486Z] log: web-data-collection : QueueWorker::startSendData::Schema Validation result before filtering: true 
+[2026-09-06T16:19:22.488Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:19:22.490Z] warning: Using default value store key!
+[2026-09-06T16:19:22.492Z] warning: Using default value store key!
+[2026-09-06T16:19:22.494Z] warning: Using default value store key!
+[2026-09-06T16:19:22.496Z] warning: Using default value store key!
+[2026-09-06T16:19:22.499Z] warning: Using default value store key!
+[2026-09-06T16:19:22.501Z] warning: Using default value store key!
+[2026-09-06T16:19:22.503Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:22.504Z] warning: Using default value store key!
+[2026-09-06T16:19:22.506Z] warning: Using default value store key!
+[2026-09-06T16:19:22.507Z] warning: Using default value store key!
+[2026-09-06T16:19:22.508Z] warning: Using default value store key!
+[2026-09-06T16:19:22.510Z] warning: Using default value store key!
+[2026-09-06T16:19:22.511Z] warning: Using default value store key!
+[2026-09-06T16:19:22.513Z] log: web-data-collection : QueueWorker::startSendData:Trying to send the event
+[2026-09-06T16:19:22.515Z] warning: web-data-collection : BEFORE {version: 1.3.0, events: Array(1), originator: Object, originatorContext: Object}
+[2026-09-06T16:19:22.900Z] warning: web-data-collection : AFTER {data: Object, status: 200, statusText: , headers: e, config: Object}
+[2026-09-06T16:19:22.904Z] log: web-data-collection : IndexDB::EventDB::removeById:event 1788711562387102 is deleted successfully
+[2026-09-06T16:19:22.905Z] log: web-data-collection : QueueWorker::startSendData:NO element in the Queue Stopping execution
+[2026-09-06T16:19:33.968Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:19:33.969Z] warning: Using default value store key!
+[2026-09-06T16:19:33.971Z] warning: Using default value store key!
+[2026-09-06T16:19:33.971Z] warning: Using default value store key!
+[2026-09-06T16:19:33.972Z] warning: Using default value store key!
+[2026-09-06T16:19:33.973Z] warning: Using default value store key!
+[2026-09-06T16:19:33.973Z] warning: Using default value store key!
+[2026-09-06T16:19:33.974Z] warning: Using default value store key!
+[2026-09-06T16:19:33.975Z] warning: Using default value store key!
+[2026-09-06T16:19:33.977Z] warning: Using default value store key!
+[2026-09-06T16:19:33.978Z] warning: Using default value store key!
+[2026-09-06T16:19:33.979Z] log: Event Hub: Publish
+[2026-09-06T16:19:33.979Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:19:33.980Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:33.981Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:19:33.981Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:19:33.982Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:19:33.983Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:19:33.983Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:19:33.984Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:19:33.985Z] log: Event Hub: Publish
+[2026-09-06T16:19:33.986Z] log: eventName: com.hp.jarvis.datacollection.cdm.event, publisherId: aec-itg.hpcloud.hp.com.publisher, eventData: {"events":[{"eventCategory":"simpleUi","version":"1.5.0","dateTime":"2026-09-06T16:19:33.961Z","eventDetailType":"com.hp.cdm.domain.telemetry.type.eventDetail.category.simpleUi.version.1","eventDetail":{"version":"1.5.0","activity":"MonetizationCheckout-v01","action":"ModuleInitialized","screenName":"PgsIframeLoading","screenPath":"/MonetizationCheckout/PurchasePage/PaymentSection/","actionAuxParams":"checkoutId=73f5ebfc-181d-4028-aaf4-2cc921d3de2b&tenantId=020f5ef0-f2df-47fb-a03e-e60a33ec4b4e&sku=HPBW-TOKENS-PACK"}}],"valveControllerMetadata":{"assetUnit":"desktop"}}
+[2026-09-06T16:19:33.987Z] log: Subscription received notification for eventName
+[2026-09-06T16:19:33.989Z] log: com.hp.jarvis.datacollection.cdm.event', publisherId: 'aec-itg.hpcloud.hp.com.publisher
+[2026-09-06T16:19:33.993Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:33.994Z] warning: Using default value store key!
+[2026-09-06T16:19:33.995Z] warning: Using default value store key!
+[2026-09-06T16:19:33.995Z] warning: Using default value store key!
+[2026-09-06T16:19:33.996Z] warning: Using default value store key!
+[2026-09-06T16:19:33.997Z] warning: Using default value store key!
+[2026-09-06T16:19:33.997Z] warning: Using default value store key!
+[2026-09-06T16:19:33.998Z] log: web-data-collection : BuildEnvelopeAndSendNotification::CDMEvents: [Object]
+[2026-09-06T16:19:34.000Z] log: web-data-collection : BuildEnvelopeAndSendNotification::Metadata: {assetUnit: desktop}
+[2026-09-06T16:19:34.001Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:19:34.001Z] warning: Using default value store key!
+[2026-09-06T16:19:34.004Z] warning: Using default value store key!
+[2026-09-06T16:19:34.006Z] warning: Using default value store key!
+[2026-09-06T16:19:34.007Z] warning: Using default value store key!
+[2026-09-06T16:19:34.008Z] warning: Using default value store key!
+[2026-09-06T16:19:34.010Z] warning: Using default value store key!
+[2026-09-06T16:19:34.011Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:34.013Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:34.014Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:34.016Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:isBatchingEnabled false
+[2026-09-06T16:19:34.017Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:: e
+[2026-09-06T16:19:34.019Z] log: web-data-collection : IndexDB::EventDB::count: 0
+[2026-09-06T16:19:34.020Z] log: web-data-collection : Queue::addToQueue::isBatchingEnabled:false:preBuilt:undefined
+[2026-09-06T16:19:34.021Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:34.022Z] warning: Using default value store key!
+[2026-09-06T16:19:34.025Z] warning: Using default value store key!
+[2026-09-06T16:19:34.027Z] warning: Using default value store key!
+[2026-09-06T16:19:34.028Z] warning: Using default value store key!
+[2026-09-06T16:19:34.029Z] warning: Using default value store key!
+[2026-09-06T16:19:34.030Z] warning: Using default value store key!
+[2026-09-06T16:19:34.031Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:34.032Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:34.032Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:34.034Z] log: web-data-collection : IndexDB::EventDB::add::Item Created with id:1788711573978103 & Queue Worker Running? false
+[2026-09-06T16:19:34.035Z] log: web-data-collection : IndexDB::EventDB::add:starting the Queue Worker
+[2026-09-06T16:19:34.036Z] log: web-data-collection : QueueWorker::startSendData:Queue is processing
+[2026-09-06T16:19:34.036Z] log: web-data-collection : QueueWorker::startSendData:queueSizeLimit 1000 publishRetries 3 queueItemTTLInHours 24 publishRetryDelay 30
+[2026-09-06T16:19:34.037Z] log: web-data-collection : QueueWorker::startSendData::online? true
+[2026-09-06T16:19:34.038Z] log: web-data-collection : QueueWorker::startSendData::Schema Validation result before filtering: true 
+[2026-09-06T16:19:34.038Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:19:34.039Z] warning: Using default value store key!
+[2026-09-06T16:19:34.040Z] warning: Using default value store key!
+[2026-09-06T16:19:34.040Z] warning: Using default value store key!
+[2026-09-06T16:19:34.041Z] warning: Using default value store key!
+[2026-09-06T16:19:34.041Z] warning: Using default value store key!
+[2026-09-06T16:19:34.042Z] warning: Using default value store key!
+[2026-09-06T16:19:34.043Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:34.044Z] warning: Using default value store key!
+[2026-09-06T16:19:34.045Z] warning: Using default value store key!
+[2026-09-06T16:19:34.046Z] warning: Using default value store key!
+[2026-09-06T16:19:34.048Z] warning: Using default value store key!
+[2026-09-06T16:19:34.049Z] warning: Using default value store key!
+[2026-09-06T16:19:34.052Z] warning: Using default value store key!
+[2026-09-06T16:19:34.053Z] log: web-data-collection : QueueWorker::startSendData:Trying to send the event
+[2026-09-06T16:19:34.055Z] warning: web-data-collection : BEFORE {version: 1.3.0, events: Array(1), originator: Object, originatorContext: Object}
+[2026-09-06T16:19:34.450Z] warning: web-data-collection : AFTER {data: Object, status: 200, statusText: , headers: e, config: Object}
+[2026-09-06T16:19:34.451Z] log: web-data-collection : IndexDB::EventDB::removeById:event 1788711573978103 is deleted successfully
+[2026-09-06T16:19:34.452Z] log: web-data-collection : QueueWorker::startSendData:NO element in the Queue Stopping execution
+[2026-09-06T16:19:39.497Z] debug: {RCode: 1, RMsg: pgs-page:ready}
+[2026-09-06T16:19:39.499Z] log: order_id: 6YPq6IirLUoWc4JxU4wF6XdtbEDaSIge
+[2026-09-06T16:19:39.520Z] warning: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://magento-storefront-magento.web.stg-thor-ue1.hpip-internal.com') does not match the recipient window's origin ('https://aec-itg.hpcloud.hp.com').
+[2026-09-06T16:19:39.533Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:19:39.535Z] warning: Using default value store key!
+[2026-09-06T16:19:39.536Z] warning: Using default value store key!
+[2026-09-06T16:19:39.537Z] warning: Using default value store key!
+[2026-09-06T16:19:39.538Z] warning: Using default value store key!
+[2026-09-06T16:19:39.539Z] warning: Using default value store key!
+[2026-09-06T16:19:39.540Z] warning: Using default value store key!
+[2026-09-06T16:19:39.541Z] warning: Using default value store key!
+[2026-09-06T16:19:39.542Z] warning: Using default value store key!
+[2026-09-06T16:19:39.543Z] warning: Using default value store key!
+[2026-09-06T16:19:39.543Z] warning: Using default value store key!
+[2026-09-06T16:19:39.546Z] log: Event Hub: Publish
+[2026-09-06T16:19:39.547Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:19:39.548Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:19:39.548Z] warning: Using default value store key!
+[2026-09-06T16:19:39.549Z] warning: Using default value store key!
+[2026-09-06T16:19:39.550Z] warning: Using default value store key!
+[2026-09-06T16:19:39.551Z] warning: Using default value store key!
+[2026-09-06T16:19:39.551Z] warning: Using default value store key!
+[2026-09-06T16:19:39.552Z] warning: Using default value store key!
+[2026-09-06T16:19:39.553Z] warning: Using default value store key!
+[2026-09-06T16:19:39.554Z] warning: Using default value store key!
+[2026-09-06T16:19:39.555Z] warning: Using default value store key!
+[2026-09-06T16:19:39.556Z] warning: Using default value store key!
+[2026-09-06T16:19:39.558Z] log: Event Hub: Publish
+[2026-09-06T16:19:39.559Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:19:39.560Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:39.562Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:19:39.563Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:39.564Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:19:39.565Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:19:39.566Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:19:39.567Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:19:39.568Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:19:39.568Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:19:39.570Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:19:39.570Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:19:39.571Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:19:39.572Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:19:39.572Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:19:39.573Z] log: Event Hub: Publish
+[2026-09-06T16:19:39.575Z] log: eventName: com.hp.jarvis.datacollection.cdm.event, publisherId: aec-itg.hpcloud.hp.com.publisher, eventData: {"events":[{"eventCategory":"simpleUi","version":"1.5.0","dateTime":"2026-09-06T16:19:39.527Z","eventDetailType":"com.hp.cdm.domain.telemetry.type.eventDetail.category.simpleUi.version.1","eventDetail":{"version":"1.5.0","activity":"MonetizationCheckout-v01","action":"ModuleDisplayed","screenName":"PgsIframeLoaded","screenPath":"/MonetizationCheckout/PurchasePage/PaymentSection/","actionAuxParams":"checkoutId=73f5ebfc-181d-4028-aaf4-2cc921d3de2b&tenantId=020f5ef0-f2df-47fb-a03e-e60a33ec4b4e&sku=HPBW-TOKENS-PACK"}}],"valveControllerMetadata":{"assetUnit":"desktop"}}
+[2026-09-06T16:19:39.576Z] log: Subscription received notification for eventName
+[2026-09-06T16:19:39.576Z] log: com.hp.jarvis.datacollection.cdm.event', publisherId: 'aec-itg.hpcloud.hp.com.publisher
+[2026-09-06T16:19:39.577Z] log: Event Hub: Publish
+[2026-09-06T16:19:39.578Z] log: eventName: com.hp.jarvis.datacollection.cdm.event, publisherId: aec-itg.hpcloud.hp.com.publisher, eventData: {"events":[{"eventCategory":"simpleUi","version":"1.5.0","dateTime":"2026-09-06T16:19:39.532Z","eventDetailType":"com.hp.cdm.domain.telemetry.type.eventDetail.category.simpleUi.version.1","eventDetail":{"version":"1.5.0","activity":"MonetizationCheckout-v01","action":"ModuleDisplayed","screenName":"PaymentSection","screenPath":"/MonetizationCheckout/PurchasePage/","actionAuxParams":"checkoutId=73f5ebfc-181d-4028-aaf4-2cc921d3de2b&tenantId=020f5ef0-f2df-47fb-a03e-e60a33ec4b4e&sku=HPBW-TOKENS-PACK"}}],"valveControllerMetadata":{"assetUnit":"desktop"}}
+[2026-09-06T16:19:39.579Z] log: Subscription received notification for eventName
+[2026-09-06T16:19:39.580Z] log: com.hp.jarvis.datacollection.cdm.event', publisherId: 'aec-itg.hpcloud.hp.com.publisher
+[2026-09-06T16:19:39.581Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:39.581Z] warning: Using default value store key!
+[2026-09-06T16:19:39.582Z] warning: Using default value store key!
+[2026-09-06T16:19:39.583Z] warning: Using default value store key!
+[2026-09-06T16:19:39.583Z] warning: Using default value store key!
+[2026-09-06T16:19:39.584Z] warning: Using default value store key!
+[2026-09-06T16:19:39.585Z] warning: Using default value store key!
+[2026-09-06T16:19:39.586Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:39.586Z] warning: Using default value store key!
+[2026-09-06T16:19:39.587Z] warning: Using default value store key!
+[2026-09-06T16:19:39.588Z] warning: Using default value store key!
+[2026-09-06T16:19:39.589Z] warning: Using default value store key!
+[2026-09-06T16:19:39.590Z] warning: Using default value store key!
+[2026-09-06T16:19:39.591Z] warning: Using default value store key!
+[2026-09-06T16:19:39.592Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:39.592Z] warning: Using default value store key!
+[2026-09-06T16:19:39.593Z] warning: Using default value store key!
+[2026-09-06T16:19:39.593Z] warning: Using default value store key!
+[2026-09-06T16:19:39.594Z] warning: Using default value store key!
+[2026-09-06T16:19:39.595Z] warning: Using default value store key!
+[2026-09-06T16:19:39.595Z] warning: Using default value store key!
+[2026-09-06T16:19:39.597Z] log: web-data-collection : BuildEnvelopeAndSendNotification::CDMEvents: [Object]
+[2026-09-06T16:19:39.597Z] log: web-data-collection : BuildEnvelopeAndSendNotification::Metadata: {assetUnit: desktop}
+[2026-09-06T16:19:39.598Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:39.599Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:39.599Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:39.600Z] log: web-data-collection : BuildEnvelopeAndSendNotification::CDMEvents: [Object]
+[2026-09-06T16:19:39.601Z] log: web-data-collection : BuildEnvelopeAndSendNotification::Metadata: {assetUnit: desktop}
+[2026-09-06T16:19:39.601Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:19:39.602Z] warning: Using default value store key!
+[2026-09-06T16:19:39.602Z] warning: Using default value store key!
+[2026-09-06T16:19:39.603Z] warning: Using default value store key!
+[2026-09-06T16:19:39.603Z] warning: Using default value store key!
+[2026-09-06T16:19:39.604Z] warning: Using default value store key!
+[2026-09-06T16:19:39.605Z] warning: Using default value store key!
+[2026-09-06T16:19:39.605Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:19:39.607Z] warning: Using default value store key!
+[2026-09-06T16:19:39.608Z] warning: Using default value store key!
+[2026-09-06T16:19:39.608Z] warning: Using default value store key!
+[2026-09-06T16:19:39.609Z] warning: Using default value store key!
+[2026-09-06T16:19:39.609Z] warning: Using default value store key!
+[2026-09-06T16:19:39.610Z] warning: Using default value store key!
+[2026-09-06T16:19:39.611Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:39.611Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:39.612Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:39.613Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:39.613Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:39.614Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:39.614Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:isBatchingEnabled false
+[2026-09-06T16:19:39.615Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:isBatchingEnabled false
+[2026-09-06T16:19:39.616Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:: e
+[2026-09-06T16:19:39.616Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:: e
+[2026-09-06T16:19:39.618Z] log: web-data-collection : IndexDB::EventDB::count: 0
+[2026-09-06T16:19:39.619Z] log: web-data-collection : Queue::addToQueue::isBatchingEnabled:false:preBuilt:undefined
+[2026-09-06T16:19:39.620Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:39.620Z] warning: Using default value store key!
+[2026-09-06T16:19:39.621Z] warning: Using default value store key!
+[2026-09-06T16:19:39.622Z] warning: Using default value store key!
+[2026-09-06T16:19:39.622Z] warning: Using default value store key!
+[2026-09-06T16:19:39.623Z] warning: Using default value store key!
+[2026-09-06T16:19:39.623Z] warning: Using default value store key!
+[2026-09-06T16:19:39.624Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:39.625Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:39.625Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:39.626Z] log: web-data-collection : IndexDB::EventDB::add::Item Created with id:1788711579555104 & Queue Worker Running? false
+[2026-09-06T16:19:39.626Z] log: web-data-collection : IndexDB::EventDB::add:starting the Queue Worker
+[2026-09-06T16:19:39.627Z] log: web-data-collection : IndexDB::EventDB::count: 1
+[2026-09-06T16:19:39.627Z] log: web-data-collection : Queue::addToQueue::isBatchingEnabled:false:preBuilt:undefined
+[2026-09-06T16:19:39.628Z] log: web-data-collection : QueueWorker::startSendData:Queue is processing
+[2026-09-06T16:19:39.629Z] log: web-data-collection : QueueWorker::startSendData:queueSizeLimit 1000 publishRetries 3 queueItemTTLInHours 24 publishRetryDelay 30
+[2026-09-06T16:19:39.629Z] log: web-data-collection : QueueWorker::startSendData::online? true
+[2026-09-06T16:19:39.630Z] log: web-data-collection : QueueWorker::startSendData::Schema Validation result before filtering: true 
+[2026-09-06T16:19:39.631Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:19:39.631Z] warning: Using default value store key!
+[2026-09-06T16:19:39.632Z] warning: Using default value store key!
+[2026-09-06T16:19:39.633Z] warning: Using default value store key!
+[2026-09-06T16:19:39.633Z] warning: Using default value store key!
+[2026-09-06T16:19:39.634Z] warning: Using default value store key!
+[2026-09-06T16:19:39.634Z] warning: Using default value store key!
+[2026-09-06T16:19:39.635Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:39.636Z] warning: Using default value store key!
+[2026-09-06T16:19:39.636Z] warning: Using default value store key!
+[2026-09-06T16:19:39.637Z] warning: Using default value store key!
+[2026-09-06T16:19:39.638Z] warning: Using default value store key!
+[2026-09-06T16:19:39.638Z] warning: Using default value store key!
+[2026-09-06T16:19:39.639Z] warning: Using default value store key!
+[2026-09-06T16:19:39.641Z] log: web-data-collection : QueueWorker::startSendData:Trying to send the event
+[2026-09-06T16:19:39.641Z] warning: web-data-collection : BEFORE {version: 1.3.0, events: Array(1), originator: Object, originatorContext: Object}
+[2026-09-06T16:19:39.642Z] log: web-data-collection : IndexDB::EventDB::add::Item Created with id:1788711579555105 & Queue Worker Running? true
+[2026-09-06T16:19:39.803Z] log: success Success
+[2026-09-06T16:19:40.035Z] warning: web-data-collection : AFTER {data: Object, status: 200, statusText: , headers: e, config: Object}
+[2026-09-06T16:19:40.038Z] log: web-data-collection : IndexDB::EventDB::removeById:event 1788711579555104 is deleted successfully
+[2026-09-06T16:19:40.040Z] log: web-data-collection : QueueWorker::startSendData:Queue is processing
+[2026-09-06T16:19:40.041Z] log: web-data-collection : QueueWorker::startSendData:queueSizeLimit 1000 publishRetries 3 queueItemTTLInHours 24 publishRetryDelay 30
+[2026-09-06T16:19:40.043Z] log: web-data-collection : QueueWorker::startSendData::online? true
+[2026-09-06T16:19:40.044Z] log: web-data-collection : QueueWorker::startSendData::Schema Validation result before filtering: true 
+[2026-09-06T16:19:40.045Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:19:40.047Z] warning: Using default value store key!
+[2026-09-06T16:19:40.048Z] warning: Using default value store key!
+[2026-09-06T16:19:40.050Z] warning: Using default value store key!
+[2026-09-06T16:19:40.051Z] warning: Using default value store key!
+[2026-09-06T16:19:40.051Z] warning: Using default value store key!
+[2026-09-06T16:19:40.052Z] warning: Using default value store key!
+[2026-09-06T16:19:40.053Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:40.053Z] warning: Using default value store key!
+[2026-09-06T16:19:40.054Z] warning: Using default value store key!
+[2026-09-06T16:19:40.055Z] warning: Using default value store key!
+[2026-09-06T16:19:40.055Z] warning: Using default value store key!
+[2026-09-06T16:19:40.056Z] warning: Using default value store key!
+[2026-09-06T16:19:40.057Z] warning: Using default value store key!
+[2026-09-06T16:19:40.058Z] log: web-data-collection : QueueWorker::startSendData:Trying to send the event
+[2026-09-06T16:19:40.058Z] warning: web-data-collection : BEFORE {version: 1.3.0, events: Array(1), originator: Object, originatorContext: Object}
+[2026-09-06T16:19:40.465Z] warning: web-data-collection : AFTER {data: Object, status: 200, statusText: , headers: e, config: Object}
+[2026-09-06T16:19:40.466Z] log: web-data-collection : IndexDB::EventDB::removeById:event 1788711579555105 is deleted successfully
+[2026-09-06T16:19:40.467Z] log: web-data-collection : QueueWorker::startSendData:NO element in the Queue Stopping execution
+[2026-09-06T16:19:49.932Z] log: order_id: 6YPq6IirLUoWc4JxU4wF6XdtbEDaSIge
+[2026-09-06T16:19:52.286Z] error: The Content Security Policy directive 'frame-ancestors' is ignored when delivered via a <meta> element.
+[2026-09-06T16:19:52.495Z] log: Posting message to parent: {msg: handlePgsIframeSuccess, pickupId: ef27a79f-126a-4c73-ad05-f2ff1c23a12e, cardData: Object}
+[2026-09-06T16:19:57.650Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:19:57.652Z] warning: Using default value store key!
+[2026-09-06T16:19:57.653Z] warning: Using default value store key!
+[2026-09-06T16:19:57.654Z] warning: Using default value store key!
+[2026-09-06T16:19:57.654Z] warning: Using default value store key!
+[2026-09-06T16:19:57.655Z] warning: Using default value store key!
+[2026-09-06T16:19:57.656Z] warning: Using default value store key!
+[2026-09-06T16:19:57.657Z] warning: Using default value store key!
+[2026-09-06T16:19:57.657Z] warning: Using default value store key!
+[2026-09-06T16:19:57.659Z] warning: Using default value store key!
+[2026-09-06T16:19:57.660Z] warning: Using default value store key!
+[2026-09-06T16:19:57.660Z] log: Event Hub: Publish
+[2026-09-06T16:19:57.661Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:19:57.662Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:57.663Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:19:57.663Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:19:57.664Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:19:57.665Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:19:57.666Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:19:57.667Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:19:57.668Z] log: Event Hub: Publish
+[2026-09-06T16:19:57.669Z] log: eventName: com.hp.jarvis.datacollection.cdm.event, publisherId: aec-itg.hpcloud.hp.com.publisher, eventData: {"events":[{"eventCategory":"simpleUi","version":"1.5.0","dateTime":"2026-09-06T16:19:57.630Z","eventDetailType":"com.hp.cdm.domain.telemetry.type.eventDetail.category.simpleUi.version.1","eventDetail":{"version":"1.5.0","activity":"MonetizationCheckout-v01","action":"ControlButtonClicked","screenName":"PaymentSection","screenPath":"/MonetizationCheckout/PurchasePage/","controlName":"PaymentMethodForm","controlDetail":"paymentMethod=creditCard&cardType=Visa","actionAuxParams":"checkoutId=73f5ebfc-181d-4028-aaf4-2cc921d3de2b&tenantId=020f5ef0-f2df-47fb-a03e-e60a33ec4b4e&sku=HPBW-TOKENS-PACK"}}],"valveControllerMetadata":{"assetUnit":"desktop"}}
+[2026-09-06T16:19:57.669Z] log: Subscription received notification for eventName
+[2026-09-06T16:19:57.670Z] log: com.hp.jarvis.datacollection.cdm.event', publisherId: 'aec-itg.hpcloud.hp.com.publisher
+[2026-09-06T16:19:57.671Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:57.672Z] warning: Using default value store key!
+[2026-09-06T16:19:57.673Z] warning: Using default value store key!
+[2026-09-06T16:19:57.675Z] warning: Using default value store key!
+[2026-09-06T16:19:57.676Z] warning: Using default value store key!
+[2026-09-06T16:19:57.677Z] warning: Using default value store key!
+[2026-09-06T16:19:57.679Z] warning: Using default value store key!
+[2026-09-06T16:19:57.680Z] log: web-data-collection : BuildEnvelopeAndSendNotification::CDMEvents: [Object]
+[2026-09-06T16:19:57.681Z] log: web-data-collection : BuildEnvelopeAndSendNotification::Metadata: {assetUnit: desktop}
+[2026-09-06T16:19:57.682Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:19:57.684Z] warning: Using default value store key!
+[2026-09-06T16:19:57.686Z] warning: Using default value store key!
+[2026-09-06T16:19:57.687Z] warning: Using default value store key!
+[2026-09-06T16:19:57.689Z] warning: Using default value store key!
+[2026-09-06T16:19:57.691Z] warning: Using default value store key!
+[2026-09-06T16:19:57.697Z] warning: Using default value store key!
+[2026-09-06T16:19:57.698Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:57.699Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:57.700Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:57.701Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:isBatchingEnabled false
+[2026-09-06T16:19:57.702Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:: e
+[2026-09-06T16:19:57.705Z] log: web-data-collection : IndexDB::EventDB::count: 0
+[2026-09-06T16:19:57.706Z] log: web-data-collection : Queue::addToQueue::isBatchingEnabled:false:preBuilt:undefined
+[2026-09-06T16:19:57.708Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:57.709Z] warning: Using default value store key!
+[2026-09-06T16:19:57.711Z] warning: Using default value store key!
+[2026-09-06T16:19:57.713Z] warning: Using default value store key!
+[2026-09-06T16:19:57.715Z] warning: Using default value store key!
+[2026-09-06T16:19:57.716Z] warning: Using default value store key!
+[2026-09-06T16:19:57.718Z] warning: Using default value store key!
+[2026-09-06T16:19:57.720Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:57.722Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:57.723Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:57.725Z] log: web-data-collection : IndexDB::EventDB::add::Item Created with id:1788711597664106 & Queue Worker Running? false
+[2026-09-06T16:19:57.727Z] log: web-data-collection : IndexDB::EventDB::add:starting the Queue Worker
+[2026-09-06T16:19:57.731Z] log: web-data-collection : QueueWorker::startSendData:Queue is processing
+[2026-09-06T16:19:57.733Z] log: web-data-collection : QueueWorker::startSendData:queueSizeLimit 1000 publishRetries 3 queueItemTTLInHours 24 publishRetryDelay 30
+[2026-09-06T16:19:57.733Z] log: web-data-collection : QueueWorker::startSendData::online? true
+[2026-09-06T16:19:57.735Z] log: web-data-collection : QueueWorker::startSendData::Schema Validation result before filtering: true 
+[2026-09-06T16:19:57.737Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:19:57.740Z] warning: Using default value store key!
+[2026-09-06T16:19:57.741Z] warning: Using default value store key!
+[2026-09-06T16:19:57.742Z] warning: Using default value store key!
+[2026-09-06T16:19:57.744Z] warning: Using default value store key!
+[2026-09-06T16:19:57.745Z] warning: Using default value store key!
+[2026-09-06T16:19:57.747Z] warning: Using default value store key!
+[2026-09-06T16:19:57.748Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:57.750Z] warning: Using default value store key!
+[2026-09-06T16:19:57.750Z] warning: Using default value store key!
+[2026-09-06T16:19:57.751Z] warning: Using default value store key!
+[2026-09-06T16:19:57.752Z] warning: Using default value store key!
+[2026-09-06T16:19:57.753Z] warning: Using default value store key!
+[2026-09-06T16:19:57.754Z] warning: Using default value store key!
+[2026-09-06T16:19:57.755Z] log: web-data-collection : QueueWorker::startSendData:Trying to send the event
+[2026-09-06T16:19:57.755Z] warning: web-data-collection : BEFORE {version: 1.3.0, events: Array(1), originator: Object, originatorContext: Object}
+[2026-09-06T16:19:57.884Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:19:57.886Z] warning: Using default value store key!
+[2026-09-06T16:19:57.887Z] warning: Using default value store key!
+[2026-09-06T16:19:57.890Z] warning: Using default value store key!
+[2026-09-06T16:19:57.892Z] warning: Using default value store key!
+[2026-09-06T16:19:57.893Z] warning: Using default value store key!
+[2026-09-06T16:19:57.895Z] warning: Using default value store key!
+[2026-09-06T16:19:57.896Z] warning: Using default value store key!
+[2026-09-06T16:19:57.896Z] warning: Using default value store key!
+[2026-09-06T16:19:57.899Z] warning: Using default value store key!
+[2026-09-06T16:19:57.900Z] warning: Using default value store key!
+[2026-09-06T16:19:57.901Z] log: Event Hub: Publish
+[2026-09-06T16:19:57.902Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:19:57.903Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:19:57.904Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:19:57.905Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:19:57.907Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:19:57.909Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:19:57.911Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:19:57.913Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:19:57.915Z] log: Event Hub: Publish
+[2026-09-06T16:19:57.916Z] log: eventName: com.hp.jarvis.datacollection.cdm.event, publisherId: aec-itg.hpcloud.hp.com.publisher, eventData: {"events":[{"eventCategory":"simpleUi","version":"1.5.0","dateTime":"2026-09-06T16:19:57.872Z","eventDetailType":"com.hp.cdm.domain.telemetry.type.eventDetail.category.simpleUi.version.1","eventDetail":{"version":"1.5.0","activity":"MonetizationCheckout-v01","action":"ControlButtonClicked","screenName":"PurchasePage","screenPath":"/MonetizationCheckout/","controlName":"ConfirmPurchaseButton","controlDetail":"oneTimePurchase=true","actionAuxParams":"checkoutId=73f5ebfc-181d-4028-aaf4-2cc921d3de2b&tenantId=020f5ef0-f2df-47fb-a03e-e60a33ec4b4e&sku=HPBW-TOKENS-PACK"}}],"valveControllerMetadata":{"assetUnit":"desktop"}}
+[2026-09-06T16:19:57.917Z] log: Subscription received notification for eventName
+[2026-09-06T16:19:57.917Z] log: com.hp.jarvis.datacollection.cdm.event', publisherId: 'aec-itg.hpcloud.hp.com.publisher
+[2026-09-06T16:19:57.918Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:57.920Z] warning: Using default value store key!
+[2026-09-06T16:19:57.922Z] warning: Using default value store key!
+[2026-09-06T16:19:57.923Z] warning: Using default value store key!
+[2026-09-06T16:19:57.924Z] warning: Using default value store key!
+[2026-09-06T16:19:57.925Z] warning: Using default value store key!
+[2026-09-06T16:19:57.926Z] warning: Using default value store key!
+[2026-09-06T16:19:57.926Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:57.927Z] warning: Using default value store key!
+[2026-09-06T16:19:57.928Z] warning: Using default value store key!
+[2026-09-06T16:19:57.929Z] warning: Using default value store key!
+[2026-09-06T16:19:57.930Z] warning: Using default value store key!
+[2026-09-06T16:19:57.931Z] warning: Using default value store key!
+[2026-09-06T16:19:57.932Z] warning: Using default value store key!
+[2026-09-06T16:19:57.933Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:57.934Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:57.935Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:57.937Z] log: web-data-collection : BuildEnvelopeAndSendNotification::CDMEvents: [Object]
+[2026-09-06T16:19:57.938Z] log: web-data-collection : BuildEnvelopeAndSendNotification::Metadata: {assetUnit: desktop}
+[2026-09-06T16:19:57.939Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:19:57.940Z] warning: Using default value store key!
+[2026-09-06T16:19:57.942Z] warning: Using default value store key!
+[2026-09-06T16:19:57.943Z] warning: Using default value store key!
+[2026-09-06T16:19:57.944Z] warning: Using default value store key!
+[2026-09-06T16:19:57.945Z] warning: Using default value store key!
+[2026-09-06T16:19:57.947Z] warning: Using default value store key!
+[2026-09-06T16:19:57.949Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:19:57.950Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:19:57.951Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:19:57.952Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:isBatchingEnabled false
+[2026-09-06T16:19:57.953Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:: e
+[2026-09-06T16:19:57.954Z] log: web-data-collection : IndexDB::EventDB::count: 1
+[2026-09-06T16:19:57.955Z] log: web-data-collection : Queue::addToQueue::isBatchingEnabled:false:preBuilt:undefined
+[2026-09-06T16:19:57.956Z] log: web-data-collection : IndexDB::EventDB::add::Item Created with id:1788711597904107 & Queue Worker Running? true
+[2026-09-06T16:19:58.206Z] warning: web-data-collection : AFTER {data: Object, status: 200, statusText: , headers: e, config: Object}
+[2026-09-06T16:19:58.208Z] log: web-data-collection : IndexDB::EventDB::removeById:event 1788711597664106 is deleted successfully
+[2026-09-06T16:19:58.209Z] log: web-data-collection : QueueWorker::startSendData:Queue is processing
+[2026-09-06T16:19:58.210Z] log: web-data-collection : QueueWorker::startSendData:queueSizeLimit 1000 publishRetries 3 queueItemTTLInHours 24 publishRetryDelay 30
+[2026-09-06T16:19:58.212Z] log: web-data-collection : QueueWorker::startSendData::online? true
+[2026-09-06T16:19:58.213Z] log: web-data-collection : QueueWorker::startSendData::Schema Validation result before filtering: true 
+[2026-09-06T16:19:58.215Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:19:58.217Z] warning: Using default value store key!
+[2026-09-06T16:19:58.217Z] warning: Using default value store key!
+[2026-09-06T16:19:58.218Z] warning: Using default value store key!
+[2026-09-06T16:19:58.219Z] warning: Using default value store key!
+[2026-09-06T16:19:58.220Z] warning: Using default value store key!
+[2026-09-06T16:19:58.220Z] warning: Using default value store key!
+[2026-09-06T16:19:58.221Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:19:58.222Z] warning: Using default value store key!
+[2026-09-06T16:19:58.223Z] warning: Using default value store key!
+[2026-09-06T16:19:58.224Z] warning: Using default value store key!
+[2026-09-06T16:19:58.225Z] warning: Using default value store key!
+[2026-09-06T16:19:58.227Z] warning: Using default value store key!
+[2026-09-06T16:19:58.228Z] warning: Using default value store key!
+[2026-09-06T16:19:58.230Z] log: web-data-collection : QueueWorker::startSendData:Trying to send the event
+[2026-09-06T16:19:58.231Z] warning: web-data-collection : BEFORE {version: 1.3.0, events: Array(1), originator: Object, originatorContext: Object}
+[2026-09-06T16:19:58.615Z] warning: web-data-collection : AFTER {data: Object, status: 200, statusText: , headers: e, config: Object}
+[2026-09-06T16:19:58.617Z] log: web-data-collection : IndexDB::EventDB::removeById:event 1788711597904107 is deleted successfully
+[2026-09-06T16:19:58.618Z] log: web-data-collection : QueueWorker::startSendData:NO element in the Queue Stopping execution
+[2026-09-06T16:20:07.759Z] log: [Purchase] Order already exists on mount, redirecting to confirmation: HM000004899
+[2026-09-06T16:20:07.783Z] log: HPBW LOG, [MFE Event]  {eventName: checkout-success, eventType: checkout, data: Object, timestamp: 2026-09-06T16:20:07.783Z, mfeType: checkout}
+[2026-09-06T16:20:07.784Z] log: HPBW LOG, [MFE] Checkout successful: {orderId: HM000004899, amount: 160, currency: USD, productSku: HPBW-TOKENS-PACK}
+[2026-09-06T16:20:07.786Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:20:07.786Z] warning: Using default value store key!
+[2026-09-06T16:20:07.787Z] warning: Using default value store key!
+[2026-09-06T16:20:07.789Z] warning: Using default value store key!
+[2026-09-06T16:20:07.790Z] warning: Using default value store key!
+[2026-09-06T16:20:07.790Z] warning: Using default value store key!
+[2026-09-06T16:20:07.791Z] warning: Using default value store key!
+[2026-09-06T16:20:07.792Z] warning: Using default value store key!
+[2026-09-06T16:20:07.793Z] warning: Using default value store key!
+[2026-09-06T16:20:07.793Z] warning: Using default value store key!
+[2026-09-06T16:20:07.794Z] warning: Using default value store key!
+[2026-09-06T16:20:07.795Z] log: Event Hub: Publish
+[2026-09-06T16:20:07.796Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:20:07.797Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:20:07.798Z] warning: Using default value store key!
+[2026-09-06T16:20:07.798Z] warning: Using default value store key!
+[2026-09-06T16:20:07.799Z] warning: Using default value store key!
+[2026-09-06T16:20:07.800Z] warning: Using default value store key!
+[2026-09-06T16:20:07.801Z] warning: Using default value store key!
+[2026-09-06T16:20:07.802Z] warning: Using default value store key!
+[2026-09-06T16:20:07.803Z] warning: Using default value store key!
+[2026-09-06T16:20:07.804Z] warning: Using default value store key!
+[2026-09-06T16:20:07.805Z] warning: Using default value store key!
+[2026-09-06T16:20:07.806Z] warning: Using default value store key!
+[2026-09-06T16:20:07.806Z] log: Event Hub: Publish
+[2026-09-06T16:20:07.807Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:20:07.808Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:20:07.809Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:20:07.810Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:20:07.811Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:20:07.812Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:20:07.813Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:20:07.814Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:20:07.815Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:20:07.815Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:20:07.816Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:20:07.817Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:20:07.818Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:20:07.819Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:20:07.820Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:20:07.821Z] log: Event Hub: Publish
+[2026-09-06T16:20:07.821Z] log: eventName: com.hp.jarvis.datacollection.cdm.event, publisherId: aec-itg.hpcloud.hp.com.publisher, eventData: {"events":[{"eventCategory":"simpleUi","version":"1.5.0","dateTime":"2026-09-06T16:20:07.771Z","eventDetailType":"com.hp.cdm.domain.telemetry.type.eventDetail.category.simpleUi.version.1","eventDetail":{"version":"1.5.0","activity":"MonetizationCheckout-v01","action":"ModuleInitialized","screenName":"Loading","screenPath":"/MonetizationCheckout/ConfirmationPage/","actionAuxParams":"checkoutId=73f5ebfc-181d-4028-aaf4-2cc921d3de2b&tenantId=020f5ef0-f2df-47fb-a03e-e60a33ec4b4e&sku=HPBW-TOKENS-PACK"}}],"valveControllerMetadata":{"assetUnit":"desktop"}}
+[2026-09-06T16:20:07.823Z] log: Subscription received notification for eventName
+[2026-09-06T16:20:07.824Z] log: com.hp.jarvis.datacollection.cdm.event', publisherId: 'aec-itg.hpcloud.hp.com.publisher
+[2026-09-06T16:20:07.825Z] log: Event Hub: Publish
+[2026-09-06T16:20:07.826Z] log: eventName: com.hp.jarvis.datacollection.cdm.event, publisherId: aec-itg.hpcloud.hp.com.publisher, eventData: {"events":[{"eventCategory":"simpleUi","version":"1.5.0","dateTime":"2026-09-06T16:20:07.777Z","eventDetailType":"com.hp.cdm.domain.telemetry.type.eventDetail.category.simpleUi.version.1","eventDetail":{"version":"1.5.0","activity":"MonetizationCheckout-v01","action":"ScreenDisplayed","screenName":"ConfirmationPage","screenPath":"/MonetizationCheckout/","actionAuxParams":"checkoutId=73f5ebfc-181d-4028-aaf4-2cc921d3de2b&tenantId=020f5ef0-f2df-47fb-a03e-e60a33ec4b4e&sku=HPBW-TOKENS-PACK&orderId=HM000004899&orderTotal=160&currencyCode=USD"}}],"valveControllerMetadata":{"assetUnit":"desktop"}}
+[2026-09-06T16:20:07.827Z] log: Subscription received notification for eventName
+[2026-09-06T16:20:07.827Z] log: com.hp.jarvis.datacollection.cdm.event', publisherId: 'aec-itg.hpcloud.hp.com.publisher
+[2026-09-06T16:20:07.828Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:20:07.829Z] warning: Using default value store key!
+[2026-09-06T16:20:07.830Z] warning: Using default value store key!
+[2026-09-06T16:20:07.831Z] warning: Using default value store key!
+[2026-09-06T16:20:07.832Z] warning: Using default value store key!
+[2026-09-06T16:20:07.833Z] warning: Using default value store key!
+[2026-09-06T16:20:07.835Z] warning: Using default value store key!
+[2026-09-06T16:20:07.837Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:20:07.838Z] warning: Using default value store key!
+[2026-09-06T16:20:07.840Z] warning: Using default value store key!
+[2026-09-06T16:20:07.842Z] warning: Using default value store key!
+[2026-09-06T16:20:07.843Z] warning: Using default value store key!
+[2026-09-06T16:20:07.845Z] warning: Using default value store key!
+[2026-09-06T16:20:07.847Z] warning: Using default value store key!
+[2026-09-06T16:20:07.848Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:20:07.850Z] warning: Using default value store key!
+[2026-09-06T16:20:07.851Z] warning: Using default value store key!
+[2026-09-06T16:20:07.853Z] warning: Using default value store key!
+[2026-09-06T16:20:07.854Z] warning: Using default value store key!
+[2026-09-06T16:20:07.857Z] warning: Using default value store key!
+[2026-09-06T16:20:07.858Z] warning: Using default value store key!
+[2026-09-06T16:20:07.859Z] log: web-data-collection : BuildEnvelopeAndSendNotification::CDMEvents: [Object]
+[2026-09-06T16:20:07.861Z] log: web-data-collection : BuildEnvelopeAndSendNotification::Metadata: {assetUnit: desktop}
+[2026-09-06T16:20:07.862Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:20:07.864Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:20:07.866Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:20:07.868Z] log: web-data-collection : BuildEnvelopeAndSendNotification::CDMEvents: [Object]
+[2026-09-06T16:20:07.870Z] log: web-data-collection : BuildEnvelopeAndSendNotification::Metadata: {assetUnit: desktop}
+[2026-09-06T16:20:07.871Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:20:07.873Z] warning: Using default value store key!
+[2026-09-06T16:20:07.874Z] warning: Using default value store key!
+[2026-09-06T16:20:07.875Z] warning: Using default value store key!
+[2026-09-06T16:20:07.876Z] warning: Using default value store key!
+[2026-09-06T16:20:07.877Z] warning: Using default value store key!
+[2026-09-06T16:20:07.878Z] warning: Using default value store key!
+[2026-09-06T16:20:07.880Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:20:07.883Z] warning: Using default value store key!
+[2026-09-06T16:20:07.885Z] warning: Using default value store key!
+[2026-09-06T16:20:07.886Z] warning: Using default value store key!
+[2026-09-06T16:20:07.887Z] warning: Using default value store key!
+[2026-09-06T16:20:07.889Z] warning: Using default value store key!
+[2026-09-06T16:20:07.890Z] warning: Using default value store key!
+[2026-09-06T16:20:07.891Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:20:07.893Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:20:07.894Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:20:07.895Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:20:07.896Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:20:07.897Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:20:07.898Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:isBatchingEnabled false
+[2026-09-06T16:20:07.899Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:isBatchingEnabled false
+[2026-09-06T16:20:07.902Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:: e
+[2026-09-06T16:20:07.903Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:: e
+[2026-09-06T16:20:07.904Z] log: web-data-collection : IndexDB::EventDB::count: 0
+[2026-09-06T16:20:07.904Z] log: web-data-collection : Queue::addToQueue::isBatchingEnabled:false:preBuilt:undefined
+[2026-09-06T16:20:07.905Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:20:07.906Z] warning: Using default value store key!
+[2026-09-06T16:20:07.908Z] warning: Using default value store key!
+[2026-09-06T16:20:07.909Z] warning: Using default value store key!
+[2026-09-06T16:20:07.910Z] warning: Using default value store key!
+[2026-09-06T16:20:07.911Z] warning: Using default value store key!
+[2026-09-06T16:20:07.912Z] warning: Using default value store key!
+[2026-09-06T16:20:07.912Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:20:07.913Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:20:07.914Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:20:07.916Z] log: web-data-collection : IndexDB::EventDB::add::Item Created with id:1788711607800108 & Queue Worker Running? false
+[2026-09-06T16:20:07.917Z] log: web-data-collection : IndexDB::EventDB::add:starting the Queue Worker
+[2026-09-06T16:20:07.918Z] log: web-data-collection : IndexDB::EventDB::count: 1
+[2026-09-06T16:20:07.918Z] log: web-data-collection : Queue::addToQueue::isBatchingEnabled:false:preBuilt:undefined
+[2026-09-06T16:20:07.919Z] log: web-data-collection : QueueWorker::startSendData:Queue is processing
+[2026-09-06T16:20:07.920Z] log: web-data-collection : QueueWorker::startSendData:queueSizeLimit 1000 publishRetries 3 queueItemTTLInHours 24 publishRetryDelay 30
+[2026-09-06T16:20:07.921Z] log: web-data-collection : QueueWorker::startSendData::online? true
+[2026-09-06T16:20:07.921Z] log: web-data-collection : QueueWorker::startSendData::Schema Validation result before filtering: true 
+[2026-09-06T16:20:07.922Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:20:07.923Z] warning: Using default value store key!
+[2026-09-06T16:20:07.924Z] warning: Using default value store key!
+[2026-09-06T16:20:07.924Z] warning: Using default value store key!
+[2026-09-06T16:20:07.926Z] warning: Using default value store key!
+[2026-09-06T16:20:07.927Z] warning: Using default value store key!
+[2026-09-06T16:20:07.927Z] warning: Using default value store key!
+[2026-09-06T16:20:07.928Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:20:07.929Z] warning: Using default value store key!
+[2026-09-06T16:20:07.930Z] warning: Using default value store key!
+[2026-09-06T16:20:07.931Z] warning: Using default value store key!
+[2026-09-06T16:20:07.932Z] warning: Using default value store key!
+[2026-09-06T16:20:07.933Z] warning: Using default value store key!
+[2026-09-06T16:20:07.934Z] warning: Using default value store key!
+[2026-09-06T16:20:07.935Z] log: web-data-collection : QueueWorker::startSendData:Trying to send the event
+[2026-09-06T16:20:07.935Z] warning: web-data-collection : BEFORE {version: 1.3.0, events: Array(1), originator: Object, originatorContext: Object}
+[2026-09-06T16:20:07.937Z] log: web-data-collection : IndexDB::EventDB::add::Item Created with id:1788711607800109 & Queue Worker Running? true
+[2026-09-06T16:20:07.989Z] log: HPBW LOG, [MFE Event]  {eventName: see-orders-clicked, eventType: checkout, data: Object, timestamp: 2026-09-06T16:20:07.986Z, mfeType: checkout}
+[2026-09-06T16:20:07.990Z] log: FacadeRegistry::beforeunload
+[2026-09-06T16:20:07.990Z] log: FacadeRegistry::beforeunload
+[2026-09-06T16:20:07.997Z] log: Put Value Store Key/Value pair with Key: [object Object],[object Object],[object Object],[object Object],[object Object]
+[2026-09-06T16:20:07.998Z] warning: Using default value store key!
+[2026-09-06T16:20:07.999Z] warning: Using default value store key!
+[2026-09-06T16:20:08.000Z] warning: Using default value store key!
+[2026-09-06T16:20:08.000Z] warning: Using default value store key!
+[2026-09-06T16:20:08.001Z] warning: Using default value store key!
+[2026-09-06T16:20:08.002Z] warning: Using default value store key!
+[2026-09-06T16:20:08.003Z] warning: Using default value store key!
+[2026-09-06T16:20:08.004Z] warning: Using default value store key!
+[2026-09-06T16:20:08.005Z] warning: Using default value store key!
+[2026-09-06T16:20:08.006Z] warning: Using default value store key!
+[2026-09-06T16:20:08.007Z] log: Event Hub: Publish
+[2026-09-06T16:20:08.008Z] log: eventName: ValueUpdated, publisherId: com.hp.jarvis.value.store.publisher, eventData: {"updatedEntries":[{"key":"WebApplicationName","newValue":"aec-itg.hpcloud.hp.com","oldValue":"aec-itg.hpcloud.hp.com"},{"key":"WebApplicationVersion","newValue":"1.0.0.0","oldValue":"1.0.0.0"},{"key":"SelectedPrinterUUID","newValue":"","oldValue":""},{"key":"SelectedPrinterModelNumber","newValue":"","oldValue":""},{"key":"UcdeCorrelationId","newValue":"","oldValue":""}]}
+[2026-09-06T16:20:08.009Z] log: global::registerPlugin: called with name=DataCollection
+[2026-09-06T16:20:08.009Z] log: global::registerPlugin: did not register plugin DataCollection in JWeb (the provided DataCollection instance is already registered in JWeb)
+[2026-09-06T16:20:08.011Z] log: web-data-collection : DataCollectionService::UserSentBatchConfiguration: isBatchingEnabled:undefinedbatchConfiguration:undefined
+[2026-09-06T16:20:08.012Z] warning: web-data-collection : DataCollectionService::SetBatchConfiguration::isBatchingEnabled:falsebatchConfiguration:[object Object]
+[2026-09-06T16:20:08.013Z] log: web-data-collection : Accumulator::evaluateBatchLogic::log:evaluating batch logic
+[2026-09-06T16:20:08.014Z] log: web-data-collection : Accumulator::checkBatchEnabledAndFlush::log:checking batch enabled and flushing
+[2026-09-06T16:20:08.014Z] log: web-data-collection : Queue::processPausedQueueItems: processing
+[2026-09-06T16:20:08.015Z] log: Event Hub: Publish
+[2026-09-06T16:20:08.016Z] log: eventName: com.hp.jarvis.datacollection.cdm.event, publisherId: aec-itg.hpcloud.hp.com.publisher, eventData: {"events":[{"eventCategory":"simpleUi","version":"1.5.0","dateTime":"2026-09-06T16:20:07.979Z","eventDetailType":"com.hp.cdm.domain.telemetry.type.eventDetail.category.simpleUi.version.1","eventDetail":{"version":"1.5.0","activity":"MonetizationCheckout-v01","action":"ControlButtonClicked","screenName":"ConfirmationPage","screenPath":"/MonetizationCheckout/","controlName":"SeeOrdersAndInvoicesLink","actionAuxParams":"checkoutId=73f5ebfc-181d-4028-aaf4-2cc921d3de2b&tenantId=020f5ef0-f2df-47fb-a03e-e60a33ec4b4e&sku=HPBW-TOKENS-PACK&orderId=HM000004899&orderTotal=160&currencyCode=USD"}}],"valveControllerMetadata":{"assetUnit":"desktop"}}
+[2026-09-06T16:20:08.017Z] log: Subscription received notification for eventName
+[2026-09-06T16:20:08.018Z] log: com.hp.jarvis.datacollection.cdm.event', publisherId: 'aec-itg.hpcloud.hp.com.publisher
+[2026-09-06T16:20:08.019Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:20:08.020Z] warning: Using default value store key!
+[2026-09-06T16:20:08.022Z] warning: Using default value store key!
+[2026-09-06T16:20:08.023Z] warning: Using default value store key!
+[2026-09-06T16:20:08.024Z] warning: Using default value store key!
+[2026-09-06T16:20:08.025Z] warning: Using default value store key!
+[2026-09-06T16:20:08.026Z] warning: Using default value store key!
+[2026-09-06T16:20:08.027Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:20:08.029Z] warning: Using default value store key!
+[2026-09-06T16:20:08.030Z] warning: Using default value store key!
+[2026-09-06T16:20:08.031Z] warning: Using default value store key!
+[2026-09-06T16:20:08.032Z] warning: Using default value store key!
+[2026-09-06T16:20:08.033Z] warning: Using default value store key!
+[2026-09-06T16:20:08.034Z] warning: Using default value store key!
+[2026-09-06T16:20:08.036Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:20:08.037Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:20:08.037Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:20:08.038Z] log: web-data-collection : BuildEnvelopeAndSendNotification::CDMEvents: [Object]
+[2026-09-06T16:20:08.039Z] log: web-data-collection : BuildEnvelopeAndSendNotification::Metadata: {assetUnit: desktop}
+[2026-09-06T16:20:08.040Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:20:08.040Z] warning: Using default value store key!
+[2026-09-06T16:20:08.041Z] warning: Using default value store key!
+[2026-09-06T16:20:08.042Z] warning: Using default value store key!
+[2026-09-06T16:20:08.043Z] warning: Using default value store key!
+[2026-09-06T16:20:08.043Z] warning: Using default value store key!
+[2026-09-06T16:20:08.044Z] warning: Using default value store key!
+[2026-09-06T16:20:08.046Z] log: processBufferedEvents::pausedQueueItems:count ne
+[2026-09-06T16:20:08.047Z] log: processBufferedEvents::pausedQueueItems: leftOverItems count 0
+[2026-09-06T16:20:08.047Z] log: processBufferedEvents::pausedQueueItems:new count ne
+[2026-09-06T16:20:08.048Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:isBatchingEnabled false
+[2026-09-06T16:20:08.049Z] log: web-data-collection : BuildEnvelopeAndSendNotification:notification:: e
+[2026-09-06T16:20:08.050Z] log: web-data-collection : IndexDB::EventDB::count: 2
+[2026-09-06T16:20:08.051Z] log: web-data-collection : Queue::addToQueue::isBatchingEnabled:false:preBuilt:undefined
+[2026-09-06T16:20:08.052Z] log: web-data-collection : IndexDB::EventDB::add::Item Created with id:1788711607996110 & Queue Worker Running? true
+[2026-09-06T16:20:08.294Z] warning: web-data-collection : AFTER {data: Object, status: 200, statusText: , headers: e, config: Object}
+[2026-09-06T16:20:08.296Z] log: web-data-collection : IndexDB::EventDB::removeById:event 1788711607800108 is deleted successfully
+[2026-09-06T16:20:08.297Z] log: web-data-collection : QueueWorker::startSendData:Queue is processing
+[2026-09-06T16:20:08.297Z] log: web-data-collection : QueueWorker::startSendData:queueSizeLimit 1000 publishRetries 3 queueItemTTLInHours 24 publishRetryDelay 30
+[2026-09-06T16:20:08.298Z] log: web-data-collection : QueueWorker::startSendData::online? true
+[2026-09-06T16:20:08.300Z] log: web-data-collection : QueueWorker::startSendData::Schema Validation result before filtering: true 
+[2026-09-06T16:20:08.300Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:20:08.301Z] warning: Using default value store key!
+[2026-09-06T16:20:08.302Z] warning: Using default value store key!
+[2026-09-06T16:20:08.303Z] warning: Using default value store key!
+[2026-09-06T16:20:08.303Z] warning: Using default value store key!
+[2026-09-06T16:20:08.306Z] warning: Using default value store key!
+[2026-09-06T16:20:08.307Z] warning: Using default value store key!
+[2026-09-06T16:20:08.309Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:20:08.311Z] warning: Using default value store key!
+[2026-09-06T16:20:08.312Z] warning: Using default value store key!
+[2026-09-06T16:20:08.314Z] warning: Using default value store key!
+[2026-09-06T16:20:08.315Z] warning: Using default value store key!
+[2026-09-06T16:20:08.316Z] warning: Using default value store key!
+[2026-09-06T16:20:08.318Z] warning: Using default value store key!
+[2026-09-06T16:20:08.319Z] log: web-data-collection : QueueWorker::startSendData:Trying to send the event
+[2026-09-06T16:20:08.320Z] warning: web-data-collection : BEFORE {version: 1.3.0, events: Array(1), originator: Object, originatorContext: Object}
+[2026-09-06T16:20:08.750Z] warning: web-data-collection : AFTER {data: Object, status: 200, statusText: , headers: e, config: Object}
+[2026-09-06T16:20:08.752Z] log: web-data-collection : IndexDB::EventDB::removeById:event 1788711607800109 is deleted successfully
+[2026-09-06T16:20:08.753Z] log: web-data-collection : QueueWorker::startSendData:Queue is processing
+[2026-09-06T16:20:08.754Z] log: web-data-collection : QueueWorker::startSendData:queueSizeLimit 1000 publishRetries 3 queueItemTTLInHours 24 publishRetryDelay 30
+[2026-09-06T16:20:08.756Z] log: web-data-collection : QueueWorker::startSendData::online? true
+[2026-09-06T16:20:08.759Z] log: web-data-collection : QueueWorker::startSendData::Schema Validation result before filtering: true 
+[2026-09-06T16:20:08.761Z] log: Getting Value Store Key/Value pair with Key: HpIdUserId,ApplicationInstanceId,SelectedPrinterUUID,SelectedPrinterModelNumber,StratusUserId,TenantId
+[2026-09-06T16:20:08.762Z] warning: Using default value store key!
+[2026-09-06T16:20:08.763Z] warning: Using default value store key!
+[2026-09-06T16:20:08.763Z] warning: Using default value store key!
+[2026-09-06T16:20:08.764Z] warning: Using default value store key!
+[2026-09-06T16:20:08.766Z] warning: Using default value store key!
+[2026-09-06T16:20:08.767Z] warning: Using default value store key!
+[2026-09-06T16:20:08.768Z] log: Getting Value Store Key/Value pair with Key: WebApplicationName,WebApplicationVersion,WebApplicationConsent,VisitUuid,VisitorUuid,UcdeCorrelationId
+[2026-09-06T16:20:08.770Z] warning: Using default value store key!
+[2026-09-06T16:20:08.774Z] warning: Using default value store key!
+[2026-09-06T16:20:08.775Z] warning: Using default value store key!
+[2026-09-06T16:20:08.776Z] warning: Using default value store key!
+[2026-09-06T16:20:08.777Z] warning: Using default value store key!
+[2026-09-06T16:20:08.778Z] warning: Using default value store key!
+[2026-09-06T16:20:08.778Z] log: web-data-collection : QueueWorker::startSendData:Trying to send the event
+[2026-09-06T16:20:08.780Z] warning: web-data-collection : BEFORE {version: 1.3.0, events: Array(1), originator: Object, originatorContext: Object}
+[2026-09-06T16:20:09.979Z] log: AWS RUM not initialized
+[2026-09-06T16:20:11.902Z] warning: WebSocket connection to 'wss://ws-aec-itg.hpcloud.hp.com/?token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjAxSFc1TVRTUDFaNVRXSDZNQVpBQURQTkpHIiwidHlwIjoiSldUIn0.eyJzZXNzaW9uX2lkIjoiYjk3ODBjYjYtYTVkYS00Njg2LWFlOWItNGU3MjMyYTk0NmM2IiwiY2xpZW50X2lkIjoiMDFIVzgyTVpSR1oyREJRUzBEVjFGNURKUTUiLCJ1c2VyX2lkIjoiMDFNMURTMFYxWUpTTVNFMEpON0hTMVhQUkQiLCJmaXJzdF9uYW1lIjoiTmFnYXJhaiIsImxhc3RfbmFtZSI6ImhwMiIsImVtYWlsIjoibmFnYXJhajExQG1haWxzYWMuY29tIiwicmVzZWxsZXJfaWQiOm51bGwsImN1c3RvbWVyX2lkIjoiMDFNMURTMFYyMEVRRFBISEFKNFgzTjVGSzgiLCJ1c2VyX2ZlYXR1cmVzIjpbXSwidXNl...fIAzV-n9J-HhkqEuqzrv0AVwOQrOpBoHHXNqVRjPQn_UFlzkkLN3DcMzeVALZZVmmlxGXmXiLeF2LQuJMfnDCbP1Noz7KVTKRUZW9D7CF19nUYbXrh3gDEWaVQ0s-C4l_7oTq1KULhX7e-fMz5YmAWPzRQ-f2ns_J8l_wlHlaRE7XB35qGAy9X0_9tz_QjsoQOKsyFN9AIrZfoJdy3v4iYMNByb4GT-tOJw-9gJIVqRIbgrIdSRyFbjqhUmLMig1Ug1K8UV-U3LWxBr6fz3RmaZVigTJp0s069BhrRcpixaerj6d7SVMcdfQDqN3MyiFU8X2Wkm1v6oU3AkGz-89mbQUHYvwf4IzPidvWiqk5vQyqfpLU66b_VGORxpKKcz4MldmF5r__sip1fhxMfkbGdhCYudorUm1viqDBZi9hl-Tm9p_S2QGMub6L82HrcwwyCBD0nyRKPlHD7fyD8kJrMcGnPAJ7SOyNLtXN0E5ndPyDLOc7oAYc-28sdHiLw' failed: WebSocket is closed before the connection is established.
+Opened browser and navigated to https://aec-itg.hpcloud.hp.com/projects
+
+Clicked on getByRole('button', { name: /log\s*in/i }).first()
+
+Entered nagaraj11@mailsac.com data in locator('span').filter({ hasText: /^Email address$/ })
+
+Clicked on getByText('Next', { exact: true })
+
+Clicked on getByText('Use password', { exact: true })
+
+Entered Test123@ data in locator('#password')
+
+Clicked on getByRole('button', { name: 'submit-button' })
+
+Clicked on locator('//span[text()=\' Tokens \']')
+
