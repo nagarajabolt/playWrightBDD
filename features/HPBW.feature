@@ -17,35 +17,22 @@ Feature: Open Google
 
     @BuyTokens
     Scenario: Buy tokens
-        Given Open chrome browser and navigate to "https://aec-itg.hpcloud.hp.com/projects"
-        Then Login to application
-            | Username      | Password  |
-            | "nagaraj11@mailsac.com" | Test123@  |
-        # Then Click on Login button
-        # Then Enter email address "nagaraj11@mailsac.com"
-        # Then Click on Next button
-        # Then Click on use password
-        # Then Enter password "Test123@"
-        # Then Click on Signin button
+        Given Open chrome browser and Login to application
+            | Url      | Username  |Password | 
+            |  https://aec-itg.hpcloud.hp.com/projects  | nagaraj11@mailsac.com |Test123@  |
         Then Click on Tokens button and validate api response
         Then Click on Get more tokens
         Then Click on 5 token package
         Then Click on Add to Cart
         Then Click on Proceed to Checkout
-        Then Enter First name "John"
-        Then Enter Last name "Doe"
-        Then Enter Address line1 "123 Main St"
-        Then Enter city "New York"
-        Then Select state "Wyoming"
-        Then Enter zip code "10001"
-        Then Enter phone number "123-456-7890"
-        Then Enter company name "Acme Inc."
+        Then Enter billing details
+            | FirstName | LastName | AddressLine1 | City | State | ZipCode | PhoneNumber | CompanyName |
+            | John     | Doe        | 123 Main St | New York | Wyoming | 10001 | 123-456-7890 | Acme Inc. |
         Then Click on use this address
-        Then Enter card number "4111111111111111"
-        Then Enter expiry date "12/34"
-        Then Enter cvv "123"
+        Then Enter card details
+            | CardNumber  | ExpiryDate | CVV |
+            | 4111111111111111  | 12/34     | 123 |
         Then Click on use this card
         Then Click on confirm and purchase
         Then Click on see orders and invoices
         Then Close browser
-

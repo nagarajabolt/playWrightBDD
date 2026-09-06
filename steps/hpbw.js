@@ -8,6 +8,7 @@ const test = require('@playwright/test');
 import { hpbw } from '../pageObjects/hpbw.js';
 const expectedTokensApiResponse = require('../testData/tokensResponse.json');
 
+
 /** @type {hpbw} */
 let hpbwPageObjects;
 Before(async ({page}) => {
@@ -28,15 +29,16 @@ Given('Open chrome browser and navigate to {string}', async ({page}, url) => {
   await page.waitForTimeout(3000);
 });
 
-Then('Login to application', async ({page}, datatable) => {
-  const { Username, Password } = datatable.hashes()[0];  
+Then('Open chrome browser and Login to application', async ({page}, datatable) => {
+  const {Url,  Username, Password } = datatable.hashes()[0];  
+  await page.goto(Url);
+  console.log(`Opened browser and navigated to ${Url}`);
   clickOnButton(page, hpbwPageObjects.loginButton);
   enterData(page, hpbwPageObjects.emailAddress, Username);
   clickOnButton(page, hpbwPageObjects.NextButton);
   clickOnButton(page, hpbwPageObjects.usePassword);
   enterData(page, hpbwPageObjects.password, Password);
   clickOnButton(page, hpbwPageObjects.signinButtonHPBW);
-  await page.waitForTimeout(3000);
 
 });
 
@@ -92,6 +94,7 @@ Then('Click on Second Sign In button', async ({page}) => {
 
 Then('Click on Tokens button and validate api response', async ({page}) => {
   //initiate response object to wait for the tokens API response
+  test.setTimeout(160000);
   const responsePromise = page.waitForResponse(
     response => response.url().includes('/user?type=tokens') &&
     response.request().method() === 'GET', {timeout: 80000});
@@ -99,10 +102,11 @@ Then('Click on Tokens button and validate api response', async ({page}) => {
   //Click on the tokens button and wait for the response
     await Promise.all([
       responsePromise,
-      hpbwPageObjects.tokensButton.waitFor({state: 'visible', timeout: 80000}),
-      hpbwPageObjects.tokensButton.click({timeout: 80000})
+      clickOnButton(page, hpbwPageObjects.tokensButton)
+      // hpbwPageObjects.tokensButton.waitFor({state: 'visible', timeout: 80000}),
+      // hpbwPageObjects.tokensButton.click({timeout: 80000})
     ]);
-  console.log('Clicked on Tokens button');
+
 
     //get the response and validate the response data
     const response = await responsePromise;
@@ -157,6 +161,26 @@ Then('Click on Proceed to Checkout', async ({page}) => {
   console.log('Clicked on Proceed to Checkout');
   await page.waitForTimeout(3000);
 });
+
+Then('Enter billing details', async ({page}, datatable) => {
+  const { FirstName, LastName, AddressLine1, City, State, ZipCode, PhoneNumber, CompanyName } = datatable.hashes()[0];  
+  console.log({FirstName,LastName,AddressLine1, City, State, ZipCode, PhoneNumber, CompanyName});
+  await enterData(page, hpbwPageObjects.firstNameEditBox, FirstName);
+  await enterData(page, hpbwPageObjects.lastNameEditBox, LastName);
+  await enterData(page, hpbwPageObjects.addressLine1, AddressLine1);
+  await enterData(page, hpbwPageObjects.city, City);
+  // await console.log(`Entered state ${State}`);
+  const stateLocator = await hpbwPageObjects.state;
+  await stateLocator.click();
+  await hpbwPageObjects.stateValue.click();
+  // clickOnButton(page, hpbwPageObjects.state);
+  // clickOnButton(page, hpbwPageObjects.stateValue);
+  await enterData(page, hpbwPageObjects.zipCode, ZipCode);
+  await enterData(page, hpbwPageObjects.phoneNumber, PhoneNumber);
+  await enterData(page, hpbwPageObjects.companyName, CompanyName);
+  
+});
+
 
 Then('Enter First name {string}', async ({page}, arg) => {
   await hpbwPageObjects.firstNameEditBox.fill(arg);
@@ -214,6 +238,34 @@ Then('Click on use this address', async ({page}) => {
   await hpbwPageObjects.useThisAddress.click();
   console.log('Clicked on use this address');
   await page.waitForTimeout(3000);
+});  
+
+Then('Enter card details', async ({page}, datatable) => {
+  const { CardNumber, ExpiryDate, CVV } = datatable.hashes()[0]; 
+  console.log(CardNumber, ExpiryDate, CVV); 
+  const cardFrameLocator = await hpbwPageObjects.cardFrame;
+  const cardNumberInput = cardFrameLocator.locator("//input[@id='txtCardNumber']");
+  await cardNumberInput.waitFor({state: 'visible', timeout: 80000});
+  await cardNumberInput.fill(CardNumber);
+  await console.log(`Entered card number ${CardNumber}`);
+  await page.keyboard.press('Tab');
+  await console.log(`Entered card number ${CardNumber}`);
+  await page.waitForTimeout(3000);
+
+  const expiryDateInput = cardFrameLocator.locator("//input[@id='txtExpMOYYHPOne']");
+  await expiryDateInput.waitFor({state: 'visible', timeout: 80000});
+  await expiryDateInput.fill(ExpiryDate);
+  await console.log(`Entered expiry date ${ExpiryDate}`);
+  await page.keyboard.press('Tab');
+  await page.waitForTimeout(3000);
+
+  const cvvInput = cardFrameLocator.locator("//input[@id='txtCVV']");
+  await cvvInput.waitFor({state: 'visible', timeout: 80000});
+  await cvvInput.fill(CVV);
+  await console.log(`Entered cvv ${CVV}`);
+  await page.keyboard.press('Tab');
+  await page.waitForTimeout(3000);
+
 });  
 
 Then('Enter card number {string}', async ({page}, arg) => {

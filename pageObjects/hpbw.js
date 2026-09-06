@@ -22,7 +22,8 @@ export const hpbw = class hpbw{
         this.addressLine1 = page.getByRole('textbox', { name: 'Address line 1' })  
         this.city = page.getByRole('textbox', { name: 'City' }) 
         this.state = page.locator("//input[@id='vn-select-:r6:']")
-        this.stateValue = page.locator("//span[text()='Wyoming']/..")
+        this.stateValue = page.locator(`//li[@role='option']//span[text()='Wyoming']/..`);
+
         this.zipCode = page.getByRole('textbox', { name: 'Zip code' }) 
         this.phoneNumber = page.getByRole('textbox', { name: 'Phone number' }) 
         this.companyName = page.getByRole('textbox', { name: 'Company name (Optional)' }) 
@@ -41,5 +42,10 @@ export const hpbw = class hpbw{
         this.seeOrdersAndInvoices = page.locator("//div[text()='See orders and invoices']/..")
 
     }
+        // stateValue(stateName) {
+        //     return this.page.locator(`//li[@role='option']//span[text()='Wyoming']`);
+        // return this.page(`///span[text()='${stateName}']/../..`);}
+
+
 
 }
