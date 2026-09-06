@@ -10,11 +10,49 @@ const expectedTokensApiResponse = require('../testData/tokensResponse.json');
 import fs from 'fs';
 import path from 'path';
 
+
+const detailResponse = {
+customerId: '01M1DS0V20EQDPHHAJ4X3N5FK8',
+userId: '01M1DS0V1YJSMSE0JN7HS1XPRD',
+freeTokens: 0,
+welcomeTokens: 1,
+demoTokens: 0,
+customerTokens: 1,
+tokens: [
+  {
+    tokenType: 'WELCOME',
+    skuType: '',
+    orderItem: null,
+    description: null,
+    originalQuantity: 1,
+    quantity: 1,
+    registeredAt: '2026-09-01T06:03:07Z',
+    expiresAt: '2027-08-31T06:03:07Z',
+    subscriptionRegisteredAt: '2026-09-01T06:03:07Z',
+    subscriptionExpiresAt: '2027-08-31T06:03:07Z',
+  },
+],
+unlimited: null,
+hasPermissionToConsumeCustomerTokens: true,
+};
+
+
+
 /** @type {hpbw} */
 let hpbwPageObjects;
 let detailApiResponse;
 Before(async ({page}) => {
 hpbwPageObjects = new hpbw(page); 
+
+await page.route('**/v1/tokens/**', async (route) => {
+  await route.fulfill({
+    status: 200,
+    contentType: 'application/json',
+    body: JSON.stringify(detailResponse),
+  });
+});
+
+
     // const screenSize = await page.evaluate(() => ({
     // width: window.screen.availWidth,
     // height: window.screen.availHeight,
@@ -122,7 +160,7 @@ Then('Click on Tokens button and print detail api details and validate api respo
   //Click on the tokens button and wait for the response
     await Promise.all([
       responsePromise,
-      clickOnButton(page, hpbwPageObjects.tokensButton)]);
+    clickOnButton(page, hpbwPageObjects.tokensButton)]);
     detailApiResponse = await detailResponsePromise;
 
     //get the response and validate the response data
@@ -165,6 +203,7 @@ Then('Click on Tokens button and print detail api details and validate api respo
 // });
 
 Then('Click on Get more tokens', async ({page}) => {
+  // await page.pause();
   await hpbwPageObjects.getMoreTokensButton.waitFor({state: 'visible', timeout: 80000});
   await hpbwPageObjects.getMoreTokensButton.click({timeout: 80000});
   // await hpbwPageObjects.getMoreTokensButton.click();
@@ -210,6 +249,8 @@ Then('Enter billing details', async ({page}, datatable) => {
   await enterData(page, hpbwPageObjects.zipCode, ZipCode);
   await enterData(page, hpbwPageObjects.phoneNumber, PhoneNumber);
   await enterData(page, hpbwPageObjects.companyName, CompanyName);
+  await page.keyboard.press('Tab');
+  await page.waitForTimeout(3000);
   
 });
 
