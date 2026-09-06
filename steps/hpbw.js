@@ -11,6 +11,7 @@ const expectedTokensApiResponse = require('../testData/tokensResponse.json');
 
 /** @type {hpbw} */
 let hpbwPageObjects;
+let detailApiResponse;
 Before(async ({page}) => {
 hpbwPageObjects = new hpbw(page); 
     // const screenSize = await page.evaluate(() => ({
@@ -92,21 +93,18 @@ Then('Click on Second Sign In button', async ({page}) => {
   await page.waitForTimeout(3000); 
 });
 
-Then('Click on Tokens button and validate api response', async ({page}) => {
+Then('Click on Tokens button and print detail api details and validate api response', async ({page}) => {
   //initiate response object to wait for the tokens API response
   test.setTimeout(160000);
-  const responsePromise = page.waitForResponse(
-    response => response.url().includes('/user?type=tokens') &&
-    response.request().method() === 'GET', {timeout: 80000});
+  const responsePromise = page.waitForResponse(response => response.url().includes('/user?type=tokens') &&  response.request().method() === 'GET', {timeout: 80000});
+  const detailResponsePromise = page.waitForResponse((response) => 
+    response.url().toLowerCase().includes('/detail'),{ timeout: 80000 },);
 
   //Click on the tokens button and wait for the response
     await Promise.all([
       responsePromise,
-      clickOnButton(page, hpbwPageObjects.tokensButton)
-      // hpbwPageObjects.tokensButton.waitFor({state: 'visible', timeout: 80000}),
-      // hpbwPageObjects.tokensButton.click({timeout: 80000})
-    ]);
-
+      clickOnButton(page, hpbwPageObjects.tokensButton)]);
+    detailApiResponse = await detailResponsePromise;
 
     //get the response and validate the response data
     const response = await responsePromise;
@@ -115,6 +113,21 @@ Then('Click on Tokens button and validate api response', async ({page}) => {
 
     expect(tokensResponseData.purchaseAvailable).toEqual(expectedTokensApiResponse.purchaseAvailable);
     expect(tokensResponseData.products).toEqual(expectedTokensApiResponse.products);
+
+  const request = detailApiResponse.request();
+  const responseBody = await detailApiResponse.text();
+  const detailResponseBody = await detailApiResponse.json();
+
+  console.log('detail API response:', detailResponseBody);
+  console.log('detail API request headers:', await request.allHeaders());
+  console.log('detail API request body:', request.postData() ?? '');
+  console.log('detail API response details:', {
+    url: detailApiResponse.url(),
+    status: detailApiResponse.status(),
+    statusText: detailApiResponse.statusText(),
+    headers: await detailApiResponse.allHeaders(),
+    body: responseBody,
+  });
 
 
 });

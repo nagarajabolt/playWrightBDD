@@ -1,8 +1,9 @@
 import { createBdd } from 'playwright-bdd';
 import { ApiMockingPage } from '../pageObjects/apimocking.js';
-
+const test = require('@playwright/test');
 const { Before, Given, When, Then } = createBdd();
 
+//** @type {ApiMockingPage} */
 let apiMockingPage;
 let detailApiResponse;
 
@@ -12,14 +13,19 @@ Before(async ({ page }) => {
 });
 
 Given('I navigate to the projects page', async ({ page }) => {
+  // test.setTimeout(160000);
   await page.goto('https://aec-itg.hpcloud.hp.com/projects', { waitUntil: 'domcontentloaded' });
 });
 
 When('I click the Login button on the projects page', async () => {
+
   await apiMockingPage.loginButton.click();
 });
 
 When('I enter the API mocking email address {string}', async ({ page }, email) => {
+  // await page.waitForLoadState('networkidle');
+  // await apiMockingPage.emailAddress.waitFor({state: 'visible', timeout: 60000});
+  await apiMockingPage.emailAddress.fill(email);
   await apiMockingPage.emailAddress.fill(email);
   await page.waitForTimeout(300);
 });

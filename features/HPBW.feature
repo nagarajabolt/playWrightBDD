@@ -20,7 +20,7 @@ Feature: Open Google
         Given Open chrome browser and Login to application
             | Url      | Username  |Password | 
             |  https://aec-itg.hpcloud.hp.com/projects  | nagaraj11@mailsac.com |Test123@  |
-        Then Click on Tokens button and validate api response
+        Then Click on Tokens button and print detail api details and validate api response
         Then Click on Get more tokens
         Then Click on 5 token package
         Then Click on Add to Cart
