@@ -1,0 +1,15 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address carlossandevistan@yopmail.com
+Clicked on Next button
+Click on use password
+Entered password swqa!Quality123
+Clicked on second Sign in button
+Clicked on Accept button
+Clicked on My applications button
+Clicked on Organization Menu
+Starting synchronized data collection...
+Captured: Hawaii 49 Print Service Provider | Total distinct items: 1
+
+🎉 Collection Complete! Total items captured: 1
+["Hawaii 49 Print Service Provider"]

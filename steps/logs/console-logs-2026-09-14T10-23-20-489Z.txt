@@ -1,0 +1,15 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address carlossandevistan@yopmail.com
+Clicked on Next button
+Click on use password
+Entered password swqa!Quality123
+Clicked on second Sign in button
+Accept button not found
+Clicked on My applications button
+Clicked on Organization Menu
+Starting synchronized data collection via visual highlights...
+Captured: Hawaii 49 Print Service Provider | Total distinct items: 1
+
+🎉 Collection Complete! Total unique items captured: 8
+["Hawaii 49 Print Service Provider","Hawaii 5 Print Service Provider","Hawaii 9 Print Service Provider","Miami Organization - Doral Print Service Provider","Miami Organization - Hialeah Print Service Provider","Miami Organization - Kendall Print Service Provider","Test Organization 1 Print Service Provider","Texas 3 Print Service Provider"]

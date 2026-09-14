@@ -1,0 +1,30 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address carlossandevistan@yopmail.com
+Clicked on Next button
+Click on use password
+Entered password swqa!Quality123
+Clicked on second Sign in button
+Clicked on My applications button
+Clicked on Organization Menu
+Total number of organizations: 20
+Organization 1: Hawaii 41 Print Service Provider 
+Organization 2: Hawaii 42 Print Service Provider 
+Organization 3: Hawaii 43 Print Service Provider 
+Organization 4: Hawaii 44 Print Service Provider 
+Organization 5: Hawaii 45 Print Service Provider 
+Organization 6: Hawaii 46 Print Service Provider 
+Organization 7: Hawaii 47 Print Service Provider 
+Organization 8: Hawaii 48 Print Service Provider 
+Organization 9: Hawaii 49 Print Service Provider 
+Organization 10: Hawaii 5 Print Service Provider 
+Organization 11: Hawaii 51 Print Service Provider 
+Organization 12: Hawaii 6 Print Service Provider 
+Organization 13: Hawaii 7 Print Service Provider 
+Organization 14: Hawaii 8 Print Service Provider 
+Organization 15: Hawaii 9 Print Service Provider 
+Organization 16: Los Angeles 1 Print Service Provider 
+Organization 17: Miami Organization Print Service Provider 
+Organization 18: Miami Organization - Coral Gables Print Service Provider 
+Organization 19: Miami Organization - Coral Gables Print Service Provider 
+Organization 20: Miami Organization - Hialeah Print Service Provider 

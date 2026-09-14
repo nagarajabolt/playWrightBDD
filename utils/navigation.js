@@ -45,7 +45,7 @@ export async function navigateToUrl(page, url) {
         // });
         
         console.log(`Navigate to: ${url}`);
-        await page.goto(url);
+        await page.goto(url,{waitUntil: 'load', timeout: 180000});
 }
 
 export async function clickOnButton(page, object) {

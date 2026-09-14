@@ -82,14 +82,14 @@ await page.route('**/v1/tokens/**', async (route) => {
 
 
 Given('Open chrome browser and navigate to {string}', async ({page}, url) => {
-  await page.goto(url);
+  await page.goto(url, { waitUntil: 'domcontentloaded' });
   console.log(`Opened browser and navigated to ${url}`);
   await page.waitForTimeout(3000);
 });
 
 Then('Open chrome browser and Login to application', async ({page}, datatable) => {
   const {Url,  Username, Password } = datatable.hashes()[0];  
-  await page.goto(Url);
+  await page.goto(Url, { waitUntil: 'domcontentloaded' });
   console.log(`Opened browser and navigated to ${Url}`);
   clickOnButton(page, hpbwPageObjects.loginButton);
   enterData(page, hpbwPageObjects.emailAddress, Username);
