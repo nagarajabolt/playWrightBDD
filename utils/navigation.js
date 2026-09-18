@@ -59,3 +59,12 @@ export async function enterData(page, object, data) {
     await object.fill(data);
     console.log(`Entered ${data} data in ${object}`)
 }
+
+export async function waitForPageLoad(page){
+    await page.waitForLoadState('domcontentloaded');
+    // await page.waitForLoadState('domcontentloaded');
+    await page.waitForLoadState('load', {timeout: 90000});
+    // await page.waitForLoadState('networkidle');
+    await page.waitForTimeout(5000);
+    console.log(`Wait for page to load`)
+}

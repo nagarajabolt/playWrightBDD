@@ -1,0 +1,367 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address carlossandevistan@yopmail.com
+Clicked on Next button
+Click on use password
+Entered password swqa!Quality123
+Clicked on second Sign in button
+Clicked on Accept button
+Clicked on My applications button
+Clicked on Organization Menu
+Starting full-range viewport chunk extraction from the very top...
+Unique items collected: 20
+Unique items collected: 40
+Unique items collected: 46
+Unique items collected: 51
+Unique items collected: 56
+Unique items collected: 62
+Unique items collected: 67
+Unique items collected: 73
+Unique items collected: 79
+Unique items collected: 84
+Unique items collected: 89
+Unique items collected: 95
+Unique items collected: 100
+Unique items collected: 106
+Unique items collected: 111
+Unique items collected: 116
+Unique items collected: 122
+Unique items collected: 127
+Unique items collected: 133
+Unique items collected: 135
+Unique items collected: 137
+Unique items collected: 138
+Unique items collected: 141
+Unique items collected: 146
+Unique items collected: 152
+Unique items collected: 157
+Unique items collected: 163
+Unique items collected: 165
+
+🎉 Collection & Cleanup Complete! Total unique items: 165
+["Alabama 1","Alabama 2","Alabama 3","Alabama 4","Amazon 1","Amazon 10","Amazon 11","Amazon 12","Amazon 2","Amazon 3","Amazon 4","Amazon 5","Amazon 6","Amazon 7","Amazon 8","Amazon 9","Backdated 30DD 1","Backdated 360DD 3","Backdated 365DD 4","Backdated 40DD 2","Bizops_13","Bizops_14","Bizops_15","Bizops_16","Bizops_17","Bizops_18","Bizops_19","Bizops_2","Bizops_20","Bizops_21","Bizops_22","Bizops_23","Bizops_24","Bizops_25","Bizops_26","Bizops_27","Bizops_28","Bizops_29","Bizops_3","Bizops_30","Bizops_4","Bizops_5","Bizops_6","Bizops_7","Bizops_8","Bizops_9","checkout_mfe 1","checkout_mfe 10","checkout_mfe 11","checkout_mfe 12","checkout_mfe 13","checkout_mfe 14","checkout_mfe 15","checkout_mfe 16","checkout_mfe 17","checkout_mfe 18","checkout_mfe 19","checkout_mfe 2","checkout_mfe 20","checkout_mfe 21","checkout_mfe 22","checkout_mfe 23","checkout_mfe 24","checkout_mfe 25","checkout_mfe 26","checkout_mfe 27","checkout_mfe 28","checkout_mfe 29","checkout_mfe 3","checkout_mfe 30","checkout_mfe 4","checkout_mfe 5","checkout_mfe 6","checkout_mfe 7","checkout_mfe 8","checkout_mfe 9","Final Fraud 1","Florida 1","Florida 2","Florida 3","Florida 4","Hawaii 10","Hawaii 11","Hawaii 12","Hawaii 13","Hawaii 14","Hawaii 15","Hawaii 16","Hawaii 17","Hawaii 18","Hawaii 19","Hawaii 2","Hawaii 20","Hawaii 21","Hawaii 22","Hawaii 23","Hawaii 24","Hawaii 25","Hawaii 26","Hawaii 27","Hawaii 28","Hawaii 29","Hawaii 3","Hawaii 30","Hawaii 31","Hawaii 32","Hawaii 33","Hawaii 34","Hawaii 35","Hawaii 36","Hawaii 37","Hawaii 38","Hawaii 39","Hawaii 4","Hawaii 40","Hawaii 41","Hawaii 42","Hawaii 43","Hawaii 44","Hawaii 45","Hawaii 46","Hawaii 47","Hawaii 48","Hawaii 49","Hawaii 5","Hawaii 50","Hawaii 51","Hawaii 6","Hawaii 7","Hawaii 8","Hawaii 9","Los Angeles 1","Miami Organization","Miami Organization - Coral Gables","Miami Organization - Doral","Miami Organization - Florida 1","Miami Organization - Hialeah","Miami Organization - Kendall","Minnesota 1","Minnesota 2","Minnesota 3","Minnesota 4","Test Organization 1","Texas 1","Texas 2","Texas 3","Texas 4","Texas 5","Texas 6","Wyoming 1","Wyoming 10","Wyoming 11","Wyoming 12","Wyoming 13","Wyoming 19","Wyoming 2","Wyoming 20","Wyoming 21","Wyoming 3","Wyoming 4","Wyoming 5","Wyoming 6","Wyoming 7","Wyoming 8","Wyoming 9"]
+["Alabama 1","Alabama 2","Alabama 3","Alabama 4","Amazon 1","Amazon 10","Amazon 11","Amazon 12","Amazon 2","Amazon 3","Amazon 4","Amazon 5","Amazon 6","Amazon 7","Amazon 8","Amazon 9","Backdated 30DD 1","Backdated 360DD 3","Backdated 365DD 4","Backdated 40DD 2","Bizops_13","Bizops_14","Bizops_15","Bizops_16","Bizops_17","Bizops_18","Bizops_19","Bizops_2","Bizops_20","Bizops_21","Bizops_22","Bizops_23","Bizops_24","Bizops_25","Bizops_26","Bizops_27","Bizops_28","Bizops_29","Bizops_3","Bizops_30","Bizops_4","Bizops_5","Bizops_6","Bizops_7","Bizops_8","Bizops_9","checkout_mfe 1","checkout_mfe 10","checkout_mfe 11","checkout_mfe 12","checkout_mfe 13","checkout_mfe 14","checkout_mfe 15","checkout_mfe 16","checkout_mfe 17","checkout_mfe 18","checkout_mfe 19","checkout_mfe 2","checkout_mfe 20","checkout_mfe 21","checkout_mfe 22","checkout_mfe 23","checkout_mfe 24","checkout_mfe 25","checkout_mfe 26","checkout_mfe 27","checkout_mfe 28","checkout_mfe 29","checkout_mfe 3","checkout_mfe 30","checkout_mfe 4","checkout_mfe 5","checkout_mfe 6","checkout_mfe 7","checkout_mfe 8","checkout_mfe 9","Final Fraud 1","Florida 1","Florida 2","Florida 3","Florida 4","Hawaii 10","Hawaii 11","Hawaii 12","Hawaii 13","Hawaii 14","Hawaii 15","Hawaii 16","Hawaii 17","Hawaii 18","Hawaii 19","Hawaii 2","Hawaii 20","Hawaii 21","Hawaii 22","Hawaii 23","Hawaii 24","Hawaii 25","Hawaii 26","Hawaii 27","Hawaii 28","Hawaii 29","Hawaii 3","Hawaii 30","Hawaii 31","Hawaii 32","Hawaii 33","Hawaii 34","Hawaii 35","Hawaii 36","Hawaii 37","Hawaii 38","Hawaii 39","Hawaii 4","Hawaii 40","Hawaii 41","Hawaii 42","Hawaii 43","Hawaii 44","Hawaii 45","Hawaii 46","Hawaii 47","Hawaii 48","Hawaii 49","Hawaii 5","Hawaii 50","Hawaii 51","Hawaii 6","Hawaii 7","Hawaii 8","Hawaii 9","Los Angeles 1","Miami Organization","Miami Organization - Coral Gables","Miami Organization - Doral","Miami Organization - Florida 1","Miami Organization - Hialeah","Miami Organization - Kendall","Minnesota 1","Minnesota 2","Minnesota 3","Minnesota 4","Test Organization 1","Texas 1","Texas 2","Texas 3","Texas 4","Texas 5","Texas 6","Wyoming 1","Wyoming 10","Wyoming 11","Wyoming 12","Wyoming 13","Wyoming 19","Wyoming 2","Wyoming 20","Wyoming 21","Wyoming 3","Wyoming 4","Wyoming 5","Wyoming 6","Wyoming 7","Wyoming 8","Wyoming 9"]
+Org No: 1 and Org Name:Alabama 1
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Alabama 1: ["Subscribed"]
+Org No: 2 and Org Name:Alabama 2
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Alabama 2: ["Expired"]
+Org No: 3 and Org Name:Alabama 3
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Alabama 3: ["Subscribed"]
+Org No: 4 and Org Name:Alabama 4
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Alabama 4: ["Subscribed"]
+Org No: 5 and Org Name:Amazon 1
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Amazon 1: ["Available for Purchase"]
+Org No: 6 and Org Name:Amazon 10
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Amazon 10: ["Expired"]
+Org No: 7 and Org Name:Amazon 11
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Amazon 11: ["Expired"]
+Org No: 8 and Org Name:Amazon 12
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Amazon 12: ["Expired"]
+Org No: 9 and Org Name:Amazon 2
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Amazon 2: ["Expired"]
+Org No: 10 and Org Name:Amazon 3
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Amazon 3: ["Subscribed"]
+Org No: 11 and Org Name:Amazon 4
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Amazon 4: ["Expired"]
+Org No: 12 and Org Name:Amazon 5
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Amazon 5: ["Expired"]
+Org No: 13 and Org Name:Amazon 6
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Amazon 6: ["Subscribed"]
+Org No: 14 and Org Name:Amazon 7
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Amazon 7: ["Subscribed"]
+Org No: 15 and Org Name:Amazon 8
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Amazon 8: ["Subscribed"]
+Org No: 16 and Org Name:Amazon 9
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Amazon 9: ["Expired"]
+Org No: 17 and Org Name:Backdated 30DD 1
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Backdated 30DD 1: ["Expired"]
+Org No: 18 and Org Name:Backdated 360DD 3
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Backdated 360DD 3: ["Subscribed"]
+Org No: 19 and Org Name:Backdated 365DD 4
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Backdated 365DD 4: ["Available for Purchase"]
+Org No: 20 and Org Name:Backdated 40DD 2
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Backdated 40DD 2: ["Subscribed"]
+Org No: 21 and Org Name:Bizops_13
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_13: ["Available for Purchase"]
+Org No: 22 and Org Name:Bizops_14
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_14: ["Available for Purchase"]
+Org No: 23 and Org Name:Bizops_15
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_15: ["Available for Purchase"]
+Org No: 24 and Org Name:Bizops_16
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_16: ["Available for Purchase"]
+Org No: 25 and Org Name:Bizops_17
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_17: ["Available for Purchase"]
+Org No: 26 and Org Name:Bizops_18
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_18: ["Available for Purchase"]
+Org No: 27 and Org Name:Bizops_19
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_19: ["Available for Purchase"]
+Org No: 28 and Org Name:Bizops_2
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_2: ["Expired"]
+Org No: 29 and Org Name:Bizops_20
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_20: ["Available for Purchase"]
+Org No: 30 and Org Name:Bizops_21
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_21: ["Subscribed"]
+Org No: 31 and Org Name:Bizops_22
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_22: ["Available for Purchase"]
+Org No: 32 and Org Name:Bizops_23
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_23: ["Available for Purchase"]
+Org No: 33 and Org Name:Bizops_24
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_24: ["Available for Purchase"]
+Org No: 34 and Org Name:Bizops_25
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_25: ["Available for Purchase"]
+Org No: 35 and Org Name:Bizops_26
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_26: ["Available for Purchase"]
+Org No: 36 and Org Name:Bizops_27
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_27: ["Available for Purchase"]
+Org No: 37 and Org Name:Bizops_28
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_28: ["Available for Purchase"]
+Org No: 38 and Org Name:Bizops_29
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_29: ["Available for Purchase"]
+Org No: 39 and Org Name:Bizops_3
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_3: ["Available for Purchase"]
+Org No: 40 and Org Name:Bizops_30
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_30: ["Expired"]
+Org No: 41 and Org Name:Bizops_4
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load

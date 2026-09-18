@@ -32,7 +32,10 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
   workers: 1,
-  timeout: 180000,
+  timeout: 300000,
+  expect: {
+    timeout: 30000,
+  },
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   // reporter: 'html',
   // Dynamically name folders for Cucumber logs and Playwright traces
@@ -46,6 +49,8 @@ export default defineConfig({
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+        actionTimeout: 60000,
+        navigationTimeout: 90000,
         trace: 'on',
         headless: false,
         channel: 'chrome',

@@ -113,7 +113,7 @@ Then('Click on Sign In button', async ({page}) => {
 });
 
 Then('Enter email address {string}', async ({page}, arg) => {
-  test.setTimeout(160000);
+
   await hpbwPageObjects.emailAddress.fill(arg, {timeout: 50000}); 
   console.log(`Entered email address ${arg}`)
   await page.waitForTimeout(3000); 

@@ -14,7 +14,12 @@ export const printos = class printos{
         this.Alabama1Text = page.locator("//div[@id='pros-option-row-0']")
         this.itemSelector = page.locator("//div[@class='pros-option-row selected']")
         // this.specificItem = page.locator()
-        this.AcceptButton =page.locator("//button[@id='onetrust-accept-btn-handler']")
+        this.AcceptButton = page.locator("//button[@id='onetrust-accept-btn-handler']")
+        this.marketPlace = page.locator("//div[text()='Marketplace']")
+        this.status = page.locator("//div[@class='status']")
+        this.printServicePlanTab = page.locator("(//div[text()='HP Professional Print Service Plans'])[2]")
+        this.printOSHeader = page.locator("//div[text()='PrintOS']")
+        this.overViewHeader = page.locator("//h2[text()='Overview']")
     }
 
 }
