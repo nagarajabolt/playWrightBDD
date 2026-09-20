@@ -1,0 +1,385 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address carlossandevistan@yopmail.com
+Clicked on Next button
+Click on use password
+Entered password swqa!Quality123
+Clicked on second Sign in button
+Accept button not found
+Clicked on My applications button
+Clicked on Organization Menu
+[
+  "Bizops_29",
+  "Bizops_3",
+  "Bizops_30",
+  "Bizops_4",
+  "Bizops_5",
+  "Bizops_8",
+  "Bizops_9",
+  "checkout_mfe 1",
+  "checkout_mfe 10",
+  "checkout_mfe 11",
+  "checkout_mfe 12",
+  "checkout_mfe 13",
+  "checkout_mfe 14",
+  "checkout_mfe 15",
+  "checkout_mfe 16",
+  "checkout_mfe 17",
+  "checkout_mfe 18",
+  "checkout_mfe 19",
+  "checkout_mfe 2",
+  "checkout_mfe 20",
+  "checkout_mfe 21",
+  "checkout_mfe 22",
+  "checkout_mfe 23",
+  "checkout_mfe 24",
+  "checkout_mfe 25",
+  "checkout_mfe 26",
+  "checkout_mfe 27",
+  "checkout_mfe 28",
+  "checkout_mfe 29",
+  "checkout_mfe 3",
+  "checkout_mfe 30",
+  "checkout_mfe 4",
+  "checkout_mfe 5",
+  "checkout_mfe 6",
+  "checkout_mfe 7",
+  "checkout_mfe 8",
+  "checkout_mfe 9",
+  "Final Fraud 1",
+  "Florida 1",
+  "Florida 2",
+  "Florida 3",
+  "Florida 4",
+  "Hawaii 10",
+  "Hawaii 11",
+  "Hawaii 12",
+  "Hawaii 13",
+  "Hawaii 14",
+  "Hawaii 15",
+  "Hawaii 16",
+  "Hawaii 17",
+  "Hawaii 18",
+  "Hawaii 19",
+  "Hawaii 2",
+  "Hawaii 20",
+  "Hawaii 21",
+  "Hawaii 22",
+  "Hawaii 23",
+  "Hawaii 24",
+  "Hawaii 25",
+  "Hawaii 26",
+  "Hawaii 27",
+  "Hawaii 28",
+  "Hawaii 29",
+  "Hawaii 3",
+  "Hawaii 30",
+  "Hawaii 31",
+  "Hawaii 32",
+  "Hawaii 33",
+  "Hawaii 34",
+  "Hawaii 35",
+  "Hawaii 36",
+  "Hawaii 37",
+  "Hawaii 38",
+  "Hawaii 39",
+  "Hawaii 4",
+  "Hawaii 40",
+  "Hawaii 41",
+  "Hawaii 42",
+  "Hawaii 43",
+  "Hawaii 44",
+  "Hawaii 45",
+  "Hawaii 46",
+  "Hawaii 47",
+  "Hawaii 48",
+  "Hawaii 49",
+  "Hawaii 5",
+  "Hawaii 50",
+  "Hawaii 51",
+  "Hawaii 6",
+  "Hawaii 7",
+  "Hawaii 8",
+  "Hawaii 9",
+  "Los Angeles 1",
+  "Miami Organization",
+  "Miami Organization - Coral Gables",
+  "Miami Organization - Doral",
+  "Miami Organization - Florida 1",
+  "Miami Organization - Hialeah",
+  "Miami Organization - Kendall",
+  "Minnesota 1",
+  "Minnesota 2",
+  "Minnesota 3",
+  "Minnesota 4",
+  "Test Organization 1",
+  "Texas 1",
+  "Texas 2",
+  "Texas 3",
+  "Texas 4",
+  "Texas 5",
+  "Texas 6",
+  "Wyoming 1",
+  "Wyoming 10",
+  "Wyoming 11",
+  "Wyoming 12",
+  "Wyoming 13",
+  "Wyoming 19",
+  "Wyoming 2",
+  "Wyoming 20",
+  "Wyoming 21",
+  "Wyoming 3",
+  "Wyoming 4",
+  "Wyoming 5",
+  "Wyoming 6",
+  "Wyoming 7",
+  "Wyoming 8",
+  "Wyoming 9"
+]
+Org No: 1 and Org Name:Bizops_29
+Clicked on My applications button
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_29: [
+  "Subscribed"
+]
+Org No: 2 and Org Name:Bizops_3
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_3: [
+  "Available for Purchase"
+]
+Org No: 3 and Org Name:Bizops_30
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_30: [
+  "Expired"
+]
+Org No: 4 and Org Name:Bizops_4
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_4: [
+  "Expired"
+]
+Org No: 5 and Org Name:Bizops_5
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_5: [
+  "Subscribed"
+]
+Org No: 6 and Org Name:Bizops_8
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_8: [
+  "Subscribed"
+]
+Org No: 7 and Org Name:Bizops_9
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Bizops_9: [
+  "Subscribed"
+]
+Org No: 8 and Org Name:checkout_mfe 1
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 1: [
+  "Available for Purchase"
+]
+Org No: 9 and Org Name:checkout_mfe 10
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 10: [
+  "Subscribed"
+]
+Org No: 10 and Org Name:checkout_mfe 11
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 11: [
+  "Subscribed"
+]
+Org No: 11 and Org Name:checkout_mfe 12
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 12: [
+  "Subscribed"
+]
+Org No: 12 and Org Name:checkout_mfe 13
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 13: [
+  "Available for Purchase"
+]
+Org No: 13 and Org Name:checkout_mfe 14
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 14: [
+  "Available for Purchase"
+]
+Org No: 14 and Org Name:checkout_mfe 15
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 15: [
+  "Expired"
+]
+Org No: 15 and Org Name:checkout_mfe 16
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 16: [
+  "Available for Purchase"
+]
+Org No: 16 and Org Name:checkout_mfe 17
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 17: [
+  "Available for Purchase"
+]
+Org No: 17 and Org Name:checkout_mfe 18
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 18: [
+  "Available for Purchase"
+]
+Org No: 18 and Org Name:checkout_mfe 19
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 19: [
+  "Expired"
+]
+Org No: 19 and Org Name:checkout_mfe 2
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 2: [
+  "Expired"
+]
+Org No: 20 and Org Name:checkout_mfe 20
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 20: [
+  "Expired"
+]
+Org No: 21 and Org Name:checkout_mfe 21
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 21: [
+  "Expired"
+]
+Org No: 22 and Org Name:checkout_mfe 22
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 22: [
+  "Expired"
+]
+Org No: 23 and Org Name:checkout_mfe 23
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 23: [
+  "Subscribed"
+]
+Org No: 24 and Org Name:checkout_mfe 24
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 24: [
+  "Available for Purchase"
+]
+Org No: 25 and Org Name:checkout_mfe 25
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load

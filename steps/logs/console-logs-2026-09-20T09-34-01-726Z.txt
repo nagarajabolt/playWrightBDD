@@ -1,0 +1,55 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address carlossandevistan@yopmail.com
+Clicked on Next button
+Click on use password
+Entered password swqa!Quality123
+Clicked on second Sign in button
+Clicked on Accept button
+Clicked on My applications button
+Clicked on Organization Menu
+["Minnesota 1","Minnesota 2","Minnesota 3","Minnesota 4","Wyoming 9"]
+Org No: 1 and Org Name:Minnesota 1
+Clicked on My applications button
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Minnesota 1: ["Expired"]
+Org No: 2 and Org Name:Minnesota 2
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Minnesota 2: ["Expired"]
+Org No: 3 and Org Name:Minnesota 3
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Minnesota 3: ["Expired"]
+Org No: 4 and Org Name:Minnesota 4
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Minnesota 4: ["Expired"]
+Org No: 5 and Org Name:Wyoming 9
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 9: ["Available for Purchase"]
+Expired Set: [object Set]
+Subscribed Set: undefined
+Available Set: [object Set]

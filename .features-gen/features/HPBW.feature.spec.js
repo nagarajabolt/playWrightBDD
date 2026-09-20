@@ -39,6 +39,7 @@ test.describe('Open Google', () => {
 // == technical section ==
 
 test.beforeEach('BeforeEach Hooks', ({ $runScenarioHooks, page }) => $runScenarioHooks('before', { page }));
+test.afterEach('AfterEach Hooks', ({ $runScenarioHooks }) => $runScenarioHooks('after', {  }));
 
 test.use({
   $test: [({}, use) => use(test), { scope: 'test', box: true }],

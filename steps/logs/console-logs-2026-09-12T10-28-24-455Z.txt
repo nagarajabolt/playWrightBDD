@@ -1,3 +1,0 @@
-Navigate to: https://stg.printopt.org/start/#/signin
-Clicked on Sign in button
-Entered email address carlossandevistan@yopmail.com

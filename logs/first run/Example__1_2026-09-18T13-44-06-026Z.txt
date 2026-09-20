@@ -1,0 +1,441 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address carlossandevistan@yopmail.com
+Clicked on Next button
+Click on use password
+Entered password swqa!Quality123
+Clicked on second Sign in button
+Clicked on Accept button
+Clicked on My applications button
+Clicked on Organization Menu
+[
+  "Hawaii 29",
+  "Hawaii 3",
+  "Hawaii 30",
+  "Hawaii 31",
+  "Hawaii 32",
+  "Hawaii 33",
+  "Hawaii 34",
+  "Hawaii 35",
+  "Hawaii 36",
+  "Hawaii 37",
+  "Hawaii 38",
+  "Hawaii 39",
+  "Hawaii 4",
+  "Hawaii 40",
+  "Hawaii 41",
+  "Hawaii 42",
+  "Hawaii 43",
+  "Hawaii 44",
+  "Hawaii 45",
+  "Hawaii 46",
+  "Hawaii 47",
+  "Hawaii 48",
+  "Hawaii 49",
+  "Hawaii 5",
+  "Hawaii 50",
+  "Hawaii 51",
+  "Hawaii 6",
+  "Hawaii 7",
+  "Hawaii 8",
+  "Hawaii 9",
+  "Los Angeles 1",
+  "Miami Organization",
+  "Miami Organization - Coral Gables",
+  "Miami Organization - Doral",
+  "Miami Organization - Florida 1",
+  "Miami Organization - Hialeah",
+  "Miami Organization - Kendall",
+  "Minnesota 1",
+  "Minnesota 2",
+  "Minnesota 3",
+  "Minnesota 4",
+  "Test Organization 1",
+  "Texas 1",
+  "Texas 2",
+  "Texas 3",
+  "Texas 4",
+  "Texas 5",
+  "Texas 6",
+  "Wyoming 1",
+  "Wyoming 10",
+  "Wyoming 11",
+  "Wyoming 12",
+  "Wyoming 13",
+  "Wyoming 19",
+  "Wyoming 2",
+  "Wyoming 20",
+  "Wyoming 21",
+  "Wyoming 3",
+  "Wyoming 4",
+  "Wyoming 5",
+  "Wyoming 6",
+  "Wyoming 7",
+  "Wyoming 8",
+  "Wyoming 9"
+]
+Org No: 1 and Org Name:Hawaii 29
+Clicked on My applications button
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 29: [
+  "Expired"
+]
+Org No: 2 and Org Name:Hawaii 3
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 3: [
+  "Expired"
+]
+Org No: 3 and Org Name:Hawaii 30
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 30: [
+  "Expired"
+]
+Org No: 4 and Org Name:Hawaii 31
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 31: [
+  "Subscribed"
+]
+Org No: 5 and Org Name:Hawaii 32
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 32: [
+  "Subscribed"
+]
+Org No: 6 and Org Name:Hawaii 33
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 33: [
+  "Subscribed"
+]
+Org No: 7 and Org Name:Hawaii 34
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 34: [
+  "Available for Purchase"
+]
+Org No: 8 and Org Name:Hawaii 35
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 35: [
+  "Available for Purchase"
+]
+Org No: 9 and Org Name:Hawaii 36
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 36: [
+  "Expired"
+]
+Org No: 10 and Org Name:Hawaii 37
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 37: [
+  "Expired"
+]
+Org No: 11 and Org Name:Hawaii 38
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 38: [
+  "Available for Purchase"
+]
+Org No: 12 and Org Name:Hawaii 39
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 39: [
+  "Expired"
+]
+Org No: 13 and Org Name:Hawaii 4
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 4: [
+  "Expired"
+]
+Org No: 14 and Org Name:Hawaii 40
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 40: [
+  "Available for Purchase"
+]
+Org No: 15 and Org Name:Hawaii 41
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 41: [
+  "Available for Purchase"
+]
+Org No: 16 and Org Name:Hawaii 42
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 42: [
+  "Available for Purchase"
+]
+Org No: 17 and Org Name:Hawaii 43
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 43: [
+  "Subscribed"
+]
+Org No: 18 and Org Name:Hawaii 44
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 44: [
+  "Available for Purchase"
+]
+Org No: 19 and Org Name:Hawaii 45
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 45: [
+  "Subscribed"
+]
+Org No: 20 and Org Name:Hawaii 46
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 46: [
+  "Subscribed"
+]
+Org No: 21 and Org Name:Hawaii 47
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 47: [
+  "Expired"
+]
+Org No: 22 and Org Name:Hawaii 48
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 48: [
+  "Available for Purchase"
+]
+Org No: 23 and Org Name:Hawaii 49
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 49: [
+  "Available for Purchase"
+]
+Org No: 24 and Org Name:Hawaii 5
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 5: [
+  "Expired"
+]
+Org No: 25 and Org Name:Hawaii 50
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 50: [
+  "Expired"
+]
+Org No: 26 and Org Name:Hawaii 51
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 51: [
+  "Available for Purchase"
+]
+Org No: 27 and Org Name:Hawaii 6
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 6: [
+  "Available for Purchase"
+]
+Org No: 28 and Org Name:Hawaii 7
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 7: [
+  "Available for Purchase"
+]
+Org No: 29 and Org Name:Hawaii 8
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 8: [
+  "Available for Purchase"
+]
+Org No: 30 and Org Name:Hawaii 9
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 9: [
+  "Available for Purchase"
+]
+Org No: 31 and Org Name:Los Angeles 1
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Los Angeles 1: [
+  "Expired"
+]
+Org No: 32 and Org Name:Miami Organization
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Miami Organization: [
+  "Subscribed"
+]
+Org No: 33 and Org Name:Miami Organization - Coral Gables
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Miami Organization - Coral Gables: [
+  "Subscribed"
+]
+Org No: 34 and Org Name:Miami Organization - Doral
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Miami Organization - Doral: [
+  "Available for Purchase"
+]
+Org No: 35 and Org Name:Miami Organization - Florida 1
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Miami Organization - Florida 1: [
+  "Available for Purchase"
+]
+Org No: 36 and Org Name:Miami Organization - Hialeah
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Miami Organization - Hialeah: [
+  "Subscribed"
+]
+Org No: 37 and Org Name:Miami Organization - Kendall
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load

@@ -11,7 +11,7 @@ Feature: PrintOS
         Then Click on Second Sign In button
         Then Click on My applications button
         Then Click on Organization Menu
-        Then Print all org names
+        # Then Print all org names
         Then Fetch status of all orgs
 
         # Then Close browser

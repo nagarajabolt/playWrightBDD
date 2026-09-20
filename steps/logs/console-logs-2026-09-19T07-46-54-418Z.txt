@@ -1,0 +1,228 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address carlossandevistan@yopmail.com
+Clicked on Next button
+Click on use password
+Entered password swqa!Quality123
+Clicked on second Sign in button
+Accept button not found
+Clicked on My applications button
+Clicked on Organization Menu
+["Minnesota 1","Minnesota 2","Minnesota 3","Minnesota 4","Test Organization 1","Texas 1","Texas 2","Texas 3","Texas 4","Texas 5","Texas 6","Wyoming 1","Wyoming 10","Wyoming 11","Wyoming 12","Wyoming 13","Wyoming 19","Wyoming 2","Wyoming 20","Wyoming 21","Wyoming 3","Wyoming 4","Wyoming 5","Wyoming 6","Wyoming 7","Wyoming 8","Wyoming 9"]
+Org No: 1 and Org Name:Minnesota 1
+Clicked on My applications button
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Minnesota 1: ["Expired"]
+Org No: 2 and Org Name:Minnesota 2
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Minnesota 2: ["Expired"]
+Org No: 3 and Org Name:Minnesota 3
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Minnesota 3: ["Expired"]
+Org No: 4 and Org Name:Minnesota 4
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Minnesota 4: ["Expired"]
+Org No: 5 and Org Name:Test Organization 1
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Test Organization 1: ["Subscribed"]
+Org No: 6 and Org Name:Texas 1
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Texas 1: ["Expired"]
+Org No: 7 and Org Name:Texas 2
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Texas 2: ["Available for Purchase"]
+Org No: 8 and Org Name:Texas 3
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Texas 3: ["Available for Purchase"]
+Org No: 9 and Org Name:Texas 4
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Texas 4: ["Available for Purchase"]
+Org No: 10 and Org Name:Texas 5
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Texas 5: ["Available for Purchase"]
+Org No: 11 and Org Name:Texas 6
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Texas 6: ["Available for Purchase"]
+Org No: 12 and Org Name:Wyoming 1
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 1: ["Available for Purchase"]
+Org No: 13 and Org Name:Wyoming 10
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 10: ["Subscribed"]
+Org No: 14 and Org Name:Wyoming 11
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 11: ["Available for Purchase"]
+Org No: 15 and Org Name:Wyoming 12
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 12: ["Available for Purchase"]
+Org No: 16 and Org Name:Wyoming 13
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 13: ["Available for Purchase"]
+Org No: 17 and Org Name:Wyoming 19
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 19: ["Subscribed"]
+Org No: 18 and Org Name:Wyoming 2
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 2: ["Available for Purchase"]
+Org No: 19 and Org Name:Wyoming 20
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 20: ["Subscribed"]
+Org No: 20 and Org Name:Wyoming 21
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 21: ["Subscribed"]
+Org No: 21 and Org Name:Wyoming 3
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 3: ["Available for Purchase"]
+Org No: 22 and Org Name:Wyoming 4
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 4: ["Available for Purchase"]
+Org No: 23 and Org Name:Wyoming 5
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 5: ["Available for Purchase"]
+Org No: 24 and Org Name:Wyoming 6
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 6: ["Subscribed"]
+Org No: 25 and Org Name:Wyoming 7
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 7: ["Available for Purchase"]
+Org No: 26 and Org Name:Wyoming 8
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 8: ["Available for Purchase"]
+Org No: 27 and Org Name:Wyoming 9
+Clicked on My applications button
+Clicked on Organization Menu
+Wait for page to load
+Clicked on My applications button
+Wait for page to load
+Wait for page to load
+Status found for Wyoming 9: ["Available for Purchase"]
