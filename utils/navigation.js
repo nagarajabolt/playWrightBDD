@@ -49,13 +49,13 @@ export async function navigateToUrl(page, url) {
 }
 
 export async function clickOnButton(page, object) {
-    await object.waitFor({state: 'visible', timeout: 80000});
+    // await object.waitFor({state: 'visible', timeout: 80000});
     await object.click();
     console.log(`Clicked on ${object}`); 
 }
 
 export async function enterData(page, object, data) {
-    await object.waitFor({state: 'visible', timeout: 80000});
+    // await object.waitFor({state: 'visible', timeout: 80000});
     await object.fill(data);
     console.log(`Entered ${data} data in ${object}`)
 }

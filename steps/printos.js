@@ -13,9 +13,9 @@ let printosPageObjects;
 let cleanedOrgList = [
   // "Miami Organization - Kendall",
   "Minnesota 1",
-  "Minnesota 2",
-  "Minnesota 3",
-  "Minnesota 4",
+  // "Minnesota 2",
+  // "Minnesota 3",
+  // "Minnesota 4",
   // "Test Organization 1",
   // "Texas 1",
   // "Texas 2",
@@ -56,28 +56,23 @@ Then('Click on My applications button', async ({ page }) => {
   //   await page.waitForLoadState('networkidle');
   const acceptButton = await printosPageObjects.AcceptButton;
   try {
-    await acceptButton.waitFor();
-    await acceptButton.click();
-    console.log(`Clicked on Accept button`);
+    navigation.clickOnButton(acceptButton)
     await page.waitForTimeout(3000);
 
   } catch (e) {
     console.log("Accept button not found");
   }
   const applicationsButton = await printosPageObjects.applicationsButton;
-  await applicationsButton.waitFor();
-  await applicationsButton.click();
-  console.log(`Clicked on My applications button`);
+  navigation.clickOnButton(applicationsButton)
   await page.waitForTimeout(3000);
 
 });
 
 Then('Click on Organization Menu', async ({ page }) => {
+
   const organizationMenu = await printosPageObjects.organizationMenu;
-  await organizationMenu.nth(1).waitFor();
-  await organizationMenu.nth(1).click();
-  console.log(`Clicked on Organization Menu`);
-  //   await page.waitForLoadState('networkidle');
+  navigation.clickOnButton(organizationMenu.nth(1))
+
 });
 
 Then('Print all org names', async ({ page }) => {
@@ -146,8 +141,8 @@ Then('Print all org names', async ({ page }) => {
   console.log(cleanedOrgList);
 
   const applicationsButton = await printosPageObjects.applicationsButton;
-  await applicationsButton.waitFor();
-  await applicationsButton.click();
+  navigation.clickOnButton(applicationsButton)
+
 });
 
 
@@ -161,9 +156,6 @@ Then('Fetch status of all orgs', async ({ page }) => {
   let availableSet;
 
   for (let i = 0; i < cleanedOrgList.length; i++) {
-    // await page.reload();
-    // await printosPageObjects.printOSHeader.click();
-    // await page.pause();
     currentOrg = cleanedOrgList[i]
     console.log(`Org No: ${i + 1} and Org Name:${currentOrg}`);
 
@@ -182,49 +174,31 @@ Then('Fetch status of all orgs', async ({ page }) => {
       } catch (error) {
 
         const applicationsButton = await printosPageObjects.applicationsButton;
-        await applicationsButton.waitFor();
-        await applicationsButton.click();
-        console.log(`Clicked on My applications button`);
+        navigation.clickOnButton(page, applicationsButton)
         const organizationMenu = await printosPageObjects.organizationMenu;
-        await organizationMenu.nth(1).waitFor();
-        await organizationMenu.nth(1).click();
-        console.log(`Clicked on Organization Menu`);
-
+        navigation.clickOnButton(page, organizationMenu.nth(1))
+      
       }
 
       // --- STEP 1: Search and Select the Organization ---
       const searchInput = page.locator("//input[@id='pros-app-switcher-options-search-input-input']");
-      await searchInput.waitFor();
-      await searchInput.click();
+      navigation.clickOnButton(page, searchInput)
       await searchInput.fill(currentOrg);
       await page.waitForTimeout(300); // Small pause for the filter to update
 
       // Select the matched option row (matching the exact text)
       const matchedRow = page.locator(`div[id^='pros-option-row-']:has-text('${currentOrg}')`).first();
-      await matchedRow.waitFor();
-      await matchedRow.click();
-
-      // Wait for the UI context to completely switch to the selected organization
-      // await page.waitForTimeout(5000);
-      // await page.waitForLoadState('domcontentloaded');
+      navigation.clickOnButton(page, matchedRow)
       await navigation.waitForPageLoad(page);
       await printosPageObjects.overViewHeader.waitFor();
-      // --- STEP 2: Open Applications Menu & Navigate to Marketplace ---
-      // Click the top-left applications switcher icon
       const applicationsButton = await printosPageObjects.applicationsButton;
-      await applicationsButton.waitFor();
-      await applicationsButton.click();
-      console.log(`Clicked on My applications button`);
-
-      // Click on "Marketplace" inside the menu
+      navigation.clickOnButton(page, applicationsButton)
       const marketplaceOption = printosPageObjects.marketPlace
-      await marketplaceOption.waitFor();
-      await marketplaceOption.click();
+      navigation.clickOnButton(page, marketplaceOption)
 
       await navigation.waitForPageLoad(page);
       await printosPageObjects.status.waitFor()
       await navigation.waitForPageLoad(page);
-      // await page.waitForTimeout(5000);
       const status = await printosPageObjects.status.allTextContents();
 
       if(status.includes("Expired")){
