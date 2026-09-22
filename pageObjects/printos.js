@@ -20,6 +20,11 @@ export const printos = class printos{
         this.printServicePlanTab = page.locator("(//div[text()='HP Professional Print Service Plans'])[2]")
         this.printOSHeader = page.locator("//div[text()='PrintOS']")
         this.overViewHeader = page.locator("//h2[text()='Overview']")
+        this.manageButton = page.locator("//span[text()='Manage']")
+        this.ProductionHubHeader = page.locator("//h1[text()='Production Hub premium SW Suite dashboard']")
+        this.continueWithoutUpgrading = page.locator("//button[text()='Continue without upgrading']")
+    
+    
     }
 
 }

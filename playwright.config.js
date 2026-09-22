@@ -49,7 +49,7 @@ export default defineConfig({
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-        actionTimeout: 60000,
+        actionTimeout: 90000,
         navigationTimeout: 90000,
         trace: 'on',
         headless: false,

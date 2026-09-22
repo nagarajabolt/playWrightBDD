@@ -9,10 +9,11 @@ Feature: PrintOS
         Then Click on use password
         Then Enter password "<Password>"        
         Then Click on Second Sign In button
-        Then Click on My applications button
-        Then Click on Organization Menu
+        # Then Click on My applications button
+        # Then Click on Organization Menu
         # Then Print all org names
-        Then Fetch status of all orgs
+        # Then Fetch status of all orgs
+        Then Fetch api details of Subscribed orgs
 
         # Then Close browser
 

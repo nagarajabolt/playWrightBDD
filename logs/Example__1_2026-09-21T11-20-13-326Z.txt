@@ -1,0 +1,179 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address carlossandevistan@yopmail.com
+Clicked on Next button
+Click on use password
+Entered password swqa!Quality123
+Clicked on second Sign in button
+Subscribed list: ${subscribedList}
+Org No: 1 and Org Name:Alabama 1
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('//button[@id=\'onetrust-accept-btn-handler\']')
+{
+  "log": [
+    "  - waiting for locator('div[id^=\\'pros-option-row-\\']:has-text(\\'Alabama 1\\')').first()",
+    "    - locator resolved to <div tabindex=\"0\" role=\"option\" aria-selected=\"false\" id=\"pros-option-row-0\" class=\"pros-option-row highlight\">…</div>",
+    "  - attempting click action",
+    "    2 × waiting for element to be visible, enabled and stable",
+    "      - element is visible, enabled and stable",
+    "      - scrolling into view if needed",
+    "      - done scrolling",
+    "      - <div id=\"onetrust-button-group-parent\" class=\"ot-sdk-twelve ot-sdk-columns\">…</div> from <div id=\"onetrust-consent-sdk\">…</div> subtree intercepts pointer events",
+    "    - retrying click action",
+    "    - waiting 20ms",
+    "    - waiting for element to be visible, enabled and stable",
+    "    - element is visible, enabled and stable",
+    "    - scrolling into view if needed",
+    "    - done scrolling",
+    "    - <div id=\"onetrust-button-group-parent\" class=\"ot-sdk-twelve ot-sdk-columns\">…</div> from <div id=\"onetrust-consent-sdk\">…</div> subtree intercepts pointer events",
+    "  - retrying click action",
+    "    - waiting 100ms",
+    "    - waiting for element to be visible, enabled and stable",
+    "  - element was detached from the DOM, retrying"
+  ],
+  "name": "TimeoutError"
+}
+Org No: 2 and Org Name:Wyoming 6
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Wyoming 6\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Wyoming 6
+---------------------------------------------------
+{
+  "subscriptionId": "2177fde7-96f2-47bd-b518-43043e6da107",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "84e334ca-5b74-4b34-83fd-40700c6f7b20",
+  "friendlySubscriptionId": "258030425513",
+  "state": "active",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "7f37d99a-5206-41de-ac23-4c8c6f7d56b0"
+  },
+  "attributes": {
+    "autoRenewal": true,
+    "billingAddressId": "6a7c7fecfe73e57acf74a3dc",
+    "expirationEndDate": "2026-08-14T14:17:36Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2025-09-11T14:17:36Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a7c7fecfe73e57acf74a3dc",
+    "stateReason": "subscriptionActivation",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "cbaabffd-5393-469f-84e4-a9e119f27bbd",
+      "subscriptionId": "2177fde7-96f2-47bd-b518-43043e6da107",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-12T14:17:38Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a7c7fecfe73e57acf74a3dc",
+        "expirationEndDate": "2027-08-11T14:17:36Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-11T14:17:36Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a7c7fecfe73e57acf74a3dc",
+        "stateReason": "subscriptionActivation"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "5995",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003215",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-12T14:17:38.882Z",
+      "updatedAt": "2026-08-12T14:33:46.629Z"
+    },
+    {
+      "entityId": "f15a425b-0033-4654-9451-add5c9241c7d",
+      "subscriptionId": "2177fde7-96f2-47bd-b518-43043e6da107",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-12T14:17:38Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a7c7fecfe73e57acf74a3dc",
+        "expirationEndDate": "2027-08-11T14:17:36Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-11T14:17:36Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a7c7fecfe73e57acf74a3dc",
+        "stateReason": "subscriptionActivation"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a7c808bafad1e2b5db01b1c",
+        "attributes": {
+          "contractAccountId": "002100089070",
+          "providerContractId": "706489992",
+          "subscriptionContractId": "82615452"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "5996",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003215",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-12T14:17:38.882Z",
+      "updatedAt": "2026-08-12T14:33:46.312Z"
+    }
+  ],
+  "createdAt": "2026-08-12T14:17:38.882Z",
+  "updatedAt": "2026-08-12T14:33:45.644Z"
+}
+---------------------------------------------------
+Current org: Wyoming 6
+State: active
+remorseEndDate: 2025-09-11T14:17:36Z
+autoRenewal: true
+stateReason: subscriptionActivation
+Org: Wyoming 6 ->
+       State: active, 
+       RemorseEndDate: 2025-09-11T14:17:36Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation

@@ -40,6 +40,50 @@ let cleanedOrgList = [
   // "Wyoming 8",
   "Wyoming 9"];
 
+  // let subscribedList = [ "Alabama 4", "Amazon 3", "Amazon 6", "Amazon 7", "Amazon 8" ];
+  let subscribedList = [ 
+//     "Alabama 1", 
+//     "Bizops_29", 
+//     "Alabama 3", 
+//     "Alabama 2",
+//   "Alabama 4",
+// "Amazon 3",
+"Amazon 6",
+"Amazon 7",
+"Amazon 8",
+"Backdated 360DD 3",
+"Backdated 40DD 2",
+"Bizops_21",
+"Bizops_5",
+"Bizops_8",
+"checkout_mfe 10",
+"checkout_mfe 11",
+"checkout_mfe 12",
+"checkout_mfe 23",
+"Final Fraud 1",
+"Hawaii 11",
+"Hawaii 17",
+"Hawaii 23",
+"Hawaii 24",
+"Hawaii 26",
+"Hawaii 27",
+"Hawaii 28",
+"Hawaii 31",
+"Hawaii 32",
+"Hawaii 33",
+"Hawaii 43",
+"Hawaii 45",
+"Hawaii 46",
+"Miami Organization",
+"Miami Organization - Coral Gables",
+"Miami Organization - Hialeah",
+"Test Organization 1",
+"Wyoming 10",
+"Wyoming 19",
+"Wyoming 20",
+"Wyoming 21",
+"Wyoming 6"];
+
 Before(async ({ page }) => {
   printosPageObjects = new printos(page);
 
@@ -56,14 +100,13 @@ Then('Click on My applications button', async ({ page }) => {
   //   await page.waitForLoadState('networkidle');
   const acceptButton = await printosPageObjects.AcceptButton;
   try {
-    navigation.clickOnButton(acceptButton)
-    await page.waitForTimeout(3000);
-
+    await page.waitForTimeout(5000);
+    await navigation.clickOnButton(page, acceptButton)
   } catch (e) {
     console.log("Accept button not found");
   }
   const applicationsButton = await printosPageObjects.applicationsButton;
-  navigation.clickOnButton(applicationsButton)
+  await navigation.clickOnButton(applicationsButton)
   await page.waitForTimeout(3000);
 
 });
@@ -71,7 +114,7 @@ Then('Click on My applications button', async ({ page }) => {
 Then('Click on Organization Menu', async ({ page }) => {
 
   const organizationMenu = await printosPageObjects.organizationMenu;
-  navigation.clickOnButton(organizationMenu.nth(1))
+  await navigation.clickOnButton(organizationMenu.nth(1))
 
 });
 
@@ -162,39 +205,35 @@ Then('Fetch status of all orgs', async ({ page }) => {
     try {
       try {
         const applicationsButton = await printosPageObjects.applicationsButton;
-        await applicationsButton.waitFor();
-        await applicationsButton.click();
-        console.log(`Clicked on My applications button`);
-
+        await navigation.clickOnButton(page, applicationsButton)
 
         const organizationMenu = await printosPageObjects.organizationMenu;
-        await organizationMenu.nth(1).waitFor();
-        await organizationMenu.nth(1).click();
-        console.log(`Clicked on Organization Menu`);
+        await navigation.clickOnButton(page, organizationMenu.nth(1))
       } catch (error) {
 
         const applicationsButton = await printosPageObjects.applicationsButton;
-        navigation.clickOnButton(page, applicationsButton)
+        await navigation.clickOnButton(page, applicationsButton)
         const organizationMenu = await printosPageObjects.organizationMenu;
-        navigation.clickOnButton(page, organizationMenu.nth(1))
+        await navigation.clickOnButton(page, organizationMenu.nth(1))
       
       }
 
+      await page.pause()
       // --- STEP 1: Search and Select the Organization ---
       const searchInput = page.locator("//input[@id='pros-app-switcher-options-search-input-input']");
-      navigation.clickOnButton(page, searchInput)
+      await navigation.clickOnButton(page, searchInput)
       await searchInput.fill(currentOrg);
       await page.waitForTimeout(300); // Small pause for the filter to update
 
       // Select the matched option row (matching the exact text)
       const matchedRow = page.locator(`div[id^='pros-option-row-']:has-text('${currentOrg}')`).first();
-      navigation.clickOnButton(page, matchedRow)
+      await navigation.clickOnButton(page, matchedRow)
       await navigation.waitForPageLoad(page);
       await printosPageObjects.overViewHeader.waitFor();
       const applicationsButton = await printosPageObjects.applicationsButton;
-      navigation.clickOnButton(page, applicationsButton)
+      await navigation.clickOnButton(page, applicationsButton)
       const marketplaceOption = printosPageObjects.marketPlace
-      navigation.clickOnButton(page, marketplaceOption)
+      await navigation.clickOnButton(page, marketplaceOption)
 
       await navigation.waitForPageLoad(page);
       await printosPageObjects.status.waitFor()
@@ -234,3 +273,173 @@ Then('Fetch status of all orgs', async ({ page }) => {
 
 
 
+Then('Fetch api details of Subscribed orgs', async ({ page }) => {
+  let currentOrg;
+  console.log("Subscribed list: ${subscribedList}")
+  test.setTimeout(0);
+
+    const acceptButton = await printosPageObjects.AcceptButton;
+  try {
+    await navigation.clickOnButton(page, acceptButton)
+    await page.waitForTimeout(3000);
+
+  } catch (e) {
+    console.log("Accept button not found");
+  }
+
+  const orgDataStore = new Map();
+  const activeAndWithInRemorse = new Map();
+  const activeAndPostRemorse = new Map();
+  const cancelledPostRemorse = new Map();
+  const cancelledWithInRemorse = new Map();
+  let subscriptionResponsePromise;
+  let subscriptionApiResponse;
+  let statusCode;
+  let responseBody;
+
+    // await page.pause();
+   for (let i = 0; i < subscribedList.length; i++) {
+    currentOrg = subscribedList[i]
+    console.log(`Org No: ${i + 1} and Org Name:${currentOrg}`);
+    // const orgId = currentOrg;
+    // await page.pause();
+    try {
+      try {
+        const applicationsButton = await printosPageObjects.applicationsButton;
+        await navigation.clickOnButton(page, applicationsButton)
+
+        const organizationMenu = await printosPageObjects.organizationMenu;
+        await organizationMenu.nth(1).waitFor();
+        await organizationMenu.nth(1).click();
+        // navigation.clickOnButton(page, organizationMenu.nth(1))
+        console.log(`Clicked on Organization Menu`);
+      } catch (error) {
+
+        const applicationsButton = await printosPageObjects.applicationsButton;
+        await navigation.clickOnButton(page, applicationsButton)
+        const organizationMenu = await printosPageObjects.organizationMenu;
+        await organizationMenu.nth(1).waitFor();
+        await organizationMenu.nth(1).click();
+        console.log(`Clicked on Organization Menu`);
+      
+      }
+
+      // --- STEP 1: Search and Select the Organization ---
+      const searchInput = await printosPageObjects.organizationOptionSearchInput;
+      await navigation.clickOnButton(page, searchInput)
+      await searchInput.fill(currentOrg);
+      await page.waitForTimeout(300); // Small pause for the filter to update
+
+
+      // Select the matched option row (matching the exact text)
+      // const matchedRow = await page.locator(`div[id^='pros-option-row-']:has-text('${currentOrg}')`).first();
+      await navigation.clickOnButton(page, page.locator(`div[id^='pros-option-row-']:has-text('${currentOrg}')`).first())
+      await navigation.waitForPageLoad(page);
+      // await printosPageObjects.overViewHeader.waitFor();
+      await navigation.clickOnButton(page, printosPageObjects.applicationsButton)
+      await navigation.clickOnButton(page, printosPageObjects.marketPlace)
+
+      // try {
+      //   await navigation.clickOnButton(page, printosPageObjects.continueWithoutUpgrading)        
+      // } catch (error) {
+      //   console.log("Continue without upgrade button is not displayed")
+      // }
+
+      await navigation.waitForPageLoad(page);
+      await printosPageObjects.status.waitFor()
+      await navigation.waitForPageLoad(page);
+      await navigation.clickOnButton(page, printosPageObjects.printServicePlanTab)
+      
+      try {
+      subscriptionResponsePromise = page.waitForResponse(response =>
+      response.url().includes('/productionhub/subscription-state/v2/subscriptions/'),
+        { timeout: 60000 });
+      
+      await Promise.all([subscriptionResponsePromise,
+        navigation.clickOnButton(page, printosPageObjects.manageButton),  
+        printosPageObjects.ProductionHubHeader.waitFor({ state: 'visible' }),
+        page.waitForTimeout(3000),       
+      ]);
+
+      subscriptionApiResponse = await subscriptionResponsePromise;
+
+      statusCode = await subscriptionApiResponse.status();
+      responseBody = await subscriptionApiResponse.json();
+
+      console.log(`API Status Code: ${statusCode}`, `API JSON Response for org: ${currentOrg}`);
+      console.log(`---------------------------------------------------`)        
+      console.log(JSON.stringify(responseBody, null, 2));
+      console.log(`---------------------------------------------------`)
+
+       expect(statusCode).toBe(200);
+        
+      } catch (error) {
+        console.debug("Manage dashboard is not loaded")  
+      }
+
+
+      // console.log(`Current org: ${currentOrg}`)
+      // console.log(`State: ${responseBody.state}`)
+      // console.log(`remorseEndDate: ${responseBody.attributes?.remorseEndDate}`)
+      // console.log(`autoRenewal: ${responseBody.attributes?.autoRenewal}`)
+      // console.log(`stateReason: ${responseBody.attributes?.stateReason}`)
+
+       orgDataStore.set(currentOrg,  {
+        state: responseBody.state,
+        remorseEndDate: responseBody.attributes?.remorseEndDate ?? "N/A",
+        autoRenewal: responseBody.attributes?.autoRenewal ?? "N/A",
+        stateReason: responseBody.attributes?.stateReason ?? "N/A"
+      });
+
+          if ((responseBody.attributes?.stateReason == "subscriptionActivation")&&(responseBody.attributes?.remorseEndDate < today)) {
+              activeAndPostRemorse.set(currentOrg, {remorseEndDate: responseBody.attributes?.remorseEndDate});
+          } else if ((responseBody.attributes?.stateReason == "subscriptionActivation")&&(responseBody.attributes?.remorseEndDate > today)){
+              activeAndWithInRemorse.set(currentOrg, {remorseEndDate: responseBody.attributes?.remorseEndDate});
+          } else if (reason == "toggleAutoRenewal"){
+              cancelledPostRemorse.set(currentOrg, {remorseEndDate: responseBody.attributes?.remorseEndDate})
+          }  else if (responseBody.attributes?.stateReason == "cancelWithinRemorse"){
+              cancelledWithInRemorse.set(currentOrg, {remorseEndDate:responseBody.attributes?.remorseEndDate})
+          }
+
+    } catch (error) {
+      console.log(error)
+      await page.goBack()
+      // await printosPageObjects.overViewHeader.waitFor()
+    }  }
+
+      console.log(`----------Active and Post Remorse-------------`)
+      activeAndPostRemorse.forEach((values, currentOrg) => {
+      console.log(`Org: ${currentOrg} ->
+      RemorseEndDate: ${values.remorseEndDate}`)});
+
+      console.log(`----------Active and Within Remorse-------------`)
+      activeAndWithInRemorse.forEach((values, currentOrg) => {
+      console.log(`Org: ${currentOrg} ->
+      RemorseEndDate: ${values.remorseEndDate}`)});
+
+      console.log(`----------Cancelled Within Remorse-------------`)
+      cancelledWithInRemorse.forEach((values, currentOrg) => {
+      console.log(`Org: ${currentOrg} ->
+      RemorseEndDate: ${values.remorseEndDate}`)});
+
+      console.log(`----------Cancelled post Remorse-------------`)
+      cancelledPostRemorse.forEach((values, currentOrg) => {
+      console.log(`Org: ${currentOrg} ->
+      RemorseEndDate: ${values.remorseEndDate}`)});
+
+      orgDataStore.forEach((values, currentOrg) => {
+      console.log(`Org: ${currentOrg} ->
+       State: ${values.state}, 
+       RemorseEndDate: ${values.remorseEndDate},
+       AutoRenewal: ${values.autoRenewal}, 
+       Reason: ${values.stateReason}`)});
+
+        orgDataStore.forEach((values, currentOrg) => {
+      console.log(`Org: ${currentOrg} ->
+       State: ${values.state}, 
+       RemorseEndDate: ${values.remorseEndDate},
+       AutoRenewal: ${values.autoRenewal}, 
+       Reason: ${values.stateReason}`)});
+
+
+});

@@ -148,11 +148,12 @@ Then('Click on Second Sign In button', async ({page}) => {
   await hpbwPageObjects.secondSignInButton.click();
   console.log(`Clicked on second Sign in button`)
   await page.waitForTimeout(3000); 
+  
 });
 
 Then('Click on Tokens button and print detail api details and validate api response', async ({page}) => {
   //initiate response object to wait for the tokens API response
-  test.setTimeout(160000);
+  // test.setTimeout(160000);
   const responsePromise = page.waitForResponse(response => response.url().includes('/user?type=tokens') &&  response.request().method() === 'GET', {timeout: 80000});
   const detailResponsePromise = page.waitForResponse((response) => 
     response.url().toLowerCase().includes('/detail'),{ timeout: 80000 },);
