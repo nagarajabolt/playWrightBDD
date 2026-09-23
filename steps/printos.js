@@ -639,18 +639,15 @@ Then('Fetch api details of Subscribed orgs', async ({ page }) => {
     // await page.pause();
     try {
       try {
-        const applicationsButton = await printosPageObjects.applicationsButton;
-        await navigation.clickOnButton(page, applicationsButton)
-
+        await navigation.clickOnButton(page, printosPageObjects.applicationsButton)
         const organizationMenu = await printosPageObjects.organizationMenu;
         await organizationMenu.nth(1).waitFor();
         await organizationMenu.nth(1).click();
-        // navigation.clickOnButton(page, organizationMenu.nth(1))
+        navigation.clickOnButton(page, organizationMenu.nth(1))
         console.log(`Clicked on Organization Menu`);
       } catch (error) {
 
-        const applicationsButton = await printosPageObjects.applicationsButton;
-        await navigation.clickOnButton(page, applicationsButton)
+        await navigation.clickOnButton(page, printosPageObjects.applicationsButton)
         const organizationMenu = await printosPageObjects.organizationMenu;
         await organizationMenu.nth(1).waitFor();
         await organizationMenu.nth(1).click();
@@ -746,14 +743,9 @@ Then('Fetch api details of Subscribed orgs', async ({ page }) => {
     } catch (error) {
       console.log(error)
       await page.waitForTimeout(10000)
-      // try{
         await page.reload()
         await page.goBack()
-      // }catch(error){
         console.log('page is not loaded')
-      // }
-
-      // await printosPageObjects.overViewHeader.waitFor()
     }  }
 
       console.log(`----------Active and Post Remorse-------------`)
