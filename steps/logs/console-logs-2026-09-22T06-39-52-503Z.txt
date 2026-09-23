@@ -5,37 +5,9 @@ Clicked on Next button
 Click on use password
 Entered password swqa!Quality123
 Clicked on second Sign in button
-Subscribed list: ${subscribedList}
-Org No: 1 and Org Name:Alabama 1
-Clicked on locator('//*[@id="app-switcher-toggle"]')
-Clicked on Organization Menu
-Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Subscribed list: Wyoming 6
 Clicked on locator('//button[@id=\'onetrust-accept-btn-handler\']')
-{
-  "log": [
-    "  - waiting for locator('div[id^=\\'pros-option-row-\\']:has-text(\\'Alabama 1\\')').first()",
-    "    - locator resolved to <div tabindex=\"0\" role=\"option\" aria-selected=\"false\" id=\"pros-option-row-0\" class=\"pros-option-row highlight\">…</div>",
-    "  - attempting click action",
-    "    2 × waiting for element to be visible, enabled and stable",
-    "      - element is visible, enabled and stable",
-    "      - scrolling into view if needed",
-    "      - done scrolling",
-    "      - <div id=\"onetrust-button-group-parent\" class=\"ot-sdk-twelve ot-sdk-columns\">…</div> from <div id=\"onetrust-consent-sdk\">…</div> subtree intercepts pointer events",
-    "    - retrying click action",
-    "    - waiting 20ms",
-    "    - waiting for element to be visible, enabled and stable",
-    "    - element is visible, enabled and stable",
-    "    - scrolling into view if needed",
-    "    - done scrolling",
-    "    - <div id=\"onetrust-button-group-parent\" class=\"ot-sdk-twelve ot-sdk-columns\">…</div> from <div id=\"onetrust-consent-sdk\">…</div> subtree intercepts pointer events",
-    "  - retrying click action",
-    "    - waiting 100ms",
-    "    - waiting for element to be visible, enabled and stable",
-    "  - element was detached from the DOM, retrying"
-  ],
-  "name": "TimeoutError"
-}
-Org No: 2 and Org Name:Wyoming 6
+Org No: 1 and Org Name:Wyoming 6
 Clicked on locator('//*[@id="app-switcher-toggle"]')
 Clicked on Organization Menu
 Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
@@ -167,11 +139,17 @@ API Status Code: 200 API JSON Response for org: Wyoming 6
   "updatedAt": "2026-08-12T14:33:45.644Z"
 }
 ---------------------------------------------------
-Current org: Wyoming 6
-State: active
-remorseEndDate: 2025-09-11T14:17:36Z
-autoRenewal: true
-stateReason: subscriptionActivation
+----------Active and Post Remorse-------------
+Org: Wyoming 6 ->
+      RemorseEndDate: 2025-09-11T14:17:36Z
+----------Active and Within Remorse-------------
+----------Cancelled Within Remorse-------------
+----------Cancelled post Remorse-------------
+Org: Wyoming 6 ->
+       State: active, 
+       RemorseEndDate: 2025-09-11T14:17:36Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
 Org: Wyoming 6 ->
        State: active, 
        RemorseEndDate: 2025-09-11T14:17:36Z,

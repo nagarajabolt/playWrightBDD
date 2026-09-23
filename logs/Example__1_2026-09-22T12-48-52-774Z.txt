@@ -1,0 +1,2298 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address carlossandevistan@yopmail.com
+Clicked on Next button
+Click on use password
+Entered password swqa!Quality123
+Clicked on second Sign in button
+[
+  "Alabama 1",
+  "Alabama 2",
+  "Alabama 3",
+  "Alabama 4",
+  "Amazon 1",
+  "Amazon 10",
+  "Amazon 11",
+  "Amazon 12",
+  "Amazon 2",
+  "Amazon 3",
+  "Amazon 4",
+  "Amazon 5",
+  "Amazon 6",
+  "Amazon 7",
+  "Amazon 8",
+  "Amazon 9",
+  "Backdated 30DD 1",
+  "Backdated 360DD 3",
+  "Backdated 365DD 4",
+  "Backdated 40DD 2",
+  "Bizops_01",
+  "Bizops_10",
+  "Bizops_11",
+  "Bizops_12",
+  "Bizops_13",
+  "Bizops_14",
+  "Bizops_15",
+  "Bizops_16",
+  "Bizops_17",
+  "Bizops_18",
+  "Bizops_19",
+  "Bizops_2",
+  "Bizops_20",
+  "Bizops_21",
+  "Bizops_22",
+  "Bizops_23",
+  "Bizops_24",
+  "Bizops_25",
+  "Bizops_26",
+  "Bizops_27",
+  "Bizops_28",
+  "Bizops_29",
+  "Bizops_3",
+  "Bizops_30",
+  "Bizops_4",
+  "Bizops_5",
+  "Bizops_6",
+  "Bizops_7",
+  "Bizops_8",
+  "Bizops_9",
+  "checkout_mfe 1",
+  "checkout_mfe 10",
+  "checkout_mfe 11",
+  "checkout_mfe 12",
+  "checkout_mfe 13",
+  "checkout_mfe 14",
+  "checkout_mfe 15",
+  "checkout_mfe 16",
+  "checkout_mfe 17",
+  "checkout_mfe 18",
+  "checkout_mfe 19",
+  "checkout_mfe 2",
+  "checkout_mfe 20",
+  "checkout_mfe 21",
+  "checkout_mfe 22",
+  "checkout_mfe 23",
+  "checkout_mfe 24",
+  "checkout_mfe 25",
+  "checkout_mfe 26",
+  "checkout_mfe 27",
+  "checkout_mfe 28",
+  "checkout_mfe 29",
+  "checkout_mfe 3",
+  "checkout_mfe 30",
+  "checkout_mfe 4",
+  "checkout_mfe 5",
+  "checkout_mfe 6",
+  "checkout_mfe 7",
+  "checkout_mfe 8",
+  "checkout_mfe 9",
+  "Final Fraud 1",
+  "Florida 1",
+  "Florida 2",
+  "Florida 3",
+  "Florida 4",
+  "Hawaii 10",
+  "Hawaii 11",
+  "Hawaii 12",
+  "Hawaii 13",
+  "Hawaii 14",
+  "Hawaii 15",
+  "Hawaii 16",
+  "Hawaii 17",
+  "Hawaii 18",
+  "Hawaii 19",
+  "Hawaii 2",
+  "Hawaii 20",
+  "Hawaii 21",
+  "Hawaii 22",
+  "Hawaii 23",
+  "Hawaii 24",
+  "Hawaii 25",
+  "Hawaii 26",
+  "Hawaii 27",
+  "Hawaii 28",
+  "Hawaii 29",
+  "Hawaii 3",
+  "Hawaii 30",
+  "Hawaii 31",
+  "Hawaii 32",
+  "Hawaii 33",
+  "Hawaii 34",
+  "Hawaii 35",
+  "Hawaii 36",
+  "Hawaii 37",
+  "Hawaii 38",
+  "Hawaii 39",
+  "Hawaii 4",
+  "Hawaii 40",
+  "Hawaii 41",
+  "Hawaii 42",
+  "Hawaii 43",
+  "Hawaii 44",
+  "Hawaii 45",
+  "Hawaii 46",
+  "Hawaii 47",
+  "Hawaii 48",
+  "Hawaii 49",
+  "Hawaii 5",
+  "Hawaii 50",
+  "Hawaii 51",
+  "Hawaii 6",
+  "Hawaii 7",
+  "Hawaii 8",
+  "Hawaii 9",
+  "lf_monetization number 1",
+  "lf_monetization number 10",
+  "lf_monetization number 11",
+  "lf_monetization number 12",
+  "lf_monetization number 13",
+  "lf_monetization number 14",
+  "lf_monetization number 15",
+  "lf_monetization number 16",
+  "lf_monetization number 17",
+  "lf_monetization number 18",
+  "lf_monetization number 19",
+  "lf_monetization number 2",
+  "lf_monetization number 20",
+  "lf_monetization number 3",
+  "lf_monetization number 4",
+  "lf_monetization number 5",
+  "lf_monetization number 6",
+  "lf_monetization number 7",
+  "lf_monetization number 8",
+  "lf_monetization number 9",
+  "Los Angeles 1",
+  "Miami Organization",
+  "Miami Organization - Coral Gables",
+  "Miami Organization - Doral",
+  "Miami Organization - Florida 1",
+  "Miami Organization - Hialeah",
+  "Miami Organization - Kendall",
+  "Minnesota 1",
+  "Minnesota 2",
+  "Minnesota 3",
+  "Minnesota 4",
+  "Second Address 1",
+  "Test Organization 1",
+  "Texas 1",
+  "Texas 2",
+  "Texas 3",
+  "Texas 4",
+  "Texas 5",
+  "Texas 6",
+  "Wyoming 1",
+  "Wyoming 10",
+  "Wyoming 11",
+  "Wyoming 12",
+  "Wyoming 13",
+  "Wyoming 19",
+  "Wyoming 2",
+  "Wyoming 20",
+  "Wyoming 21",
+  "Wyoming 3",
+  "Wyoming 4",
+  "Wyoming 5",
+  "Wyoming 6",
+  "Wyoming 7",
+  "Wyoming 8",
+  "Wyoming 9"
+]
+Org No: 1 and Org Name:Alabama 1
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Alabama 1\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Alabama 1: [
+  "Subscribed"
+]
+Org No: 2 and Org Name:Alabama 2
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Alabama 2\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Alabama 2: [
+  "Expired"
+]
+Org No: 3 and Org Name:Alabama 3
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Alabama 3\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Alabama 3: [
+  "Subscribed"
+]
+Org No: 4 and Org Name:Alabama 4
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Alabama 4\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Alabama 4: [
+  "Subscribed"
+]
+Org No: 5 and Org Name:Amazon 1
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 1\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Amazon 1: [
+  "Available for Purchase"
+]
+Org No: 6 and Org Name:Amazon 10
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 10\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Amazon 10: [
+  "Expired"
+]
+Org No: 7 and Org Name:Amazon 11
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 11\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Amazon 11: [
+  "Expired"
+]
+Org No: 8 and Org Name:Amazon 12
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 12\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Amazon 12: [
+  "Expired"
+]
+Org No: 9 and Org Name:Amazon 2
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 2\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Amazon 2: [
+  "Expired"
+]
+Org No: 10 and Org Name:Amazon 3
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 3\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Amazon 3: [
+  "Subscribed"
+]
+Org No: 11 and Org Name:Amazon 4
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 4\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Amazon 4: [
+  "Expired"
+]
+Org No: 12 and Org Name:Amazon 5
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 5\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Amazon 5: [
+  "Expired"
+]
+Org No: 13 and Org Name:Amazon 6
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 6\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Amazon 6: [
+  "Subscribed"
+]
+Org No: 14 and Org Name:Amazon 7
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 7\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Amazon 7: [
+  "Subscribed"
+]
+Org No: 15 and Org Name:Amazon 8
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 8\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Amazon 8: [
+  "Subscribed"
+]
+Org No: 16 and Org Name:Amazon 9
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 9\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Amazon 9: [
+  "Expired"
+]
+Org No: 17 and Org Name:Backdated 30DD 1
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Backdated 30DD 1\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Backdated 30DD 1: [
+  "Expired"
+]
+Org No: 18 and Org Name:Backdated 360DD 3
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Backdated 360DD 3\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Backdated 360DD 3: [
+  "Subscribed"
+]
+Org No: 19 and Org Name:Backdated 365DD 4
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Backdated 365DD 4\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Backdated 365DD 4: [
+  "Available for Purchase"
+]
+Org No: 20 and Org Name:Backdated 40DD 2
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Backdated 40DD 2\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Backdated 40DD 2: [
+  "Subscribed"
+]
+Org No: 21 and Org Name:Bizops_01
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_01\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_01: [
+  "Expired"
+]
+Org No: 22 and Org Name:Bizops_10
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_10\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_10: [
+  "Expired"
+]
+Org No: 23 and Org Name:Bizops_11
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_11\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_11: [
+  "Expired"
+]
+Org No: 24 and Org Name:Bizops_12
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_12\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_12: [
+  "Available for Purchase"
+]
+Org No: 25 and Org Name:Bizops_13
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_13\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_13: [
+  "Available for Purchase"
+]
+Org No: 26 and Org Name:Bizops_14
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_14\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_14: [
+  "Available for Purchase"
+]
+Org No: 27 and Org Name:Bizops_15
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_15\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_15: [
+  "Available for Purchase"
+]
+Org No: 28 and Org Name:Bizops_16
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_16\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_16: [
+  "Available for Purchase"
+]
+Org No: 29 and Org Name:Bizops_17
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_17\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_17: [
+  "Available for Purchase"
+]
+Org No: 30 and Org Name:Bizops_18
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_18\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_18: [
+  "Available for Purchase"
+]
+Org No: 31 and Org Name:Bizops_19
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_19\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_19: [
+  "Available for Purchase"
+]
+Org No: 32 and Org Name:Bizops_2
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_2\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_2: [
+  "Expired"
+]
+Org No: 33 and Org Name:Bizops_20
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_20\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_20: [
+  "Available for Purchase"
+]
+Org No: 34 and Org Name:Bizops_21
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_21\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_21: [
+  "Subscribed"
+]
+Org No: 35 and Org Name:Bizops_22
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_22\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_22: [
+  "Available for Purchase"
+]
+Org No: 36 and Org Name:Bizops_23
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_23\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_23: [
+  "Available for Purchase"
+]
+Org No: 37 and Org Name:Bizops_24
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_24\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_24: [
+  "Available for Purchase"
+]
+Org No: 38 and Org Name:Bizops_25
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_25\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_25: [
+  "Available for Purchase"
+]
+Org No: 39 and Org Name:Bizops_26
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_26\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_26: [
+  "Available for Purchase"
+]
+Org No: 40 and Org Name:Bizops_27
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_27\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_27: [
+  "Available for Purchase"
+]
+Org No: 41 and Org Name:Bizops_28
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_28\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_28: [
+  "Available for Purchase"
+]
+Org No: 42 and Org Name:Bizops_29
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_29\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_29: [
+  "Expired"
+]
+Org No: 43 and Org Name:Bizops_3
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_3\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_3: [
+  "Available for Purchase"
+]
+Org No: 44 and Org Name:Bizops_30
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_30\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_30: [
+  "Expired"
+]
+Org No: 45 and Org Name:Bizops_4
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_4\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_4: [
+  "Expired"
+]
+Org No: 46 and Org Name:Bizops_5
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_5\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_5: [
+  "Subscribed"
+]
+Org No: 47 and Org Name:Bizops_6
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_6\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_6: [
+  "Subscribed"
+]
+Org No: 48 and Org Name:Bizops_7
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_7\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_7: [
+  "Subscribed"
+]
+Org No: 49 and Org Name:Bizops_8
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_8\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_8: [
+  "Subscribed"
+]
+Org No: 50 and Org Name:Bizops_9
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Bizops_9\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Bizops_9: [
+  "Subscribed"
+]
+Org No: 51 and Org Name:checkout_mfe 1
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 1\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 1: [
+  "Available for Purchase"
+]
+Org No: 52 and Org Name:checkout_mfe 10
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 10\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 10: [
+  "Subscribed"
+]
+Org No: 53 and Org Name:checkout_mfe 11
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 11\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 11: [
+  "Subscribed"
+]
+Org No: 54 and Org Name:checkout_mfe 12
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 12\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 12: [
+  "Subscribed"
+]
+Org No: 55 and Org Name:checkout_mfe 13
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 13\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 13: [
+  "Available for Purchase"
+]
+Org No: 56 and Org Name:checkout_mfe 14
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 14\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 14: [
+  "Available for Purchase"
+]
+Org No: 57 and Org Name:checkout_mfe 15
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 15\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 15: [
+  "Expired"
+]
+Org No: 58 and Org Name:checkout_mfe 16
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 16\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 16: [
+  "Available for Purchase"
+]
+Org No: 59 and Org Name:checkout_mfe 17
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 17\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 17: [
+  "Available for Purchase"
+]
+Org No: 60 and Org Name:checkout_mfe 18
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 18\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 18: [
+  "Available for Purchase"
+]
+Org No: 61 and Org Name:checkout_mfe 19
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 19\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 19: [
+  "Expired"
+]
+Org No: 62 and Org Name:checkout_mfe 2
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 2\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 2: [
+  "Expired"
+]
+Org No: 63 and Org Name:checkout_mfe 20
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 20\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 20: [
+  "Expired"
+]
+Org No: 64 and Org Name:checkout_mfe 21
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 21\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 21: [
+  "Expired"
+]
+Org No: 65 and Org Name:checkout_mfe 22
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 22\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 22: [
+  "Expired"
+]
+Org No: 66 and Org Name:checkout_mfe 23
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 23\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 23: [
+  "Subscribed"
+]
+Org No: 67 and Org Name:checkout_mfe 24
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 24\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 24: [
+  "Available for Purchase"
+]
+Org No: 68 and Org Name:checkout_mfe 25
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 25\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 25: [
+  "Available for Purchase"
+]
+Org No: 69 and Org Name:checkout_mfe 26
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 26\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 26: [
+  "Available for Purchase"
+]
+Org No: 70 and Org Name:checkout_mfe 27
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 27\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 27: [
+  "Available for Purchase"
+]
+Org No: 71 and Org Name:checkout_mfe 28
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 28\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 28: [
+  "Available for Purchase"
+]
+Org No: 72 and Org Name:checkout_mfe 29
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 29\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 29: [
+  "Available for Purchase"
+]
+Org No: 73 and Org Name:checkout_mfe 3
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 3\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 3: [
+  "Available for Purchase"
+]
+Org No: 74 and Org Name:checkout_mfe 30
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 30\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 30: [
+  "Available for Purchase"
+]
+Org No: 75 and Org Name:checkout_mfe 4
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 4\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 4: [
+  "Available for Purchase"
+]
+Org No: 76 and Org Name:checkout_mfe 5
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 5\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 5: [
+  "Available for Purchase"
+]
+Org No: 77 and Org Name:checkout_mfe 6
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 6\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 6: [
+  "Available for Purchase"
+]
+Org No: 78 and Org Name:checkout_mfe 7
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 7\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 7: [
+  "Available for Purchase"
+]
+Org No: 79 and Org Name:checkout_mfe 8
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 8\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 8: [
+  "Available for Purchase"
+]
+Org No: 80 and Org Name:checkout_mfe 9
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'checkout_mfe 9\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for checkout_mfe 9: [
+  "Available for Purchase"
+]
+Org No: 81 and Org Name:Final Fraud 1
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Final Fraud 1\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Final Fraud 1: [
+  "Subscribed"
+]
+Org No: 82 and Org Name:Florida 1
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Florida 1\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Florida 1: [
+  "Expired"
+]
+Org No: 83 and Org Name:Florida 2
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Florida 2\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Florida 2: [
+  "Available for Purchase"
+]
+Org No: 84 and Org Name:Florida 3
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Florida 3\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Florida 3: [
+  "Available for Purchase"
+]
+Org No: 85 and Org Name:Florida 4
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Florida 4\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Florida 4: [
+  "Expired"
+]
+Org No: 86 and Org Name:Hawaii 10
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 10\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 10: [
+  "Expired"
+]
+Org No: 87 and Org Name:Hawaii 11
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 11\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 11: [
+  "Subscribed"
+]
+Org No: 88 and Org Name:Hawaii 12
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 12\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 12: [
+  "Expired"
+]
+Org No: 89 and Org Name:Hawaii 13
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 13\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 13: [
+  "Available for Purchase"
+]
+Org No: 90 and Org Name:Hawaii 14
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 14\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 14: [
+  "Expired"
+]
+Org No: 91 and Org Name:Hawaii 15
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 15\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 15: [
+  "Expired"
+]
+Org No: 92 and Org Name:Hawaii 16
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 16\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 16: [
+  "Expired"
+]
+Org No: 93 and Org Name:Hawaii 17
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 17\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 17: [
+  "Subscribed"
+]
+Org No: 94 and Org Name:Hawaii 18
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 18\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 18: [
+  "Expired"
+]
+Org No: 95 and Org Name:Hawaii 19
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 19\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 19: [
+  "Expired"
+]
+Org No: 96 and Org Name:Hawaii 2
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 2\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 2: [
+  "Expired"
+]
+Org No: 97 and Org Name:Hawaii 20
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 20\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 20: [
+  "Expired"
+]
+Org No: 98 and Org Name:Hawaii 21
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 21\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 21: [
+  "Expired"
+]
+Org No: 99 and Org Name:Hawaii 22
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 22\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 22: [
+  "Expired"
+]
+Org No: 100 and Org Name:Hawaii 23
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 23\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 23: [
+  "Subscribed"
+]
+Org No: 101 and Org Name:Hawaii 24
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 24\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 24: [
+  "Subscribed"
+]
+Org No: 102 and Org Name:Hawaii 25
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 25\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 25: [
+  "Available for Purchase"
+]
+Org No: 103 and Org Name:Hawaii 26
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 26\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 26: [
+  "Subscribed"
+]
+Org No: 104 and Org Name:Hawaii 27
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 27\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 27: [
+  "Subscribed"
+]
+Org No: 105 and Org Name:Hawaii 28
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 28\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 28: [
+  "Expired"
+]
+Org No: 106 and Org Name:Hawaii 29
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 29\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 29: [
+  "Expired"
+]
+Org No: 107 and Org Name:Hawaii 3
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 3\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 3: [
+  "Expired"
+]
+Org No: 108 and Org Name:Hawaii 30
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 30\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 30: [
+  "Expired"
+]
+Org No: 109 and Org Name:Hawaii 31
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 31\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 31: [
+  "Subscribed"
+]
+Org No: 110 and Org Name:Hawaii 32
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 32\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 32: [
+  "Subscribed"
+]
+Org No: 111 and Org Name:Hawaii 33
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 33\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 33: [
+  "Subscribed"
+]
+Org No: 112 and Org Name:Hawaii 34
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 34\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 34: [
+  "Available for Purchase"
+]
+Org No: 113 and Org Name:Hawaii 35
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 35\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 35: [
+  "Available for Purchase"
+]
+Org No: 114 and Org Name:Hawaii 36
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 36\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 36: [
+  "Expired"
+]
+Org No: 115 and Org Name:Hawaii 37
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 37\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 37: [
+  "Expired"
+]
+Org No: 116 and Org Name:Hawaii 38
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 38\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 38: [
+  "Available for Purchase"
+]
+Org No: 117 and Org Name:Hawaii 39
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 39\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 39: [
+  "Expired"
+]
+Org No: 118 and Org Name:Hawaii 4
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 4\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 4: [
+  "Expired"
+]
+Org No: 119 and Org Name:Hawaii 40
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 40\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 40: [
+  "Available for Purchase"
+]
+Org No: 120 and Org Name:Hawaii 41
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 41\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 41: [
+  "Available for Purchase"
+]
+Org No: 121 and Org Name:Hawaii 42
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 42\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 42: [
+  "Available for Purchase"
+]
+Org No: 122 and Org Name:Hawaii 43
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 43\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 43: [
+  "Subscribed"
+]
+Org No: 123 and Org Name:Hawaii 44
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 44\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 44: [
+  "Available for Purchase"
+]
+Org No: 124 and Org Name:Hawaii 45
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 45\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 45: [
+  "Subscribed"
+]
+Org No: 125 and Org Name:Hawaii 46
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 46\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 46: [
+  "Subscribed"
+]
+Org No: 126 and Org Name:Hawaii 47
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 47\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 47: [
+  "Expired"
+]
+Org No: 127 and Org Name:Hawaii 48
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 48\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 48: [
+  "Available for Purchase"
+]
+Org No: 128 and Org Name:Hawaii 49
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 49\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 49: [
+  "Available for Purchase"
+]
+Org No: 129 and Org Name:Hawaii 5
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 5\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 5: [
+  "Expired"
+]
+Org No: 130 and Org Name:Hawaii 50
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 50\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 50: [
+  "Expired"
+]
+Org No: 131 and Org Name:Hawaii 51
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 51\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 51: [
+  "Available for Purchase"
+]
+Org No: 132 and Org Name:Hawaii 6
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 6\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 6: [
+  "Available for Purchase"
+]
+Org No: 133 and Org Name:Hawaii 7
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 7\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 7: [
+  "Available for Purchase"
+]
+Org No: 134 and Org Name:Hawaii 8
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 8\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 8: [
+  "Available for Purchase"
+]
+Org No: 135 and Org Name:Hawaii 9
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 9\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Hawaii 9: [
+  "Available for Purchase"
+]
+Org No: 136 and Org Name:lf_monetization number 1
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 1\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 1: [
+  "Available for Purchase"
+]
+Org No: 137 and Org Name:lf_monetization number 10
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 10\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 10: [
+  "Available for Purchase"
+]
+Org No: 138 and Org Name:lf_monetization number 11
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 11\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 11: [
+  "Available for Purchase"
+]
+Org No: 139 and Org Name:lf_monetization number 12
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 12\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 12: [
+  "Available for Purchase"
+]
+Org No: 140 and Org Name:lf_monetization number 13
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 13\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 13: [
+  "Available for Purchase"
+]
+Org No: 141 and Org Name:lf_monetization number 14
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 14\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 14: [
+  "Available for Purchase"
+]
+Org No: 142 and Org Name:lf_monetization number 15
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 15\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 15: [
+  "Available for Purchase"
+]
+Org No: 143 and Org Name:lf_monetization number 16
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 16\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 16: [
+  "Available for Purchase"
+]
+Org No: 144 and Org Name:lf_monetization number 17
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 17\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 17: [
+  "Available for Purchase"
+]
+Org No: 145 and Org Name:lf_monetization number 18
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 18\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 18: [
+  "Available for Purchase"
+]
+Org No: 146 and Org Name:lf_monetization number 19
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 19\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 19: [
+  "Available for Purchase"
+]
+Org No: 147 and Org Name:lf_monetization number 2
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 2\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 2: [
+  "Available for Purchase"
+]
+Org No: 148 and Org Name:lf_monetization number 20
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 20\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 20: [
+  "Available for Purchase"
+]
+Org No: 149 and Org Name:lf_monetization number 3
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 3\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 3: [
+  "Available for Purchase"
+]
+Org No: 150 and Org Name:lf_monetization number 4
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 4\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 4: [
+  "Available for Purchase"
+]
+Org No: 151 and Org Name:lf_monetization number 5
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 5\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 5: [
+  "Available for Purchase"
+]
+Org No: 152 and Org Name:lf_monetization number 6
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 6\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 6: [
+  "Available for Purchase"
+]
+Org No: 153 and Org Name:lf_monetization number 7
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 7\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 7: [
+  "Available for Purchase"
+]
+Org No: 154 and Org Name:lf_monetization number 8
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 8\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 8: [
+  "Available for Purchase"
+]
+Org No: 155 and Org Name:lf_monetization number 9
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'lf_monetization number 9\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for lf_monetization number 9: [
+  "Available for Purchase"
+]
+Org No: 156 and Org Name:Los Angeles 1
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Los Angeles 1\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Los Angeles 1: [
+  "Expired"
+]
+Org No: 157 and Org Name:Miami Organization
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Miami Organization\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Miami Organization: [
+  "Subscribed"
+]
+Org No: 158 and Org Name:Miami Organization - Coral Gables
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Miami Organization - Coral Gables\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Miami Organization - Coral Gables: [
+  "Subscribed"
+]
+Org No: 159 and Org Name:Miami Organization - Doral
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Miami Organization - Doral\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Miami Organization - Doral: [
+  "Available for Purchase"
+]
+Org No: 160 and Org Name:Miami Organization - Florida 1
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Miami Organization - Florida 1\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Miami Organization - Florida 1: [
+  "Available for Purchase"
+]
+Org No: 161 and Org Name:Miami Organization - Hialeah
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Miami Organization - Hialeah\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Status found for Miami Organization - Hialeah: [
+  "Subscribed"
+]
+Org No: 162 and Org Name:Miami Organization - Kendall
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Miami Organization - Kendall\')').first()
+Wait for page to load

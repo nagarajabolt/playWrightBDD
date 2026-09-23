@@ -1,0 +1,34 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address carlossandevistan@yopmail.com
+Clicked on Next button
+Click on use password
+Entered password swqa!Quality123
+Clicked on second Sign in button
+Clicked on locator('//button[@id=\'onetrust-accept-btn-handler\']')
+Subscribed list: Alabama 1,Alabama 2,Alabama 3,Alabama 4,Wyoming 9
+Org No: 1 and Org Name:Alabama 1
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Alabama 1\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+{}
+page is not loaded
+Org No: 2 and Org Name:Alabama 2
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+{"log":["  - waiting for locator('div[id^=\\'pros-option-row-\\']:has-text(\\'Alabama 2\\')').first()","    3 × waiting for \"https://oauth-auth.int.stg-us.hponecloud.io/oauth2/v1/auth?config_id=28ebe693-94f5-4d7e-8595-933d42859ca9&scope=openid&response_type=code&state=40d9a1ad-25f2-4ce1-89f8-3d809f8c959c&redirect_uri=https…\" navigation to finish..."],"name":"TimeoutError"}
+page is not loaded
+Org No: 3 and Org Name:Alabama 3
+{"log":["  - waiting for locator('//*[@id=\"app-switcher-toggle\"]')","    - waiting for \"https://oauth-auth.int.stg-us.hponecloud.io/oauth2/v1/auth?config_id=28ebe693-94f5-4d7e-8595-933d42859ca9&scope=openid&response_type=code&state=40d9a1ad-25f2-4ce1-89f8-3d809f8c959c&redirect_uri=https…\" navigation to finish..."],"name":"TimeoutError"}
+page is not loaded
+Org No: 4 and Org Name:Alabama 4
+{"log":[]}

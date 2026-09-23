@@ -5,7 +5,7 @@ Clicked on Next button
 Click on use password
 Entered password swqa!Quality123
 Clicked on second Sign in button
-Subscribed list: ${subscribedList}
+Subscribed list: Alabama 1,Bizops_29,Alabama 3,Alabama 2,NaN,Wyoming 6
 Clicked on locator('//button[@id=\'onetrust-accept-btn-handler\']')
 Org No: 1 and Org Name:Alabama 1
 Clicked on locator('//*[@id="app-switcher-toggle"]')
@@ -487,11 +487,16 @@ API Status Code: 200 API JSON Response for org: Alabama 2
   "updatedAt": "2026-09-04T16:00:51.660Z"
 }
 ---------------------------------------------------
-Org No: 5 and Org Name:Alabama 4
+Org No: 5 and Org Name:NaN
 Clicked on locator('//*[@id="app-switcher-toggle"]')
 Clicked on Organization Menu
 Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
-Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Alabama 4\')').first()
+{}
+Org No: 6 and Org Name:Wyoming 6
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Wyoming 6\')').first()
 Wait for page to load
 Clicked on locator('//*[@id="app-switcher-toggle"]')
 Clicked on locator('//div[text()=\'Marketplace\']')
@@ -499,196 +504,139 @@ Wait for page to load
 Wait for page to load
 Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
 Clicked on locator('//span[text()=\'Manage\']')
-API Status Code: 200 API JSON Response for org: Alabama 4
+API Status Code: 200 API JSON Response for org: Wyoming 6
 ---------------------------------------------------
 {
-  "subscriptionId": "8ba8105d-46b2-436a-92ab-66a99ade24a9",
+  "subscriptionId": "2177fde7-96f2-47bd-b518-43043e6da107",
   "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
   "solutionId": "solutions.production-hub",
-  "orgId": "66437603-eaa0-47e1-87a8-d25c4ab5288d",
-  "friendlySubscriptionId": "758310064136",
+  "orgId": "84e334ca-5b74-4b34-83fd-40700c6f7b20",
+  "friendlySubscriptionId": "258030425513",
   "state": "active",
   "country": "US",
   "payment": {
     "system": "HPIP.PRS",
-    "id": "f1394f85-20e1-4d95-b1cc-c96bbd7394ce"
+    "id": "7f37d99a-5206-41de-ac23-4c8c6f7d56b0"
   },
   "attributes": {
-    "autoRenewal": false,
-    "billingAddressId": "6a7c245afe73e57acf74a389",
-    "expirationEndDate": "2027-08-11T07:45:54Z",
+    "autoRenewal": true,
+    "billingAddressId": "6a7c7fecfe73e57acf74a3dc",
+    "expirationEndDate": "2026-08-14T14:17:36Z",
     "expirationPeriod": "364",
     "expirationUnit": "day",
     "expirationWarningPeriod": "30",
     "expirationWarningSent": false,
-    "remorseEndDate": "2026-08-10T10:43:54.49Z",
+    "remorseEndDate": "2025-09-11T14:17:36Z",
     "remorsePeriod": "30",
     "remorseUnit": "day",
-    "shippingAddressId": "6a7c245afe73e57acf74a389",
-    "stateReason": "toggleAutoRenewal",
+    "shippingAddressId": "6a7c7fecfe73e57acf74a3dc",
+    "stateReason": "subscriptionActivation",
     "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
   },
   "entities": [
     {
-      "entityId": "12576599-724e-4e81-a39b-cd39db5f2d31",
-      "subscriptionId": "8ba8105d-46b2-436a-92ab-66a99ade24a9",
+      "entityId": "cbaabffd-5393-469f-84e4-a9e119f27bbd",
+      "subscriptionId": "2177fde7-96f2-47bd-b518-43043e6da107",
       "state": "active",
       "type": "software",
       "attributes": {
-        "entityStartDate": "2026-08-12T07:45:58Z",
-        "autoRenewal": false,
-        "billingAddressId": "6a7c245afe73e57acf74a389",
-        "expirationEndDate": "2027-08-11T07:45:54Z",
+        "entityStartDate": "2026-08-12T14:17:38Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a7c7fecfe73e57acf74a3dc",
+        "expirationEndDate": "2027-08-11T14:17:36Z",
         "expirationPeriod": "364",
         "expirationUnit": "day",
         "expirationWarningPeriod": "30",
         "expirationWarningSent": false,
-        "remorseEndDate": "2026-09-11T07:45:54Z",
+        "remorseEndDate": "2026-09-11T14:17:36Z",
         "remorsePeriod": "30",
         "remorseUnit": "day",
-        "shippingAddressId": "6a7c245afe73e57acf74a389",
-        "stateReason": "subscriptionActivation"
-      },
-      "commerce": {
-        "type": "stratus-CAS-commerce",
-        "id": "6a7c24c1752e48679f43cd93",
-        "attributes": {
-          "contractAccountId": "002100088970",
-          "providerContractId": "706489040",
-          "subscriptionContractId": "82614500"
-        }
-      },
-      "product": {
-        "system": "hpip.cloud.products",
-        "sku": "UL8S6SB",
-        "attributes": {
-          "itemId": "5948",
-          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
-        }
-      },
-      "source": {
-        "channel": "MAGENTO",
-        "system": "MAGENTO",
-        "id": "HM000003191",
-        "orderAttributionId": null,
-        "attributes": null
-      },
-      "createdAt": "2026-08-12T07:45:59.459Z",
-      "updatedAt": "2026-08-21T11:59:43.107Z"
-    },
-    {
-      "entityId": "7d1a1f09-aea9-400e-9f6a-62c87d8dc065",
-      "subscriptionId": "8ba8105d-46b2-436a-92ab-66a99ade24a9",
-      "state": "active",
-      "type": "software",
-      "attributes": {
-        "entityStartDate": "2026-08-12T07:45:58Z",
-        "autoRenewal": false,
-        "billingAddressId": "6a7c245afe73e57acf74a389",
-        "expirationEndDate": "2027-08-11T07:45:54Z",
-        "expirationPeriod": "364",
-        "expirationUnit": "day",
-        "expirationWarningPeriod": "30",
-        "expirationWarningSent": false,
-        "remorseEndDate": "2026-09-11T07:45:54Z",
-        "remorsePeriod": "30",
-        "remorseUnit": "day",
-        "shippingAddressId": "6a7c245afe73e57acf74a389",
+        "shippingAddressId": "6a7c7fecfe73e57acf74a3dc",
         "stateReason": "subscriptionActivation"
       },
       "product": {
         "system": "hpip.cloud.products",
         "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
         "attributes": {
-          "itemId": "5947",
+          "itemId": "5995",
           "offerId": ""
         }
       },
       "source": {
         "channel": "MAGENTO",
         "system": "MAGENTO",
-        "id": "HM000003191",
+        "id": "HM000003215",
         "orderAttributionId": null,
         "attributes": null
       },
-      "createdAt": "2026-08-12T07:45:59.459Z",
-      "updatedAt": "2026-08-21T11:59:42.150Z"
+      "createdAt": "2026-08-12T14:17:38.882Z",
+      "updatedAt": "2026-08-12T14:33:46.629Z"
+    },
+    {
+      "entityId": "f15a425b-0033-4654-9451-add5c9241c7d",
+      "subscriptionId": "2177fde7-96f2-47bd-b518-43043e6da107",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-12T14:17:38Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a7c7fecfe73e57acf74a3dc",
+        "expirationEndDate": "2027-08-11T14:17:36Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-11T14:17:36Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a7c7fecfe73e57acf74a3dc",
+        "stateReason": "subscriptionActivation"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a7c808bafad1e2b5db01b1c",
+        "attributes": {
+          "contractAccountId": "002100089070",
+          "providerContractId": "706489992",
+          "subscriptionContractId": "82615452"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "5996",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003215",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-12T14:17:38.882Z",
+      "updatedAt": "2026-08-12T14:33:46.312Z"
     }
   ],
-  "createdAt": "2026-08-12T07:45:59.459Z",
-  "updatedAt": "2026-08-21T11:59:43.621Z"
+  "createdAt": "2026-08-12T14:17:38.882Z",
+  "updatedAt": "2026-08-12T14:33:45.644Z"
 }
 ---------------------------------------------------
-Org No: 6 and Org Name:Amazon 3
-Clicked on locator('//*[@id="app-switcher-toggle"]')
-Clicked on Organization Menu
-Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
-Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 3\')').first()
-Wait for page to load
-Clicked on locator('//*[@id="app-switcher-toggle"]')
-Clicked on locator('//div[text()=\'Marketplace\']')
-Wait for page to load
-Wait for page to load
-Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
-Clicked on locator('//span[text()=\'Manage\']')
-Org No: 7 and Org Name:Amazon 6
-Clicked on locator('//*[@id="app-switcher-toggle"]')
-Clicked on Organization Menu
-Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
-Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 6\')').first()
-Wait for page to load
-{
-  "log": [
-    "  - waiting for locator('//h2[text()=\\'Overview\\']') to be visible"
-  ],
-  "name": "TimeoutError"
-}
-Org No: 8 and Org Name:Amazon 7
-Clicked on locator('//*[@id="app-switcher-toggle"]')
-Clicked on Organization Menu
-Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
-Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 7\')').first()
-Wait for page to load
-{
-  "log": [
-    "  - waiting for locator('//h2[text()=\\'Overview\\']') to be visible"
-  ],
-  "name": "TimeoutError"
-}
-Org No: 9 and Org Name:Amazon 8
-Clicked on locator('//*[@id="app-switcher-toggle"]')
-Clicked on Organization Menu
-Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
-Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 8\')').first()
-Wait for page to load
-{
-  "log": [
-    "  - waiting for locator('//h2[text()=\\'Overview\\']') to be visible"
-  ],
-  "name": "TimeoutError"
-}
-Org No: 10 and Org Name:Backdated 360DD 3
-Clicked on locator('//*[@id="app-switcher-toggle"]')
-Clicked on Organization Menu
-Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
-Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Backdated 360DD 3\')').first()
-Wait for page to load
-{
-  "log": [
-    "  - waiting for locator('//h2[text()=\\'Overview\\']') to be visible"
-  ],
-  "name": "TimeoutError"
-}
-Org No: 11 and Org Name:Backdated 40DD 2
-Clicked on locator('//*[@id="app-switcher-toggle"]')
-Clicked on Organization Menu
-Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
-Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Backdated 40DD 2\')').first()
-Wait for page to load
-{
-  "log": [
-    "  - waiting for locator('//h2[text()=\\'Overview\\']') to be visible"
-  ],
-  "name": "TimeoutError"
-}
-Org No: 12 and Org Name:Bizops_21
+----------Active and Post Remorse-------------
+Org: Alabama 1 ->
+      RemorseEndDate: 2026-09-10T07:31:30Z
+Org: Wyoming 6 ->
+      RemorseEndDate: 2025-09-11T14:17:36Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+Org: Bizops_29 ->
+      RemorseEndDate: 2026-10-18T11:41:29Z
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Alabama 3 ->
+      RemorseEndDate: 2026-08-10T10:43:54.49Z
+---------------------------------------------
