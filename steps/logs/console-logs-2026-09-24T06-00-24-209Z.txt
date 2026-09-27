@@ -1,0 +1,1120 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address carlossandevistan@yopmail.com
+Clicked on Next button
+Click on use password
+Entered password swqa!Quality123
+Clicked on second Sign in button
+Accept button not found
+Subscribed list: Alabama 1,Alabama 2,Alabama 3,Alabama 4,Amazon 1,Amazon 10,Amazon 11,Amazon 12,Amazon 2,Amazon 3,Amazon 4,Amazon 5,Amazon 6,Amazon 7,Amazon 8,Amazon 9,Wyoming 9
+Org No: 1 and Org Name:Alabama 1
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Alabama 1\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Alabama 1
+---------------------------------------------------
+{
+  "subscriptionId": "02795f93-01c0-446b-b579-56f2b9fab1f5",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "df7a19e7-6b79-4d7d-8327-80d3aac50b0a",
+  "friendlySubscriptionId": "492304643517",
+  "state": "active",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "d5e44d77-e245-4167-9d26-23ca009eefe8"
+  },
+  "attributes": {
+    "autoRenewal": true,
+    "billingAddressId": "6a7acf9afe73e57acf749d8c",
+    "expirationEndDate": "2027-08-10T07:31:30Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-09-10T07:31:30Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a7acf9afe73e57acf749d8c",
+    "stateReason": "subscriptionActivation",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "6f498fa0-f828-4ff0-b873-775903e142d6",
+      "subscriptionId": "02795f93-01c0-446b-b579-56f2b9fab1f5",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-11T07:31:32Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a7acf9afe73e57acf749d8c",
+        "expirationEndDate": "2027-08-10T07:31:30Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-10T07:31:30Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a7acf9afe73e57acf749d8c",
+        "stateReason": "subscriptionActivation"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "5769",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003099",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-11T07:31:33.351Z",
+      "updatedAt": "2026-08-11T07:52:29.022Z"
+    },
+    {
+      "entityId": "3a626ed4-06e4-44b9-9eb1-f76cb49db91b",
+      "subscriptionId": "02795f93-01c0-446b-b579-56f2b9fab1f5",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-11T07:31:32Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a7acf9afe73e57acf749d8c",
+        "expirationEndDate": "2027-08-10T07:31:30Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-10T07:31:30Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a7acf9afe73e57acf749d8c",
+        "stateReason": "subscriptionActivation"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a7acfe05f3367a13b03816a",
+        "attributes": {
+          "contractAccountId": "002100088613",
+          "providerContractId": "706488402",
+          "subscriptionContractId": "82613862"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "5770",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003099",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-11T07:31:33.351Z",
+      "updatedAt": "2026-08-11T07:52:28.498Z"
+    }
+  ],
+  "createdAt": "2026-08-11T07:31:33.351Z",
+  "updatedAt": "2026-08-11T07:52:28.001Z"
+}
+---------------------------------------------------
+Org No: 2 and Org Name:Alabama 2
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Alabama 2\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Alabama 2
+---------------------------------------------------
+{
+  "subscriptionId": "bd3e5fd1-66fb-44f7-aa28-7c1da66152fb",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "fbd642ad-b44c-42bc-94c7-c4ed64c96772",
+  "friendlySubscriptionId": "527715292633",
+  "state": "inactive",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "cc4f746e-f97b-493b-9205-f15c52474bbf"
+  },
+  "attributes": {
+    "autoRenewal": true,
+    "billingAddressId": "6a99f852f551684cdd0ae732",
+    "expirationEndDate": "2027-09-02T22:45:24Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-10-03T22:45:24Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a99f852f551684cdd0ae732",
+    "stateReason": "cancelPaymentFailure",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "c4f2956a-52ac-4f03-88b6-8507cbea0a64",
+      "subscriptionId": "bd3e5fd1-66fb-44f7-aa28-7c1da66152fb",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-09-03T22:45:27Z"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a99f89110cc5c0f494cc9a3",
+        "attributes": {
+          "contractAccountId": "002100099883",
+          "providerContractId": "706530463",
+          "subscriptionContractId": "82655908"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "8738",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000004683",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-09-03T22:45:28.997Z",
+      "updatedAt": "2026-09-04T16:00:51.034Z"
+    },
+    {
+      "entityId": "1c28d9c4-d718-4ec1-bbcb-ae72e4feb9ae",
+      "subscriptionId": "bd3e5fd1-66fb-44f7-aa28-7c1da66152fb",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-09-03T22:45:27Z"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "8737",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000004683",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-09-03T22:45:28.997Z",
+      "updatedAt": "2026-09-04T16:00:50.480Z"
+    }
+  ],
+  "createdAt": "2026-09-03T22:45:28.997Z",
+  "updatedAt": "2026-09-04T16:00:51.660Z"
+}
+---------------------------------------------------
+Org No: 3 and Org Name:Alabama 3
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Alabama 3\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Alabama 3
+---------------------------------------------------
+{
+  "subscriptionId": "5b7f09c3-72b3-4fcc-8df0-76b8985123b8",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "64c88934-dbb9-4d08-94dc-b57538404228",
+  "friendlySubscriptionId": "155935040220",
+  "state": "active",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "b471ea41-a623-4149-bed1-a1d63246be8c"
+  },
+  "attributes": {
+    "autoRenewal": false,
+    "billingAddressId": "6a7addffa5e5e623b6e61c82",
+    "expirationEndDate": "2027-08-10T08:32:34Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-08-10T10:43:54.49Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a7addffa5e5e623b6e61c82",
+    "stateReason": "toggleAutoRenewal",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "ef79e1bc-81aa-4748-b7ad-b1e58c822da1",
+      "subscriptionId": "5b7f09c3-72b3-4fcc-8df0-76b8985123b8",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-11T08:32:35Z",
+        "autoRenewal": false,
+        "billingAddressId": "6a7addffa5e5e623b6e61c82",
+        "expirationEndDate": "2027-08-10T08:32:34Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-10T08:32:34Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a7addffa5e5e623b6e61c82",
+        "stateReason": "subscriptionActivation"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a7ade2d5f3367a13b0381d8",
+        "attributes": {
+          "contractAccountId": "002100088639",
+          "providerContractId": "706488442",
+          "subscriptionContractId": "82613902"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "5792",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003112",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-11T08:32:36.942Z",
+      "updatedAt": "2026-08-21T09:52:28.726Z"
+    },
+    {
+      "entityId": "d1a95200-36f4-49eb-a6c4-62058cb9af7f",
+      "subscriptionId": "5b7f09c3-72b3-4fcc-8df0-76b8985123b8",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-11T08:32:35Z",
+        "autoRenewal": false,
+        "billingAddressId": "6a7addffa5e5e623b6e61c82",
+        "expirationEndDate": "2027-08-10T08:32:34Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-10T08:32:34Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a7addffa5e5e623b6e61c82",
+        "stateReason": "subscriptionActivation"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "5791",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003112",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-11T08:32:36.942Z",
+      "updatedAt": "2026-08-21T09:52:27.803Z"
+    }
+  ],
+  "createdAt": "2026-08-11T08:32:36.942Z",
+  "updatedAt": "2026-08-21T09:52:29.736Z"
+}
+---------------------------------------------------
+Org No: 4 and Org Name:Alabama 4
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Alabama 4\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Alabama 4
+---------------------------------------------------
+{
+  "subscriptionId": "8ba8105d-46b2-436a-92ab-66a99ade24a9",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "66437603-eaa0-47e1-87a8-d25c4ab5288d",
+  "friendlySubscriptionId": "758310064136",
+  "state": "active",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "f1394f85-20e1-4d95-b1cc-c96bbd7394ce"
+  },
+  "attributes": {
+    "autoRenewal": false,
+    "billingAddressId": "6a7c245afe73e57acf74a389",
+    "expirationEndDate": "2027-08-11T07:45:54Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-08-10T10:43:54.49Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a7c245afe73e57acf74a389",
+    "stateReason": "toggleAutoRenewal",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "12576599-724e-4e81-a39b-cd39db5f2d31",
+      "subscriptionId": "8ba8105d-46b2-436a-92ab-66a99ade24a9",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-12T07:45:58Z",
+        "autoRenewal": false,
+        "billingAddressId": "6a7c245afe73e57acf74a389",
+        "expirationEndDate": "2027-08-11T07:45:54Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-11T07:45:54Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a7c245afe73e57acf74a389",
+        "stateReason": "subscriptionActivation"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a7c24c1752e48679f43cd93",
+        "attributes": {
+          "contractAccountId": "002100088970",
+          "providerContractId": "706489040",
+          "subscriptionContractId": "82614500"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "5948",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003191",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-12T07:45:59.459Z",
+      "updatedAt": "2026-08-21T11:59:43.107Z"
+    },
+    {
+      "entityId": "7d1a1f09-aea9-400e-9f6a-62c87d8dc065",
+      "subscriptionId": "8ba8105d-46b2-436a-92ab-66a99ade24a9",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-12T07:45:58Z",
+        "autoRenewal": false,
+        "billingAddressId": "6a7c245afe73e57acf74a389",
+        "expirationEndDate": "2027-08-11T07:45:54Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-11T07:45:54Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a7c245afe73e57acf74a389",
+        "stateReason": "subscriptionActivation"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "5947",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003191",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-12T07:45:59.459Z",
+      "updatedAt": "2026-08-21T11:59:42.150Z"
+    }
+  ],
+  "createdAt": "2026-08-12T07:45:59.459Z",
+  "updatedAt": "2026-08-21T11:59:43.621Z"
+}
+---------------------------------------------------
+Org No: 5 and Org Name:Amazon 1
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 1\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Org No: 6 and Org Name:Amazon 10
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 10\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Amazon 10
+---------------------------------------------------
+{
+  "subscriptionId": "3c54547e-17fb-4e24-b637-fc7084f1a25f",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "a2352d10-d713-4d72-8b43-23f4f485fa1c",
+  "friendlySubscriptionId": "554687233724",
+  "state": "inactive",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "1d271666-5398-4669-b3fe-fcd24ca3154a"
+  },
+  "attributes": {
+    "autoRenewal": true,
+    "billingAddressId": "6a7ac01cac09cd70cf523825",
+    "expirationEndDate": "2027-08-10T06:25:52Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-08-01T00:00:00Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a7ac01cac09cd70cf523825",
+    "stateReason": "cancelPaymentFailure",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "4ce195ac-1e84-46cf-a8d3-f1d1aeebbc5c",
+      "subscriptionId": "3c54547e-17fb-4e24-b637-fc7084f1a25f",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-11T06:25:54Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a7ac01cac09cd70cf523825",
+        "expirationEndDate": "2027-08-10T06:25:52Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-10T06:25:52Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a7ac01cac09cd70cf523825",
+        "stateReason": "subscriptionActivation"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a7ac07e752e48679f43c48a",
+        "attributes": {
+          "contractAccountId": "002100088551",
+          "providerContractId": "706488315",
+          "subscriptionContractId": "82613775"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "5734",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003080",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-11T06:25:56.440Z",
+      "updatedAt": "2026-08-14T10:23:19.715Z"
+    },
+    {
+      "entityId": "63704194-9f1c-4f52-bb2b-74987ac375e4",
+      "subscriptionId": "3c54547e-17fb-4e24-b637-fc7084f1a25f",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-11T06:25:54Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a7ac01cac09cd70cf523825",
+        "expirationEndDate": "2027-08-10T06:25:52Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-10T06:25:52Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a7ac01cac09cd70cf523825",
+        "stateReason": "subscriptionActivation"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "5733",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003080",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-11T06:25:56.440Z",
+      "updatedAt": "2026-08-14T10:23:19.186Z"
+    }
+  ],
+  "createdAt": "2026-08-11T06:25:56.440Z",
+  "updatedAt": "2026-08-14T10:23:23.098Z"
+}
+---------------------------------------------------
+Org No: 7 and Org Name:Amazon 11
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 11\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+Org No: 8 and Org Name:Amazon 12
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 12\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+Org No: 9 and Org Name:Amazon 2
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 2\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+Org No: 10 and Org Name:Amazon 3
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 3\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+Org No: 11 and Org Name:Amazon 4
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 4\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Amazon 4
+---------------------------------------------------
+{
+  "subscriptionId": "9b281c79-b673-4195-ac37-7ce88132b8fd",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "44cb61fb-be16-4638-a985-c36a5a7a8661",
+  "friendlySubscriptionId": "421566596260",
+  "state": "inactive",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "5e40c2cd-ebc2-4f4e-8e70-a5d73f9a2981"
+  },
+  "attributes": {
+    "autoRenewal": true,
+    "billingAddressId": "6a83f32a59332c0ec6500caf",
+    "expirationEndDate": "2027-08-17T05:53:39Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-08-10T10:43:54.49Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a83f32a59332c0ec6500caf",
+    "stateReason": "cancelWithinRemorse",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "9b6fc2ad-e530-4267-9891-3ea2925d29bb",
+      "subscriptionId": "9b281c79-b673-4195-ac37-7ce88132b8fd",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-18T05:53:41Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a83f32a59332c0ec6500caf",
+        "expirationEndDate": "2027-08-17T05:53:39Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-17T05:53:39Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a83f32a59332c0ec6500caf",
+        "stateReason": "subscriptionActivation"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a83f3712df7a04578208e04",
+        "attributes": {
+          "contractAccountId": "002100090609",
+          "providerContractId": "706500244",
+          "subscriptionContractId": "82625704"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "6956",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003703",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-18T05:53:43.132Z",
+      "updatedAt": "2026-08-20T11:58:25.893Z"
+    },
+    {
+      "entityId": "f6fe5f2e-d77d-4c81-b67d-c4b766381f29",
+      "subscriptionId": "9b281c79-b673-4195-ac37-7ce88132b8fd",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-18T05:53:41Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a83f32a59332c0ec6500caf",
+        "expirationEndDate": "2027-08-17T05:53:39Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-17T05:53:39Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a83f32a59332c0ec6500caf",
+        "stateReason": "subscriptionActivation"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "6955",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003703",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-18T05:53:43.132Z",
+      "updatedAt": "2026-08-20T11:58:25.314Z"
+    }
+  ],
+  "createdAt": "2026-08-18T05:53:43.132Z",
+  "updatedAt": "2026-08-20T11:58:26.436Z"
+}
+---------------------------------------------------
+Org No: 12 and Org Name:Amazon 5
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 5\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Amazon 5
+---------------------------------------------------
+{
+  "subscriptionId": "e7c0cdc9-e83e-4037-98e8-4d308ab4ad76",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "7c8f88f1-255e-450f-81bd-1d82e88d5119",
+  "friendlySubscriptionId": "733847845919",
+  "state": "inactive",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "e3fb29f8-358e-4c0b-a33c-20868172db89"
+  },
+  "attributes": {
+    "autoRenewal": true,
+    "billingAddressId": "6a7d8bd5fe73e57acf74a5a8",
+    "expirationEndDate": "2027-08-12T09:18:51Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-09-12T09:18:51Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a7d8bd5fe73e57acf74a5a8",
+    "stateReason": "cancelWithinRemorse",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "9649d69e-64f9-4bbc-930e-3f7f2b5b03dd",
+      "subscriptionId": "e7c0cdc9-e83e-4037-98e8-4d308ab4ad76",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-13T09:18:53Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a7d8bd5fe73e57acf74a5a8",
+        "expirationEndDate": "2027-08-12T09:18:51Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-12T09:18:51Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a7d8bd5fe73e57acf74a5a8",
+        "stateReason": "subscriptionActivation"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a7d8c07e8eba01d75773a3f",
+        "attributes": {
+          "contractAccountId": "002100089308",
+          "providerContractId": "706490715",
+          "subscriptionContractId": "82616175"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "6098",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003266",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-13T09:18:54.443Z",
+      "updatedAt": "2026-08-13T14:44:15.635Z"
+    },
+    {
+      "entityId": "58964323-d4f9-4522-bd7a-cdeda876cbe4",
+      "subscriptionId": "e7c0cdc9-e83e-4037-98e8-4d308ab4ad76",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-13T09:18:53Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a7d8bd5fe73e57acf74a5a8",
+        "expirationEndDate": "2027-08-12T09:18:51Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-12T09:18:51Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a7d8bd5fe73e57acf74a5a8",
+        "stateReason": "subscriptionActivation"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "6097",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003266",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-13T09:18:54.443Z",
+      "updatedAt": "2026-08-13T14:44:15.049Z"
+    }
+  ],
+  "createdAt": "2026-08-13T09:18:54.443Z",
+  "updatedAt": "2026-08-13T14:44:16.157Z"
+}
+---------------------------------------------------
+Org No: 13 and Org Name:Amazon 6
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 6\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Amazon 6
+---------------------------------------------------
+{
+  "subscriptionId": "624acd66-f0cf-45bb-b71f-cdae203c9c94",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "f57d5702-c1b5-4577-b732-bd27108eba5d",
+  "friendlySubscriptionId": "953608677954",
+  "state": "inactive",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "dd9aba38-595c-4430-b56e-37344e2b6c4e"
+  },
+  "attributes": {
+    "autoRenewal": true,
+    "billingAddressId": "6a83f525a9a22c5beefc1467",
+    "expirationEndDate": "2027-08-17T06:02:31Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-08-10T10:43:54.49Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a83f525a9a22c5beefc1467",
+    "stateReason": "cancelAfterRemorse",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "3b401d5d-8bef-413a-afa4-efc4a4d5c5e2",
+      "subscriptionId": "624acd66-f0cf-45bb-b71f-cdae203c9c94",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-18T06:02:33Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a83f525a9a22c5beefc1467",
+        "expirationEndDate": "2027-08-17T06:02:31Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-17T06:02:31Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a83f525a9a22c5beefc1467",
+        "stateReason": "subscriptionActivation"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a83f583baa525bdf86027cc",
+        "attributes": {
+          "contractAccountId": "002100090617",
+          "providerContractId": "706500253",
+          "subscriptionContractId": "82625713"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "6958",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003704",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-18T06:02:34.697Z",
+      "updatedAt": "2026-09-22T09:39:50.304Z"
+    },
+    {
+      "entityId": "427b578c-9890-4359-9406-520f0c54d6bd",
+      "subscriptionId": "624acd66-f0cf-45bb-b71f-cdae203c9c94",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-18T06:02:33Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a83f525a9a22c5beefc1467",
+        "expirationEndDate": "2027-08-17T06:02:31Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-17T06:02:31Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a83f525a9a22c5beefc1467",
+        "stateReason": "subscriptionActivation"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "6957",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000003704",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-18T06:02:34.697Z",
+      "updatedAt": "2026-09-22T09:39:49.810Z"
+    }
+  ],
+  "createdAt": "2026-08-18T06:02:34.697Z",
+  "updatedAt": "2026-09-22T09:39:51.342Z"
+}
+---------------------------------------------------
+Org No: 14 and Org Name:Amazon 7
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Amazon 7\')').first()
+{"log":[]}

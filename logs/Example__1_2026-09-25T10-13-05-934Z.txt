@@ -1,0 +1,1971 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address carlossandevistan@yopmail.com
+Clicked on Next button
+Click on use password
+Entered password swqa!Quality123
+Clicked on second Sign in button
+Clicked on locator('//button[@id=\'onetrust-accept-btn-handler\']')
+Subscribed list: Hawaii 24,Hawaii 25,Hawaii 26,Hawaii 27,Hawaii 28,Hawaii 29,Hawaii 3,Hawaii 30,Hawaii 31,Hawaii 32,Hawaii 33,Hawaii 34,Hawaii 35,Hawaii 36,Hawaii 37,Hawaii 38,Hawaii 39,Hawaii 4,Hawaii 40,Hawaii 41,Hawaii 42,Hawaii 43,Hawaii 44,Hawaii 45,Hawaii 46,Hawaii 47,Hawaii 48,Hawaii 49,Hawaii 5,Hawaii 50,Hawaii 51,Hawaii 6,Hawaii 7,Hawaii 8,Hawaii 9,lf_monetization number 1,lf_monetization number 10,lf_monetization number 11,lf_monetization number 12,lf_monetization number 13,lf_monetization number 14,lf_monetization number 15,lf_monetization number 16,lf_monetization number 17,lf_monetization number 18,lf_monetization number 19,lf_monetization number 2,lf_monetization number 20,lf_monetization number 3,lf_monetization number 4,lf_monetization number 5,lf_monetization number 6,lf_monetization number 7,lf_monetization number 8,lf_monetization number 9,Los Angeles 1,Miami Organization,Miami Organization - Coral Gables,Miami Organization - Doral,Miami Organization - Florida 1,Miami Organization - Hialeah,Miami Organization - Kendall,Minnesota 1,Minnesota 2,Minnesota 3,Minnesota 4,Second Address 1,Test Organization 1,Texas 1,Texas 2,Texas 3,Texas 4,Texas 5,Texas 6,Wyoming 1,Wyoming 10,Wyoming 11,Wyoming 12,Wyoming 13,Wyoming 19,Wyoming 2,Wyoming 20,Wyoming 21,Wyoming 3,Wyoming 4,Wyoming 5,Wyoming 6,Wyoming 7,Wyoming 8,Wyoming 9
+Org No: 1 and Org Name:Hawaii 24
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 24\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Hawaii 24
+---------------------------------------------------
+{
+  "subscriptionId": "737e7ee1-a84f-4a0c-b7ea-61cb2c53ffbc",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "85b472a9-5c22-4d78-899d-3de824cd3e0a",
+  "friendlySubscriptionId": "771570215477",
+  "state": "active",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "a201fc4d-fb98-4088-83ee-f987570f6f1e"
+  },
+  "attributes": {
+    "autoRenewal": true,
+    "billingAddressId": "6a87e0856dddee2824e46355",
+    "expirationEndDate": "2027-08-20T05:22:48Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-08-10T05:22:48Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a87e0856dddee2824e46355",
+    "stateReason": "subscriptionActivation",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "89f622eb-d50b-4e3d-944c-5db13338b690",
+      "subscriptionId": "737e7ee1-a84f-4a0c-b7ea-61cb2c53ffbc",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-21T05:22:51Z"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "7639",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000004051",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-21T05:22:52.658Z",
+      "updatedAt": "2026-08-21T05:27:42.603Z"
+    },
+    {
+      "entityId": "808942ef-5e42-484f-9d83-d8f29cfaa91c",
+      "subscriptionId": "737e7ee1-a84f-4a0c-b7ea-61cb2c53ffbc",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-21T05:22:51Z"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a87e0b5b7a977121f1e7a90",
+        "attributes": {
+          "contractAccountId": "002100091650",
+          "providerContractId": "706506600",
+          "subscriptionContractId": "82632054"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "7640",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000004051",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-21T05:22:52.658Z",
+      "updatedAt": "2026-08-21T05:27:42.066Z"
+    }
+  ],
+  "createdAt": "2026-08-21T05:22:52.658Z",
+  "updatedAt": "2026-08-21T05:27:41.577Z"
+}
+---------------------------------------------------
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+---------------------------------------------
+--------------Expired----------------
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org No: 2 and Org Name:Hawaii 25
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 25\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+---------------------------------------------
+--------------Expired----------------
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org No: 3 and Org Name:Hawaii 26
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 26\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Hawaii 26
+---------------------------------------------------
+{
+  "subscriptionId": "71bd6476-d20c-434b-bbba-a881206994ff",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "8fc0b596-d0bc-4e49-a1c2-b4c16def0b0d",
+  "friendlySubscriptionId": "143697086792",
+  "state": "active",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "b9b4d63b-9968-40ed-9755-aa6ad8af2778"
+  },
+  "attributes": {
+    "autoRenewal": false,
+    "billingAddressId": "6a87e1fd2ca91b3f07f4e802",
+    "expirationEndDate": "2027-08-20T05:29:01Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-08-10T05:29:01Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a87e1fd2ca91b3f07f4e802",
+    "stateReason": "toggleAutoRenewal",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "0b654a8d-4086-484c-b7f7-43218f671ece",
+      "subscriptionId": "71bd6476-d20c-434b-bbba-a881206994ff",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-21T05:29:03Z"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "7641",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000004052",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-21T05:29:04.340Z",
+      "updatedAt": "2026-08-21T05:35:03.712Z"
+    },
+    {
+      "entityId": "a34e7bcd-7c02-46c7-a482-128ec3981284",
+      "subscriptionId": "71bd6476-d20c-434b-bbba-a881206994ff",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-21T05:29:03Z"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a87e229b7a977121f1e7a95",
+        "attributes": {
+          "contractAccountId": "002100091651",
+          "providerContractId": "706506601",
+          "subscriptionContractId": "82632055"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "7642",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000004052",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-21T05:29:04.340Z",
+      "updatedAt": "2026-08-21T05:35:03.389Z"
+    }
+  ],
+  "createdAt": "2026-08-21T05:29:04.340Z",
+  "updatedAt": "2026-09-03T06:25:56.827Z"
+}
+---------------------------------------------------
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Hawaii 26 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+---------------------------------------------
+--------------Expired----------------
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 26 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org No: 4 and Org Name:Hawaii 27
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 27\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Hawaii 26 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 27 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+---------------------------------------------
+--------------Expired----------------
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 26 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 27 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org No: 5 and Org Name:Hawaii 28
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 28\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Hawaii 26 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 27 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 28 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+---------------------------------------------
+--------------Expired----------------
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 26 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 27 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 28 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org No: 6 and Org Name:Hawaii 29
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 29\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Hawaii 26 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 27 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 28 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 29 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+---------------------------------------------
+--------------Expired----------------
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 26 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 27 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 28 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 29 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org No: 7 and Org Name:Hawaii 3
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 3\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Hawaii 3
+---------------------------------------------------
+{
+  "subscriptionId": "d4f1aa73-028b-456d-9805-b7632d0fb6fc",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "2583cd75-e2c5-4a3e-9ded-a070629e4586",
+  "friendlySubscriptionId": "203398056790",
+  "state": "inactive",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "ae1a9e45-8362-4a2c-a199-b41b101c6ada"
+  },
+  "attributes": {
+    "autoRenewal": true,
+    "billingAddressId": "6a70b86405c98fe7cd3af3fb",
+    "expirationEndDate": "2027-08-02T15:49:31Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-09-02T15:49:31Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a70b86405c98fe7cd3af3fb",
+    "stateReason": "cancelWithinRemorse",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "b1b70fa9-3816-4ccc-a826-ecdd90f0f84e",
+      "subscriptionId": "d4f1aa73-028b-456d-9805-b7632d0fb6fc",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-03T15:50:03Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a70b86405c98fe7cd3af3fb",
+        "expirationEndDate": "2027-08-02T15:49:31Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-02T15:49:31Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a70b86405c98fe7cd3af3fb",
+        "stateReason": "subscriptionActivation"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "3121",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000001716",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-03T15:50:04.812Z",
+      "updatedAt": "2026-08-03T16:14:04.942Z"
+    },
+    {
+      "entityId": "5b847ed5-c99b-4a1b-bfd2-177338a91bf7",
+      "subscriptionId": "d4f1aa73-028b-456d-9805-b7632d0fb6fc",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-03T15:50:03Z",
+        "autoRenewal": true,
+        "billingAddressId": "6a70b86405c98fe7cd3af3fb",
+        "expirationEndDate": "2027-08-02T15:49:31Z",
+        "expirationPeriod": "364",
+        "expirationUnit": "day",
+        "expirationWarningPeriod": "30",
+        "expirationWarningSent": false,
+        "remorseEndDate": "2026-09-02T15:49:31Z",
+        "remorsePeriod": "30",
+        "remorseUnit": "day",
+        "shippingAddressId": "6a70b86405c98fe7cd3af3fb",
+        "stateReason": "subscriptionActivation"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a70b8bafa7f3ff249258eeb",
+        "attributes": null
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "3122",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000001716",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-03T15:50:04.812Z",
+      "updatedAt": "2026-08-03T16:14:04.358Z"
+    }
+  ],
+  "createdAt": "2026-08-03T15:50:04.812Z",
+  "updatedAt": "2026-08-03T16:14:05.442Z"
+}
+---------------------------------------------------
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+Org: Hawaii 3 ->
+      RemorseEndDate: 2026-09-02T15:49:31Z
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Hawaii 26 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 27 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 28 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 29 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+---------------------------------------------
+--------------Expired----------------
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 26 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 27 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 28 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 29 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 3 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-02T15:49:31Z,
+       AutoRenewal: true, 
+       Reason: cancelWithinRemorse
+Org No: 8 and Org Name:Hawaii 30
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 30\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Hawaii 30
+---------------------------------------------------
+{
+  "subscriptionId": "634ca6b8-28bf-47be-a0a9-7229e29689fe",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "f74bdb56-4fb7-4c30-bd61-2ffc8ec73789",
+  "friendlySubscriptionId": "719233203371",
+  "state": "inactive",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "384ba711-1d96-4066-aed4-f7301c4d1d91"
+  },
+  "attributes": {
+    "autoRenewal": true,
+    "billingAddressId": "6a82df59292b775f7bb906dd",
+    "expirationEndDate": "2027-08-20T12:01:56Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-09-20T12:01:56Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a82df59292b775f7bb906dd",
+    "stateReason": "cancelPaymentFailure",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "cf05ab21-1f20-45ba-bbdd-259f222d5eac",
+      "subscriptionId": "634ca6b8-28bf-47be-a0a9-7229e29689fe",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-21T12:01:59Z"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a883e416b5cfc046e66b37f",
+        "attributes": {
+          "contractAccountId": "002100091769",
+          "providerContractId": "706512210",
+          "subscriptionContractId": "82637664"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "7706",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000004084",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-21T12:02:00.243Z",
+      "updatedAt": "2026-08-22T13:31:05.136Z"
+    },
+    {
+      "entityId": "6a5371cd-c3dd-4ae8-b5af-70966e090c1a",
+      "subscriptionId": "634ca6b8-28bf-47be-a0a9-7229e29689fe",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-21T12:01:59Z"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "7705",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000004084",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-21T12:02:00.243Z",
+      "updatedAt": "2026-08-22T13:31:04.623Z"
+    }
+  ],
+  "createdAt": "2026-08-21T12:02:00.243Z",
+  "updatedAt": "2026-08-22T13:31:05.628Z"
+}
+---------------------------------------------------
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+Org: Hawaii 3 ->
+      RemorseEndDate: 2026-09-02T15:49:31Z
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Hawaii 26 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 27 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 28 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 29 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+---------------------------------------------
+--------------Expired----------------
+Org: Hawaii 30 ->
+      RemorseEndDate: 2026-09-20T12:01:56Z
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 26 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 27 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 28 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 29 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 3 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-02T15:49:31Z,
+       AutoRenewal: true, 
+       Reason: cancelWithinRemorse
+Org: Hawaii 30 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-20T12:01:56Z,
+       AutoRenewal: true, 
+       Reason: cancelPaymentFailure
+Org No: 9 and Org Name:Hawaii 31
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 31\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Hawaii 31
+---------------------------------------------------
+{
+  "subscriptionId": "c1c769b8-fa39-4162-87ee-eddaf4bf0d0f",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "d24c1692-eb17-49dd-99c8-ca5b92104969",
+  "friendlySubscriptionId": "643686091492",
+  "state": "active",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "79d71d20-44fe-4514-9d85-d595199dd209"
+  },
+  "attributes": {
+    "autoRenewal": true,
+    "billingAddressId": "6a8be3492ca91b3f07f4ee3d",
+    "expirationEndDate": "2027-08-23T06:24:00Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-09-23T06:24:00Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a8be3492ca91b3f07f4ee3d",
+    "stateReason": "subscriptionActivation",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "7bf6fcf7-49cc-42e8-b95d-a4c25997f077",
+      "subscriptionId": "c1c769b8-fa39-4162-87ee-eddaf4bf0d0f",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-24T06:24:03Z"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "7749",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000004106",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-24T06:24:04.711Z",
+      "updatedAt": "2026-08-24T06:43:02.403Z"
+    },
+    {
+      "entityId": "23e9ebe4-cb16-45e6-a5f8-af219ddb7976",
+      "subscriptionId": "c1c769b8-fa39-4162-87ee-eddaf4bf0d0f",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-24T06:24:03Z"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a8be38da41de0076d53446c",
+        "attributes": {
+          "contractAccountId": "002100092069",
+          "providerContractId": "706513183",
+          "subscriptionContractId": "82638637"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "7750",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000004106",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-24T06:24:04.711Z",
+      "updatedAt": "2026-08-24T06:43:01.803Z"
+    }
+  ],
+  "createdAt": "2026-08-24T06:24:04.711Z",
+  "updatedAt": "2026-08-24T06:43:01.241Z"
+}
+---------------------------------------------------
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 31 ->
+      RemorseEndDate: 2026-09-23T06:24:00Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+Org: Hawaii 3 ->
+      RemorseEndDate: 2026-09-02T15:49:31Z
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Hawaii 26 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 27 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 28 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 29 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+---------------------------------------------
+--------------Expired----------------
+Org: Hawaii 30 ->
+      RemorseEndDate: 2026-09-20T12:01:56Z
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 26 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 27 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 28 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 29 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 3 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-02T15:49:31Z,
+       AutoRenewal: true, 
+       Reason: cancelWithinRemorse
+Org: Hawaii 30 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-20T12:01:56Z,
+       AutoRenewal: true, 
+       Reason: cancelPaymentFailure
+Org: Hawaii 31 ->
+       State: active, 
+       RemorseEndDate: 2026-09-23T06:24:00Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org No: 10 and Org Name:Hawaii 32
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 32\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Hawaii 32
+---------------------------------------------------
+{
+  "subscriptionId": "1b805d22-10be-4d3b-be78-b7d119930132",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "f0ec5b45-c8cd-40c5-83d1-b6bbba0bd73a",
+  "friendlySubscriptionId": "345345228303",
+  "state": "active",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "20ea6861-0be3-483a-a498-c8623f2af74f"
+  },
+  "attributes": {
+    "autoRenewal": true,
+    "billingAddressId": "6a912da3e4aa906e20fbfc05",
+    "expirationEndDate": "2027-08-27T06:42:22Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-09-27T06:42:22Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a912da3e4aa906e20fbfc05",
+    "stateReason": "subscriptionActivation",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "042ec912-ad72-4d25-98fc-b1add62c2c3d",
+      "subscriptionId": "1b805d22-10be-4d3b-be78-b7d119930132",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-28T06:42:25Z"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "8073",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000004270",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-28T06:42:26.382Z",
+      "updatedAt": "2026-08-28T06:59:27.491Z"
+    },
+    {
+      "entityId": "5720c001-d20d-407a-994d-72574c351199",
+      "subscriptionId": "1b805d22-10be-4d3b-be78-b7d119930132",
+      "state": "active",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-28T06:42:25Z"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a912ddb49d143920bd2e483",
+        "attributes": {
+          "contractAccountId": "002100093134",
+          "providerContractId": "706523095",
+          "subscriptionContractId": "82648544"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "8074",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000004270",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-28T06:42:26.382Z",
+      "updatedAt": "2026-08-28T06:59:27.105Z"
+    }
+  ],
+  "createdAt": "2026-08-28T06:42:26.382Z",
+  "updatedAt": "2026-08-28T06:59:26.179Z"
+}
+---------------------------------------------------
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 31 ->
+      RemorseEndDate: 2026-09-23T06:24:00Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+Org: Hawaii 32 ->
+      RemorseEndDate: 2026-09-27T06:42:22Z
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+Org: Hawaii 3 ->
+      RemorseEndDate: 2026-09-02T15:49:31Z
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Hawaii 26 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 27 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 28 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 29 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+---------------------------------------------
+--------------Expired----------------
+Org: Hawaii 30 ->
+      RemorseEndDate: 2026-09-20T12:01:56Z
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 26 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 27 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 28 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 29 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 3 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-02T15:49:31Z,
+       AutoRenewal: true, 
+       Reason: cancelWithinRemorse
+Org: Hawaii 30 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-20T12:01:56Z,
+       AutoRenewal: true, 
+       Reason: cancelPaymentFailure
+Org: Hawaii 31 ->
+       State: active, 
+       RemorseEndDate: 2026-09-23T06:24:00Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 32 ->
+       State: active, 
+       RemorseEndDate: 2026-09-27T06:42:22Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org No: 11 and Org Name:Hawaii 33
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 33\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+API Status Code: 200 API JSON Response for org: Hawaii 33
+---------------------------------------------------
+{
+  "subscriptionId": "88d07c46-d3a5-48d8-8693-3c9f0db309ae",
+  "controllerId": "d4c2919d-43d1-4545-9061-fb1e3375a8f9",
+  "solutionId": "solutions.production-hub",
+  "orgId": "78938e1e-71ad-49c6-8cb2-f32be840c614",
+  "friendlySubscriptionId": "524557273069",
+  "state": "inactive",
+  "country": "US",
+  "payment": {
+    "system": "HPIP.PRS",
+    "id": "243e8783-d93c-4b1f-9fc9-9ea63a950296"
+  },
+  "attributes": {
+    "autoRenewal": true,
+    "billingAddressId": "6a899ca3e4aa906e20fbedb5",
+    "expirationEndDate": "2027-08-21T12:58:41Z",
+    "expirationPeriod": "364",
+    "expirationUnit": "day",
+    "expirationWarningPeriod": "30",
+    "expirationWarningSent": false,
+    "remorseEndDate": "2026-09-21T12:58:41Z",
+    "remorsePeriod": "30",
+    "remorseUnit": "day",
+    "shippingAddressId": "6a899ca3e4aa906e20fbedb5",
+    "stateReason": "cancelAfterRemorse",
+    "userId": "5aa91ace-b75a-4e70-82bf-f9e2ecae68c9"
+  },
+  "entities": [
+    {
+      "entityId": "09976b38-f55e-4af5-bd3c-605424bcea1b",
+      "subscriptionId": "88d07c46-d3a5-48d8-8693-3c9f0db309ae",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-22T12:58:44Z"
+      },
+      "commerce": {
+        "type": "stratus-CAS-commerce",
+        "id": "6a899d107e1e60cec7d28a37",
+        "attributes": {
+          "contractAccountId": "002100091939",
+          "providerContractId": "706512665",
+          "subscriptionContractId": "82638119"
+        }
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "UL8S6SB",
+        "attributes": {
+          "itemId": "7742",
+          "offerId": "a4a87560-50f0-4d28-819f-8ea0688901aa"
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000004102",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-22T12:58:46.053Z",
+      "updatedAt": "2026-09-22T15:08:06.170Z"
+    },
+    {
+      "entityId": "fb3b8e86-608f-4ad5-aa01-1973b8e6dff6",
+      "subscriptionId": "88d07c46-d3a5-48d8-8693-3c9f0db309ae",
+      "state": "inactive",
+      "type": "software",
+      "attributes": {
+        "entityStartDate": "2026-08-22T12:58:44Z"
+      },
+      "product": {
+        "system": "hpip.cloud.products",
+        "sku": "PRODUCTIONHUB-ANNUAL-SUBSCRIPTION",
+        "attributes": {
+          "itemId": "7741",
+          "offerId": ""
+        }
+      },
+      "source": {
+        "channel": "MAGENTO",
+        "system": "MAGENTO",
+        "id": "HM000004102",
+        "orderAttributionId": null,
+        "attributes": null
+      },
+      "createdAt": "2026-08-22T12:58:46.053Z",
+      "updatedAt": "2026-09-22T15:08:05.648Z"
+    }
+  ],
+  "createdAt": "2026-08-22T12:58:46.053Z",
+  "updatedAt": "2026-09-22T15:08:06.624Z"
+}
+---------------------------------------------------
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 31 ->
+      RemorseEndDate: 2026-09-23T06:24:00Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+Org: Hawaii 32 ->
+      RemorseEndDate: 2026-09-27T06:42:22Z
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+Org: Hawaii 3 ->
+      RemorseEndDate: 2026-09-02T15:49:31Z
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Hawaii 26 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 27 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 28 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 29 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+---------------------------------------------
+--------------Expired----------------
+Org: Hawaii 30 ->
+      RemorseEndDate: 2026-09-20T12:01:56Z
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 26 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 27 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 28 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 29 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 3 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-02T15:49:31Z,
+       AutoRenewal: true, 
+       Reason: cancelWithinRemorse
+Org: Hawaii 30 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-20T12:01:56Z,
+       AutoRenewal: true, 
+       Reason: cancelPaymentFailure
+Org: Hawaii 31 ->
+       State: active, 
+       RemorseEndDate: 2026-09-23T06:24:00Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 32 ->
+       State: active, 
+       RemorseEndDate: 2026-09-27T06:42:22Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 33 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org No: 12 and Org Name:Hawaii 34
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 34\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 31 ->
+      RemorseEndDate: 2026-09-23T06:24:00Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+Org: Hawaii 32 ->
+      RemorseEndDate: 2026-09-27T06:42:22Z
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+Org: Hawaii 3 ->
+      RemorseEndDate: 2026-09-02T15:49:31Z
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Hawaii 26 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 27 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 28 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 29 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+---------------------------------------------
+--------------Expired----------------
+Org: Hawaii 30 ->
+      RemorseEndDate: 2026-09-20T12:01:56Z
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 26 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 27 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 28 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 29 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 3 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-02T15:49:31Z,
+       AutoRenewal: true, 
+       Reason: cancelWithinRemorse
+Org: Hawaii 30 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-20T12:01:56Z,
+       AutoRenewal: true, 
+       Reason: cancelPaymentFailure
+Org: Hawaii 31 ->
+       State: active, 
+       RemorseEndDate: 2026-09-23T06:24:00Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 32 ->
+       State: active, 
+       RemorseEndDate: 2026-09-27T06:42:22Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 33 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 34 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org No: 13 and Org Name:Hawaii 35
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 35\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 31 ->
+      RemorseEndDate: 2026-09-23T06:24:00Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+Org: Hawaii 32 ->
+      RemorseEndDate: 2026-09-27T06:42:22Z
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+Org: Hawaii 3 ->
+      RemorseEndDate: 2026-09-02T15:49:31Z
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Hawaii 26 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 27 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 28 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 29 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+---------------------------------------------
+--------------Expired----------------
+Org: Hawaii 30 ->
+      RemorseEndDate: 2026-09-20T12:01:56Z
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 26 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 27 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 28 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 29 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 3 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-02T15:49:31Z,
+       AutoRenewal: true, 
+       Reason: cancelWithinRemorse
+Org: Hawaii 30 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-20T12:01:56Z,
+       AutoRenewal: true, 
+       Reason: cancelPaymentFailure
+Org: Hawaii 31 ->
+       State: active, 
+       RemorseEndDate: 2026-09-23T06:24:00Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 32 ->
+       State: active, 
+       RemorseEndDate: 2026-09-27T06:42:22Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 33 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 34 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 35 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org No: 14 and Org Name:Hawaii 36
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 36\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 31 ->
+      RemorseEndDate: 2026-09-23T06:24:00Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+Org: Hawaii 32 ->
+      RemorseEndDate: 2026-09-27T06:42:22Z
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+Org: Hawaii 3 ->
+      RemorseEndDate: 2026-09-02T15:49:31Z
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Hawaii 26 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 27 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 28 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 29 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+---------------------------------------------
+--------------Expired----------------
+Org: Hawaii 30 ->
+      RemorseEndDate: 2026-09-20T12:01:56Z
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 26 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 27 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 28 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 29 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 3 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-02T15:49:31Z,
+       AutoRenewal: true, 
+       Reason: cancelWithinRemorse
+Org: Hawaii 30 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-20T12:01:56Z,
+       AutoRenewal: true, 
+       Reason: cancelPaymentFailure
+Org: Hawaii 31 ->
+       State: active, 
+       RemorseEndDate: 2026-09-23T06:24:00Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 32 ->
+       State: active, 
+       RemorseEndDate: 2026-09-27T06:42:22Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 33 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 34 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 35 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 36 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org No: 15 and Org Name:Hawaii 37
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 37\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 31 ->
+      RemorseEndDate: 2026-09-23T06:24:00Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+Org: Hawaii 32 ->
+      RemorseEndDate: 2026-09-27T06:42:22Z
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+Org: Hawaii 3 ->
+      RemorseEndDate: 2026-09-02T15:49:31Z
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Hawaii 26 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 27 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 28 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 29 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+---------------------------------------------
+--------------Expired----------------
+Org: Hawaii 30 ->
+      RemorseEndDate: 2026-09-20T12:01:56Z
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 26 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 27 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 28 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 29 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 3 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-02T15:49:31Z,
+       AutoRenewal: true, 
+       Reason: cancelWithinRemorse
+Org: Hawaii 30 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-20T12:01:56Z,
+       AutoRenewal: true, 
+       Reason: cancelPaymentFailure
+Org: Hawaii 31 ->
+       State: active, 
+       RemorseEndDate: 2026-09-23T06:24:00Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 32 ->
+       State: active, 
+       RemorseEndDate: 2026-09-27T06:42:22Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 33 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 34 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 35 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 36 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 37 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org No: 16 and Org Name:Hawaii 38
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 38\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+----------Active and Post Remorse-------------
+Org: Hawaii 24 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 25 ->
+      RemorseEndDate: 2026-08-10T05:22:48Z
+Org: Hawaii 31 ->
+      RemorseEndDate: 2026-09-23T06:24:00Z
+-----------------------------------------------
+----------Active and Within Remorse-------------
+Org: Hawaii 32 ->
+      RemorseEndDate: 2026-09-27T06:42:22Z
+-----------------------------------------------
+----------Cancelled Within Remorse-------------
+Org: Hawaii 3 ->
+      RemorseEndDate: 2026-09-02T15:49:31Z
+-----------------------------------------------
+----------Cancelled post Remorse-------------
+Org: Hawaii 26 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 27 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 28 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+Org: Hawaii 29 ->
+      RemorseEndDate: 2026-08-10T05:29:01Z
+---------------------------------------------
+--------------Expired----------------
+Org: Hawaii 30 ->
+      RemorseEndDate: 2026-09-20T12:01:56Z
+---------------------------------------------
+Org: Hawaii 24 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 25 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:22:48Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 26 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 27 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 28 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 29 ->
+       State: active, 
+       RemorseEndDate: 2026-08-10T05:29:01Z,
+       AutoRenewal: false, 
+       Reason: toggleAutoRenewal
+Org: Hawaii 3 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-02T15:49:31Z,
+       AutoRenewal: true, 
+       Reason: cancelWithinRemorse
+Org: Hawaii 30 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-20T12:01:56Z,
+       AutoRenewal: true, 
+       Reason: cancelPaymentFailure
+Org: Hawaii 31 ->
+       State: active, 
+       RemorseEndDate: 2026-09-23T06:24:00Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 32 ->
+       State: active, 
+       RemorseEndDate: 2026-09-27T06:42:22Z,
+       AutoRenewal: true, 
+       Reason: subscriptionActivation
+Org: Hawaii 33 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 34 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 35 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 36 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 37 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org: Hawaii 38 ->
+       State: inactive, 
+       RemorseEndDate: 2026-09-21T12:58:41Z,
+       AutoRenewal: true, 
+       Reason: cancelAfterRemorse
+Org No: 17 and Org Name:Hawaii 39
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on Organization Menu
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'Hawaii 39\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Wait for page to load
+Wait for page to load
+Clicked on locator('xpath=(//div[text()=\'HP Professional Print Service Plans\'])[2]')
+Clicked on locator('//span[text()=\'Manage\']')

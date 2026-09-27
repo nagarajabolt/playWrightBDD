@@ -1,0 +1,14 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address carlossandevistan@yopmail.com
+Clicked on Next button
+Click on use password
+Entered password swqa!Quality123
+Clicked on second Sign in button
+Clicked on locator('//button[@id=\'onetrust-accept-btn-handler\']')
+Subscribed list: Alabama 1,Alabama 2,Alabama 3,Alabama 4,Amazon 1,Amazon 10,Amazon 11,Amazon 12,Amazon 2,Amazon 3,Amazon 4,Amazon 5,Amazon 6,Amazon 7,Amazon 8,Amazon 9,Wyoming 9
+Org No: 1 and Org Name:Alabama 1
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on Organization Menu
+{"log":["  - waiting for locator('//input[@id=\\'pros-app-switcher-options-search-input-input\\']')"]}

@@ -9,32 +9,33 @@ import { hpbw } from '../pageObjects/hpbw.js';
 const expectedTokensApiResponse = require('../testData/tokensResponse.json');
 import fs from 'fs';
 import path from 'path';
+const detailResponse = require('../testData/v1TokenBody.json');
 
 
-const detailResponse = {
-customerId: '01M1DS0V20EQDPHHAJ4X3N5FK8',
-userId: '01M1DS0V1YJSMSE0JN7HS1XPRD',
-freeTokens: 0,
-welcomeTokens: 1,
-demoTokens: 0,
-customerTokens: 1,
-tokens: [
-  {
-    tokenType: 'WELCOME',
-    skuType: '',
-    orderItem: null,
-    description: null,
-    originalQuantity: 1,
-    quantity: 1,
-    registeredAt: '2026-09-01T06:03:07Z',
-    expiresAt: '2027-08-31T06:03:07Z',
-    subscriptionRegisteredAt: '2026-09-01T06:03:07Z',
-    subscriptionExpiresAt: '2027-08-31T06:03:07Z',
-  },
-],
-unlimited: null,
-hasPermissionToConsumeCustomerTokens: true,
-};
+// const detailResponse = {
+// customerId: '01M1DS0V20EQDPHHAJ4X3N5FK8',
+// userId: '01M1DS0V1YJSMSE0JN7HS1XPRD',
+// freeTokens: 0,
+// welcomeTokens: 1,
+// demoTokens: 0,
+// customerTokens: 1,
+// tokens: [
+//   {
+//     tokenType: 'WELCOME',
+//     skuType: '',
+//     orderItem: null,
+//     description: null,
+//     originalQuantity: 1,
+//     quantity: 1,
+//     registeredAt: '2026-09-01T06:03:07Z',
+//     expiresAt: '2027-08-31T06:03:07Z',
+//     subscriptionRegisteredAt: '2026-09-01T06:03:07Z',
+//     subscriptionExpiresAt: '2027-08-31T06:03:07Z',
+//   },
+// ],
+// unlimited: null,
+// hasPermissionToConsumeCustomerTokens: true,
+// };
 
 
 
