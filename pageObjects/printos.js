@@ -11,6 +11,9 @@ export const printos = class printos{
         this.organizationOptionSearchInput = page.locator("//input[@id='pros-app-switcher-options-search-input-input']")
         this.searchOutputList = page.locator("//div[@class='pros-option-list']")
         this.ExpiredText = page.locator("//div[@class='title' and normalize-space()='HP Professional Print Service Plans'] /preceding-sibling::div[contains(@class,'status-container')] //div[@class='status']")
+        this.hpProfessionalPrintServicePlans = page.locator("//div[@class='title' and normalize-space()='HP Professional Print Service Plans']").first()
+        // this.subscribeButton = page.locator("//span[text()='Subscribe']/../..")
+        this.subscribeButton = page.locator("(//div[@class='pros-button-component']/button)[2]")
         this.Alabama1Text = page.locator("//div[@id='pros-option-row-0']")
         this.itemSelector = page.locator("//div[@class='pros-option-row selected']")
         // this.specificItem = page.locator()
@@ -24,7 +27,15 @@ export const printos = class printos{
         this.ProductionHubHeader = page.locator("//h1[text()='Production Hub premium SW Suite dashboard']")
         this.continueWithoutUpgrading = page.locator("//button[text()='Continue without upgrading']")
     
+        // this.summaryCheckbox1 = page.locator("//div[@class='styles__CheckboxContainer-monetization-checkout__sc-11kidd-10 feftbm']/label[1]/input")
+        // this.summaryCheckbox2 = page.locator("//div[@class='styles__CheckboxContainer-monetization-checkout__sc-11kidd-10 feftbm']/label[2]/input")        
     
+        this.summaryCheckbox1 = page.locator("//label[@class='label-regular css-vowb3d']//span[@class='vn-checkbox__span css-1xval8z']")
+        this.summaryCheckbox2 = page.locator("//label[@class='caption-regular css-vowb3d']//span[@class='vn-checkbox__span css-1xval8z']")       
+
+
+
+        this.enrollInProducationHubHWSuiteButton = page.locator("//span[text()='Enroll in Production Hub SW Suite']")
     }
 
 }

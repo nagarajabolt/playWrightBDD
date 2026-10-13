@@ -1,0 +1,23 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address qa.printos.abc@mailsac.com
+Clicked on Next button
+Click on use password
+Entered password test123$
+Clicked on second Sign in button
+Clicked on locator('//button[@id=\'onetrust-accept-btn-handler\']')
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[@class="pros-input-container"]').nth(1)
+Clicked on locator('//input[@id=\'pros-app-switcher-options-search-input-input\']')
+Clicked on locator('div[id^=\'pros-option-row-\']:has-text(\'hpbwqa abc 2\')').first()
+Wait for page to load
+Clicked on locator('//*[@id="app-switcher-toggle"]')
+Clicked on locator('//div[text()=\'Marketplace\']')
+Clicked on locator('//div[@class=\'title\' and normalize-space()=\'HP Professional Print Service Plans\']').first()
+Clicked on locator('//span[text()=\'Subscribe\']/../..')
+Clicked on Proceed to Checkout
+{"FirstName":"Tom","LastName":"Cruise","AddressLine1":"151 KAPAHULU AVE","City":"Honolulu","State":"Hawaii","ZipCode":"96815","PhoneNumber":"857-245-7473","CompanyName":"Apple Inc."}
+Entered Tom data in getByRole('textbox', { name: 'First name' })
+Entered Cruise data in getByRole('textbox', { name: 'Last name' })
+Entered 151 KAPAHULU AVE data in getByRole('textbox', { name: 'Address line 1' })
+Entered Honolulu data in getByRole('textbox', { name: 'City' })

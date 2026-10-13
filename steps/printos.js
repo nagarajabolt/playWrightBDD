@@ -776,3 +776,89 @@ Then('Fetch api details of Subscribed orgs', async ({ page }) => {
        Reason: ${values.stateReason}`)});
 }
 });
+
+
+Then('Select org {string}', async ({ page }, orgName) => {
+try {
+        const applicationsButton = await printosPageObjects.applicationsButton;
+        await navigation.clickOnButton(page, applicationsButton)
+
+        const organizationMenu = await printosPageObjects.organizationMenu;
+        await navigation.clickOnButton(page, organizationMenu.nth(1))
+      } catch (error) {
+
+        const applicationsButton = await printosPageObjects.applicationsButton;
+        await navigation.clickOnButton(page, applicationsButton)
+        const organizationMenu = await printosPageObjects.organizationMenu;
+        await navigation.clickOnButton(page, organizationMenu.nth(1))
+      
+      }
+
+      const searchInput = await printosPageObjects.organizationOptionSearchInput;
+      await navigation.clickOnButton(page, searchInput)
+      await searchInput.fill(orgName);
+      await page.waitForTimeout(300); // Small pause for the filter to update
+
+
+      // Select the matched option row (matching the exact text)
+      // const matchedRow = await page.locator(`div[id^='pros-option-row-']:has-text('${currentOrg}')`).first();
+      await navigation.clickOnButton(page, page.locator(`div[id^='pros-option-row-']:has-text('${orgName}')`).first())
+      await navigation.waitForPageLoad(page);
+
+
+});
+
+Then('Click on MarketPlace', async ({ page }) => {
+      await navigation.clickOnButton(page, printosPageObjects.applicationsButton)
+      await navigation.clickOnButton(page, printosPageObjects.marketPlace)
+      await page.waitForTimeout(30000);
+});
+
+
+Then('Check if status is Available for purchase', async ({ page }) => {
+    const status = await printosPageObjects.status.allTextContents();
+
+    expect(status).toContain('Available for Purchase');
+
+
+});
+
+
+Then('Click on HP Professional Print Service Plans', async ({ page }) => {
+    await navigation.clickOnButton(page, printosPageObjects.hpProfessionalPrintServicePlans)
+    await page.waitForTimeout(3000);
+
+
+});
+
+Then('Click on Subscribe button', async ({ page }) => {
+    await navigation.clickOnButton(page, printosPageObjects.subscribeButton);
+    // try{
+    //     await navigation.clickOnButton(page, printosPageObjects.subscribeButton);
+    // }catch(error){
+    
+    // }
+
+    console.log("Clicked on Subscribe button");
+
+
+});
+
+Then('Select checkboxes in summary page', async ({ page }) => {
+    await navigation.clickOnButton(page, printosPageObjects.summaryCheckbox1);
+    await navigation.clickOnButton(page, printosPageObjects.summaryCheckbox2);
+
+
+});
+
+Then('Click on enroll In ProducationHubHWSuiteButton', async ({ page }) => {
+    await navigation.clickOnButton(page, printosPageObjects.enrollInProducationHubHWSuiteButton);
+    await page.waitForTimeout(30000);
+
+});
+
+
+
+
+
+      

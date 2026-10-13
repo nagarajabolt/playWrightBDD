@@ -11,7 +11,7 @@ import fs from 'fs';
 import path from 'path';
 const detailResponse = require('../testData/v1TokenBody.json');
 
-
+const ELEMENT_TIMEOUT = process.env.ELEMENT_TIMEOUT ? parseInt(process.env.ELEMENT_TIMEOUT) : 950000;
 // const detailResponse = {
 // customerId: '01M1DS0V20EQDPHHAJ4X3N5FK8',
 // userId: '01M1DS0V1YJSMSE0JN7HS1XPRD',
@@ -98,6 +98,20 @@ Then('Open chrome browser and Login to application', async ({page}, datatable) =
   clickOnButton(page, hpbwPageObjects.usePassword);
   enterData(page, hpbwPageObjects.password, Password);
   clickOnButton(page, hpbwPageObjects.signinButtonHPBW);
+
+});
+
+Then('Open chrome browser and Login to consumer portal application', async ({page}, datatable) => {
+  const {Url,  Username, Password } = datatable.hashes()[0];  
+  await page.goto(Url, {waitUntil: 'load', timeout: 300000});
+  console.log(`Opened browser and navigated to ${Url}`);
+  page.waitForTimeout(30000);
+  // clickOnButton(page, hpbwPageObjects.loginButton);
+  await enterData(page, hpbwPageObjects.cpEmailAddress, Username);
+  await clickOnButton(page, hpbwPageObjects.NextButton);
+  await clickOnButton(page, hpbwPageObjects.usePassword);
+  await enterData(page, hpbwPageObjects.password, Password);
+  await clickOnButton(page, hpbwPageObjects.signinButtonHPBW);
 
 });
 
@@ -214,10 +228,26 @@ Then('Click on Get more tokens', async ({page}) => {
 });
 
 Then('Click on 5 token package', async ({page}) => {
-  await hpbwPageObjects.tokenPackageButton.waitFor({state: 'visible', timeout: 80000});
-  await hpbwPageObjects.tokenPackageButton.click({timeout: 80000});
+  await hpbwPageObjects.fiveTokenPackageButton.waitFor({state: 'visible', timeout: 80000});
+  await hpbwPageObjects.fiveTokenPackageButton.click({timeout: 80000});
   // await hpbwPageObjects.tokenPackageButton.click();
   console.log('Clicked on 5 token package');
+  await page.waitForTimeout(3000);
+});
+
+Then('Click on 1 token package', async ({page}) => {
+  await hpbwPageObjects.oneTokenPackageButton.waitFor({state: 'visible', timeout: 80000});
+  await hpbwPageObjects.oneTokenPackageButton.click({timeout: 80000});
+  // await hpbwPageObjects.tokenPackageButton.click();
+  console.log('Clicked on 1 token package');
+  await page.waitForTimeout(3000);
+});
+
+Then('Click on 10 token package', async ({page}) => {
+  await hpbwPageObjects.tenTokenPackageButton.waitFor({state: 'visible', timeout: 80000});
+  await hpbwPageObjects.tenTokenPackageButton.click({timeout: 80000});
+  // await hpbwPageObjects.tokenPackageButton.click();
+  console.log('Clicked on 10 token package');
   await page.waitForTimeout(3000);
 });
 
@@ -245,7 +275,8 @@ Then('Enter billing details', async ({page}, datatable) => {
   // await console.log(`Entered state ${State}`);
   const stateLocator = await hpbwPageObjects.state;
   await stateLocator.click();
-  await hpbwPageObjects.stateValue.click();
+  // await hpbwPageObjects.stateValue.click();
+  await hpbwPageObjects.getStateValue(State).click();
   // clickOnButton(page, hpbwPageObjects.state);
   // clickOnButton(page, hpbwPageObjects.stateValue);
   await enterData(page, hpbwPageObjects.zipCode, ZipCode);
@@ -396,8 +427,16 @@ Then('Click on see orders and invoices', async ({page}) => {
   await page.waitForTimeout(3000);
 }); 
 
+Then('Click on Back to HPBW Tokens Pack', async ({page}) => {
+  await hpbwPageObjects.backToHPBWTokensPack.waitFor({state: 'visible', timeout: 160000});
+  await hpbwPageObjects.backToHPBWTokensPack.click({timeout: 160000});
+  console.log('Clicked on back to HPBW tokens pack');
+  await page.waitForTimeout(3000);
+}); 
+
 Then('Check tokens api response', async ({page}) => {
 
   await page.waitForTimeout(3000);
 }); 
+
 

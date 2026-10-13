@@ -1,0 +1,8 @@
+Navigate to: https://stg.printopt.org/start/#/signin
+Clicked on Sign in button
+Entered email address qa.printos.abc@mailsac.com
+Clicked on Next button
+Click on use password
+Entered password test123$
+Clicked on second Sign in button
+Clicked on locator('//button[@id=\'onetrust-accept-btn-handler\']')
