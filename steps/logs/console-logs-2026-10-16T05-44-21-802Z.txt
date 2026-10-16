@@ -1,0 +1,76 @@
+Opened browser and navigated to https://aec-itg.hpcloud.hp.com/projects
+Click on Tokens button and print detail api details and validate api response
+Clicked on getByRole('button', { name: /log\s*in/i }).first()
+Entered hpbw.qauser.i@yopmail.com data in locator('span').filter({ hasText: /^Email address$/ })
+Clicked on getByText('Next', { exact: true })
+Clicked on getByText('Use password', { exact: true })
+Entered test123$ data in locator('#password')
+Clicked on getByRole('button', { name: 'submit-button' })
+Clicked on locator('//span[text()=\' Tokens \']')
+Clicked on Get more tokens
+Clicked on 5 token package
+Clicked on 5 token package
+Clicked on Proceed to Checkout
+{"FirstName":"Tom","LastName":"Cruise","AddressLine1":"151 KAPAHULU AVE","City":"Honolulu","State":"Hawaii","ZipCode":"96815","PhoneNumber":"857-245-7473","CompanyName":"Apple Inc."}
+Entered Tom data in getByRole('textbox', { name: 'First name' })
+Entered Cruise data in getByRole('textbox', { name: 'Last name' })
+Entered 151 KAPAHULU AVE data in getByRole('textbox', { name: 'Address line 1' })
+Entered Honolulu data in getByRole('textbox', { name: 'City' })
+Entered 96815 data in getByRole('textbox', { name: 'Zip code' })
+Entered 857-245-7473 data in getByRole('textbox', { name: 'Phone number' })
+Entered Apple Inc. data in locator('//input[@data-testid=\'billing-company\']')
+Clicked on use this address
+4111111111111111 12/34 123
+Entered card number 4111111111111111
+Entered card number 4111111111111111
+Entered expiry date 12/34
+Entered cvv 123
+Clicked on use this card
+Clicked on confirm and purchase
+Clicked on back to HPBW tokens pack
+Click on Tokens button and print detail api details and validate api response
+Clicked on locator('//span[text()=\' Tokens \']')
+Clicked on Get more tokens
+Clicked on 1 token package
+Clicked on 5 token package
+Clicked on Proceed to Checkout
+{"FirstName":"Tom","LastName":"Cruise","AddressLine1":"151 KAPAHULU AVE","City":"Honolulu","State":"Hawaii","ZipCode":"96815","PhoneNumber":"857-245-7473","CompanyName":"Apple Inc."}
+Entered Tom data in getByRole('textbox', { name: 'First name' })
+Entered Cruise data in getByRole('textbox', { name: 'Last name' })
+Entered 151 KAPAHULU AVE data in getByRole('textbox', { name: 'Address line 1' })
+Entered Honolulu data in getByRole('textbox', { name: 'City' })
+Entered 96815 data in getByRole('textbox', { name: 'Zip code' })
+Entered 857-245-7473 data in getByRole('textbox', { name: 'Phone number' })
+Entered Apple Inc. data in locator('//input[@data-testid=\'billing-company\']')
+Clicked on use this address
+4111111111111111 12/34 123
+Entered card number 4111111111111111
+Entered card number 4111111111111111
+Entered expiry date 12/34
+Entered cvv 123
+Clicked on use this card
+Clicked on confirm and purchase
+Clicked on back to HPBW tokens pack
+Click on Tokens button and print detail api details and validate api response
+Clicked on locator('//span[text()=\' Tokens \']')
+Clicked on Get more tokens
+Clicked on 10 token package
+Clicked on 5 token package
+Clicked on Proceed to Checkout
+{"FirstName":"Tom","LastName":"Cruise","AddressLine1":"151 KAPAHULU AVE","City":"Honolulu","State":"Hawaii","ZipCode":"96815","PhoneNumber":"857-245-7473","CompanyName":"Apple Inc."}
+Entered Tom data in getByRole('textbox', { name: 'First name' })
+Entered Cruise data in getByRole('textbox', { name: 'Last name' })
+Entered 151 KAPAHULU AVE data in getByRole('textbox', { name: 'Address line 1' })
+Entered Honolulu data in getByRole('textbox', { name: 'City' })
+Entered 96815 data in getByRole('textbox', { name: 'Zip code' })
+Entered 857-245-7473 data in getByRole('textbox', { name: 'Phone number' })
+Entered Apple Inc. data in locator('//input[@data-testid=\'billing-company\']')
+Clicked on use this address
+4111111111111111 12/34 123
+Entered card number 4111111111111111
+Entered card number 4111111111111111
+Entered expiry date 12/34
+Entered cvv 123
+Clicked on use this card
+Clicked on confirm and purchase
+Clicked on back to HPBW tokens pack

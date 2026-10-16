@@ -83,7 +83,7 @@ Feature: PrintOS
 
         Examples:
             | Url | LoginMailID | Password | OrgName |
-            | https://stg.printopt.org/start/#/signin  | qa.printos.abc@mailsac.com | test123$  |   hpbwqa abc 12  |
-
+            | https://stg.printopt.org/start/#/signin  | qa.printos.abc@mailsac.com | test123$  |   hpbwqa abc 15  |
+            | https://stg.printopt.org/start/#/signin  | qa.printos.abc@mailsac.com | test123$  |   hpbwqa abc 16  |
 
        

@@ -12,6 +12,7 @@ export const hpbw = class hpbw{
         this.signinButton = page.getByRole('button', { name: /sign\s*in/i }).first();
         this.signinButtonHPBW = page.getByRole('button', { name: 'submit-button' })
         this.tokensButton =  page.locator("//span[text()=' Tokens ']")
+        this.openButton = page.locator("//div[@class='expand-item' and @title='Open']")
         this.getMoreTokensButton = page.getByRole('button', { name: /get more tokens/i }).first();
         this.fiveTokenPackageButton = page.getByText('5 Token Package', { exact: true })
         this.oneTokenPackageButton = page.getByText('1 Token Package', { exact: true })
@@ -52,8 +53,11 @@ export const hpbw = class hpbw{
         this.cpPassword = page.locator("//input[@id='password']")
         this.cpSignInButton = page.locator("//input[@id='sign-in']")  
         
-
-    
+        this.aiVectorization = page.locator("//span[contains(text(),'AI Vectorizations')]")
+        this.aiVectorize = page.locator("//div[contains(text(),'AI Vectorize')]")
+        this.browseYourFiles = page.getByText('Browse your files', { exact: true })
+        this.vectorizationContinueButton = page.getByRole('button', { name: 'Continue', exact: true })
+        this.buildWorkspaceButton = page.getByText('Build Workspace', { exact: true })
     
     }
         getStateValue(stateName) {

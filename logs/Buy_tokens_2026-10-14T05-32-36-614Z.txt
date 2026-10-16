@@ -1,0 +1,349 @@
+Opened browser and navigated to https://aec-itg.hpcloud.hp.com/projects
+Clicked on getByRole('button', { name: /log\s*in/i }).first()
+Entered hpbw.qauser.f@yopmail.com data in locator('span').filter({ hasText: /^Email address$/ })
+Clicked on getByText('Next', { exact: true })
+Clicked on getByText('Use password', { exact: true })
+Entered test123$ data in locator('#password')
+Clicked on getByRole('button', { name: 'submit-button' })
+Clicked on locator('//span[text()=\' Tokens \']')
+Tokens API response: {
+  "purchaseAvailable": true,
+  "products": [
+    {
+      "sku": "HPBW-TOKENS-PACK",
+      "type": "tokens",
+      "name": "1 Token Package",
+      "description": "HPBW Tokens Pack Offer",
+      "quantity": 1,
+      "price": "35",
+      "currencySymbol": "USD"
+    },
+    {
+      "sku": "HPBW-TOKENS-PACK",
+      "type": "tokens",
+      "name": "5 Token Package",
+      "description": "HPBW Tokens Pack Offer",
+      "quantity": 5,
+      "price": "160",
+      "currencySymbol": "USD"
+    },
+    {
+      "sku": "HPBW-TOKENS-PACK",
+      "type": "tokens",
+      "name": "10 Token Package",
+      "description": "HPBW Tokens Pack Offer",
+      "quantity": 10,
+      "price": "302",
+      "currencySymbol": "USD"
+    }
+  ]
+}
+detail API response: {
+  "customerId": "01M1DS0V20EQDPHHAJ4X3N5FK8",
+  "userId": "01M1DS0V1YJSMSE0JN7HS1XPRD",
+  "freeTokens": 0,
+  "welcomeTokens": 1,
+  "demoTokens": 0,
+  "customerTokens": 1,
+  "tokens": [
+    {
+      "tokenType": "WELCOME",
+      "skuType": "",
+      "orderItem": null,
+      "description": null,
+      "originalQuantity": 1,
+      "quantity": 1,
+      "registeredAt": "2026-09-01T06:03:07Z",
+      "expiresAt": "2027-08-31T06:03:07Z",
+      "subscriptionRegisteredAt": "2026-09-01T06:03:07Z",
+      "subscriptionExpiresAt": "2027-08-31T06:03:07Z"
+    }
+  ],
+  "unlimited": null,
+  "hasPermissionToConsumeCustomerTokens": true
+}
+detail API request headers: {
+  "accept": "application/json",
+  "accept-language": "en-US",
+  "cookie": "hpip-access-token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MGE4ZDMwLTYzZTAtNDFkMC04ZWQyLTBkMTMzYjVhZDY0NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9jYW5jZWwtd29ya2Zsb3dzLWVjb21tZXJjZS5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9jb3VudGVycy11dGlsaXR5LnN0Zy5vYy5ocC5jb20iLCJodHRwczovL2lkcC1jb25maWctYXV0aC5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly91c2VyLWFnZ3JlZ2F0aW9uLXJlbGF0aW9uc2hpcC5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9yb2xlcy1yZWxhdGlvbnNoaXAuc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vZWNvbW0tc3Vic2NyaXB0aW9ubWd0LWNvbW1lcmNlLnN0Zy5vYy5ocC5jb20iLCJodHRwczovL2lkcC10b2tlbm1nbXQtYXV0aC5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9vcmdhbml6YXRpb24taWRlbnRpdHkuc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vcmVnaXN0cnktcmVsYXRpb25zaGlwLnN0Zy5vYy5ocC5jb20iLCJodHRwczovL3N1YnNjcmlwdGlvbi1zdGF0ZS1jb21tZXJjZS5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9lY29tbS1vcmRlci1zdGF0ZS1jb21tZXJjZS5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9vcmRlci1yZWdpc3RyeS1wZXJzb25hbGl6YXRpb24uc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vc3Vic2NyaXB0aW9uLXN0YXRlLXBlcnNvbmFsaXphdGlvbi5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9pZHAtbG9va3VwLWF1dGguc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vZWxpZ2liaWxpdHktY29tbWVyY2Uuc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vYWdncmVnYXRpb24tcmVsYXRpb25zaGlwLnN0Zy5vYy5ocC5jb20iLCJodHRwczovL29hdXRoLWF1dGguc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vYWRkcmVzcy1pZGVudGl0eS5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9lY29tbS1pbnZvaWNlLXN0YXRlLWNvbW1lcmNlLnN0Zy5vYy5ocC5jb20iLCJodHRwczovL2xlZ2FjeS1zdHJhdHVzLnN0Zy5vYy5ocC5jb20vc2MiLCJodHRwczovL3VzZXItaWRlbnRpdHkuc3RnLm9jLmhwLmNvbSJdLCJhdXRoX3RpbWUiOjEuNzkxOTU1OTc5ZSswOSwiYXV0aG9yaXphdGlvbl9kZXRhaWxzIjpbXSwiY2lkIjoiODM0Mzc0NDQtZmZkMy00NjhkLWE2YzUtYzJhNDVkMDZhNWM0IiwiZXhwIjoxNzkxOTU2ODg2LCJleHRlcm5hbE9yZ1JlZklEcyI6W10sImV4dGVybmFsVXNlclJlZklEcyI6W10sImlhdCI6MTc5MTk1NTk4NiwiaWRwX3R5cGUiOiJocGlkIiwiaWRwX3VzZXJfaWQiOiJycnR1MWRlZ3ljaDl4eTRpN3BpNHc2b2sxYnJhemd0MyIsImlkdHlwIjoidXNlciIsImlzcyI6Imh0dHBzOi8vb2F1dGgtYXV0aC5zdGcub2MuaHAuY29tL29hdXRoMi92MS9ocG9jLXN0ZyIsImp0aSI6IjI1MTRjYWY2LWVmYmMtNDIyMi05MDg4LTZmNDcwN2UwZDVlZCIsInByb2pfcmVmIjoiOGY4M2I0NGQtYmEzZi00MzZkLWFlZjMtMWY5MmU5MmIwYzc3Iiwic2EiOiJhdXRoQG1vdHVzLXN0Zy5ocG9jLXNhLmNvbSIsInNjcCI6WyJvcGVuaWQiLCJvZmZsaW5lIl0sInN1YiI6ImJmOGY1OGFlLTczZTEtNGI0MC04NjRkLTUxZTgwMWQ4NmZhNCIsInRlbmFudHMiOlt7Im9uX2JlaGFsZl9vZiI6W10sInBlcm1pc3Npb25fbWFza3MiOltdLCJyb2xlcyI6WyI3NjBkNGU4My1iNGUzLTQ2MDYtYjZlNy1jOGYwNzZkZGZmZjQiLCI3NTUzN2JlMS1iYTI4LTQwZWYtYWQ0Ny1mZjkzYWU2MjFmMjEiXSwidGVuYW50X2ZxaWQiOiI1YzFjMjU0N2JmOTY1ZGVlMDA0NjVhM2IvYjQyYjNlZTQtZjI4ZS00ZTE5LThjYzUtMGI3YTAzOGQwZjA4L2FlODdkOWFiLTkyNWEtNGE5ZS04NzcyLTJlMDg0ZTczZmRkNCIsInRlbmFudF9pZCI6ImFlODdkOWFiLTkyNWEtNGE5ZS04NzcyLTJlMDg0ZTczZmRkNCJ9XX0.ksjPbYs3vUYd-oKKaDiAVpKVBDv6ot5woUEnY7cvzRSb0HKtxGHopfs_cTDfj105LTwuDz3rWMMOcdwk_YDFz_o4hsgpfjjNn6ROyGPiWh0XGorb7M8v5FAGto25Vh_J9rQlfby_8QCAvtGb4ENGOOre_3qpnUOwC1zfdFfgNelRwPFknC_8tyLHxDbFjWzyi9bNffPAa6GnWr4N0tDyaU3XAqcrrYi99SdJdTFkAvgCUtfoiZ4nk5ouXCd7zO1VZiATk_UpyeK-9rySvzEMipQu_054fHs9a8-CXd_6WkOu8vtPkC0vZLRf7uPhtXUVpIK-pqok8aYPBS7DMK8Ktw; hpip-refresh-token=ynJqRmJq11SezZbGRSbhSlgRsKUy6RmSley88UQsNlw.M_4IBlgetRbeQbrpGG27hKj9baTcDNTdl0sd-s_JhxQ.1791984779; hpip-session=eyJocElwVXNlcklkIjoiYmY4ZjU4YWUtNzNlMS00YjQwLTg2NGQtNTFlODAxZDg2ZmE0IiwidG9rZW5UeXBlIjoib3JnLWF3YXJlIiwiYWNjZXNzVG9rZW5FeHBpcmF0aW9uVGltZSI6IjIwMjYtMTAtMTRUMDU6NDg6MDcuNDE4Nzk3MzA4WiIsInJlZnJlc2hUb2tlbkV4cGlyYXRpb25UaW1lIjoiMjAyNi0xMC0xNFQxMzozMzowOC40MTg3OTg2NTNaIiwiaHBJcE9yZ0lkIjoiYWU4N2Q5YWItOTI1YS00YTllLTg3NzItMmUwODRlNzNmZGQ0In0=",
+  "origin": "https://aec-itg.hpcloud.hp.com",
+  "referer": "https://aec-itg.hpcloud.hp.com/",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjAxSFc1TVRTUDFaNVRXSDZNQVpBQURQTkpHIiwidHlwIjoiSldUIn0.eyJzZXNzaW9uX2lkIjoiMTZiYzQwYjgtM2IxMi00OWI5LTgxY2EtZGRkNWZiZTVkZGZiIiwiY2xpZW50X2lkIjoiMDFIVzgyTVpSR1oyREJRUzBEVjFGNURKUTUiLCJ1c2VyX2lkIjoiMDFNNEZWNkdDS0Q5VFJHTVlZUUdLWVNBNEUiLCJmaXJzdF9uYW1lIjoiaHBidyIsImxhc3RfbmFtZSI6ImYiLCJlbWFpbCI6ImhwYncucWF1c2VyLmZAeW9wbWFpbC5jb20iLCJyZXNlbGxlcl9pZCI6bnVsbCwiY3VzdG9tZXJfaWQiOiIwMU00RlY2R0NTN042NUtIUVk5OEtWRldSTSIsInVzZXJfZmVhdHVyZXMiOltdLCJ1c2VyX2FjdGlvbnMiOlsiQURNSU4iLCJDX01FTSIsIkNfUkVTX0NVU1QiLCJEX01FTSIsIkRfUkVTX0NVU1QiLCJFX01FTSIsIkZGX0MiLCJGRl9DUyIsIkZGX0ZSIiwiRkZfRlQiLCJGRl9OQ0YiLCJGRl9ORVdfTUVNQl9OQU1FIiwiRkZfUklGIiwiTV9GRl9ORVdfUk9MRVMiLCJWX01FTSIsIlZfUkVTX0NVU1QiLCJEX0NVU1QiLCJFX0NVU1QiLCJGRl9BVFJDUEYiLCJGRl9BViIsIkZGX0JEIiwiRkZfQkkiLCJGRl9CVVBGIiwiRkZfQ19QIiwiRkZfQ0MiLCJGRl9DTlAiLCJGRl9DUldTIiwiRkZfQ1QiLCJGRl9ETSIsIkZGX0RNX1BERiIsIkZGX0RSRCIsIkZGX0RURSIsIkZGX0ZDRCIsIkZGX0lBIiwiRkZfSlAiLCJGRl9NQ1MiLCJGRl9NUEEiLCJGRl9NVCIsIkZGX05BUlYiLCJGRl9OT1EiLCJGRl9OUEMiLCJGRl9OUUEiLCJGRl9PUUZBIiwiRkZfUElOIiwiRkZfUFAiLCJGRl9RUiIsIkZGX1JFUVVFU1RfVE9LRU5fRkxPVyIsIkZGX1JGIiwiRkZfUkZEIiwiRkZfUlBQVCIsIkZGX1JUIiwiRkZfUlRBIiwiRkZfU0IiLCJGRl9TQkkiLCJGRl9TQlQiLCJGRl9TRk8iLCJGRl9TRlAiLCJGRl9TTUlCIiwiRkZfU09UUiIsIkZGX1NQREYiLCJGRl9TUlQiLCJGRl9TVFQiLCJGRl9TViIsIkZGX1RBU0tTIiwiRkZfVEMiLCJGRl9URUwiLCJGRl9UUCIsIkZGX1RQTSIsIkZGX1ZDTyIsIkZGX1ZQUiIsIkZGX1ZUIiwiRkZfVlRCIiwiRkZfV01BIiwiTV9GRl9BU1AiLCJNX0ZGX0JBVENIX0VfMiIsIk1fRkZfQkFUQ0hfVSIsIk1fRkZfQ19QIiwiTV9GRl9DX1NNIiwiTV9GRl9GQ18yIiwiTV9GRl9GUCIsIk1fRkZfRlRFIiwiTV9GRl9HQV8yIiwiTV9GRl9MViIsIk1fRkZfTk9RIiwiTV9GRl9OUEQiLCJNX0ZGX1NDQU5fMiIsIk1fRkZfU1YiLCJNX0ZGX1ZGIiwiTV9GRl9WRl9PIiwiTV9GRl9XT1JEX1JFUE9SVCIsIlBfTU9OX1NNIiwiU1BfRkZfQ0FNIiwiU1BfRkZfRElBR19QS0ciLCJWX0FDQyIsIlZfQUNDX1JFQUNUIiwiVl9BQ0NPVU5UX1BST0ZJTEUiLCJWX0NVU1QiLCJWX01EIiwiVl9NUiIsIlZfUFJPSiIsIlZfUkVBQ1QiLCJWX1NNQVJUIiwiVl9TUF9IVUxMIiwiWF9MT0dfUkVQT1JUX0dFTl9WMiJdLCJhZG1pbl9yb2xlIjoiVVNFUiIsImN1c3RvbWVyX3JvbGUiOiJBRE1JTiIsInVzZXJfYWdyZWVtZW50Ijp0cnVlLCJpc3MiOiJodHRwczovL2FwaS1hZWMtaXRnLmhwY2xvdWQuaHAuY29tIiwiZXhwIjoxNzkxOTU2ODg3fQ.CgQDcXX3z3e1JA2Po6CC60FDJsjbmyF8F47hqTz4rvylw_109m8uWi-FTeCRE0h6QC3_PnJ7uzVk0tlH5C47SLg0AqRwdcOLMWWFH9e1XfkiY70noejZ37EbpqvhjpIDMklpZWV3H1malMumuscy-UCyJPs3l8rC68eC_GEMGMjYzTiYn7V98WT1pWZIvau4AzI9i2lB1GgmrVS0_eIl5STV421pZefGn9m48LxnXyCL8kCCsARj_wZC08ew2z0k2kU8RiThhHjR_1cCZ8TRVmgQbyZSBUIoCp1yXrkB7hro9YVZNTcwthFFn1fjy1EO4-qWvU-H_QWhlS1KSMoEc9k-F-pf9WE1U2QPJnwr6dDTJYLxS-DK_PBeFRoy61yxQKVaEbeJ5j9EhkKnQTTJ0Neq63lPTjzTC2g8Fu9BiL5ZGT8bLoPQLJveTC2rD-JaiptSwaB334m3eFoQfSKTrrJA7ITMBIt8deUr1rXHbvbhqRAiErjQ257_Oa2cT54nnHedKGzIlRvRwGqP2DfOcx4oXfbmLnTuCtqnJ1wEggUfx7qu-5Q7KC2wPuMz4RpCz4JZT7ZGgTg-C25PHDqguqq-RsAlZgNJhwWOle_ohn4pF2MR1EPW-GVEY2CdyHRMm384GY798vVnxHB8aP7vNCu2fuiBLq7KcROaLmrAS7U",
+  "content-language": "en",
+  "sec-ch-ua": "\"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"Windows\""
+}
+detail API request body: 
+detail API response details: {
+  "url": "https://api-aec-itg.hpcloud.hp.com/v1/tokens/01M4FV6GCS7N65KHQY98KVFWRM/01M4FV6GCKD9TRGMYYQGKYSA4E/detail",
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "access-control-allow-origin": "https://aec-itg.hpcloud.hp.com",
+    "content-length": "497",
+    "content-type": "application/json",
+    "vary": "Origin",
+    "access-control-allow-credentials": "true"
+  },
+  "body": "{\"customerId\":\"01M1DS0V20EQDPHHAJ4X3N5FK8\",\"userId\":\"01M1DS0V1YJSMSE0JN7HS1XPRD\",\"freeTokens\":0,\"welcomeTokens\":1,\"demoTokens\":0,\"customerTokens\":1,\"tokens\":[{\"tokenType\":\"WELCOME\",\"skuType\":\"\",\"orderItem\":null,\"description\":null,\"originalQuantity\":1,\"quantity\":1,\"registeredAt\":\"2026-09-01T06:03:07Z\",\"expiresAt\":\"2027-08-31T06:03:07Z\",\"subscriptionRegisteredAt\":\"2026-09-01T06:03:07Z\",\"subscriptionExpiresAt\":\"2027-08-31T06:03:07Z\"}],\"unlimited\":null,\"hasPermissionToConsumeCustomerTokens\":true}"
+}
+Clicked on Get more tokens
+Clicked on 5 token package
+Clicked on 5 token package
+Clicked on Proceed to Checkout
+{
+  "FirstName": "Tom",
+  "LastName": "Cruise",
+  "AddressLine1": "151 KAPAHULU AVE",
+  "City": "Honolulu",
+  "State": "Hawaii",
+  "ZipCode": "96815",
+  "PhoneNumber": "857-245-7473",
+  "CompanyName": "Apple Inc."
+}
+Entered Tom data in getByRole('textbox', { name: 'First name' })
+Entered Cruise data in getByRole('textbox', { name: 'Last name' })
+Entered 151 KAPAHULU AVE data in getByRole('textbox', { name: 'Address line 1' })
+Entered Honolulu data in getByRole('textbox', { name: 'City' })
+Entered 96815 data in getByRole('textbox', { name: 'Zip code' })
+Entered 857-245-7473 data in getByRole('textbox', { name: 'Phone number' })
+Entered Apple Inc. data in locator('//input[@data-testid=\'billing-company\']')
+Clicked on use this address
+4111111111111111 12/34 123
+Entered card number 4111111111111111
+Entered card number 4111111111111111
+Entered expiry date 12/34
+Entered cvv 123
+Clicked on use this card
+Clicked on confirm and purchase
+Clicked on back to HPBW tokens pack
+Clicked on locator('//span[text()=\' Tokens \']')
+Tokens API response: {
+  "purchaseAvailable": true,
+  "products": [
+    {
+      "sku": "HPBW-TOKENS-PACK",
+      "type": "tokens",
+      "name": "1 Token Package",
+      "description": "HPBW Tokens Pack Offer",
+      "quantity": 1,
+      "price": "35",
+      "currencySymbol": "USD"
+    },
+    {
+      "sku": "HPBW-TOKENS-PACK",
+      "type": "tokens",
+      "name": "5 Token Package",
+      "description": "HPBW Tokens Pack Offer",
+      "quantity": 5,
+      "price": "160",
+      "currencySymbol": "USD"
+    },
+    {
+      "sku": "HPBW-TOKENS-PACK",
+      "type": "tokens",
+      "name": "10 Token Package",
+      "description": "HPBW Tokens Pack Offer",
+      "quantity": 10,
+      "price": "302",
+      "currencySymbol": "USD"
+    }
+  ]
+}
+detail API response: {
+  "customerId": "01M1DS0V20EQDPHHAJ4X3N5FK8",
+  "userId": "01M1DS0V1YJSMSE0JN7HS1XPRD",
+  "freeTokens": 0,
+  "welcomeTokens": 1,
+  "demoTokens": 0,
+  "customerTokens": 1,
+  "tokens": [
+    {
+      "tokenType": "WELCOME",
+      "skuType": "",
+      "orderItem": null,
+      "description": null,
+      "originalQuantity": 1,
+      "quantity": 1,
+      "registeredAt": "2026-09-01T06:03:07Z",
+      "expiresAt": "2027-08-31T06:03:07Z",
+      "subscriptionRegisteredAt": "2026-09-01T06:03:07Z",
+      "subscriptionExpiresAt": "2027-08-31T06:03:07Z"
+    }
+  ],
+  "unlimited": null,
+  "hasPermissionToConsumeCustomerTokens": true
+}
+detail API request headers: {
+  "accept": "application/json",
+  "accept-language": "en-US",
+  "cookie": "OptanonAlertBoxClosed=2026-10-14T05:33:47.642Z; hpeuck_prefs=1111; hpeuck_answ=1; OptanonConsent=isGpcEnabled=0&datestamp=Wed+Oct+14+2026+11%3A03%3A48+GMT%2B0530+(India+Standard+Time)&version=202608.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=3c2ea9ac-113b-4094-a2ba-8c05d970bc25&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=1%3A1%2C2%3A1%2C3%3A1%2C4%3A1&fclco=&lastConsentTs=1791956027&intType=1&crTime=1791956028128; _hjSessionUser_5136680=eyJpZCI6Ijk4ZjZmMGJhLTJlNDktNTQ3OS1iZGZkLTRmMDA1ODA5N2U2NyIsImNyZWF0ZWQiOjE3OTE5NTYwMzAyNDcsImV4aXN0aW5nIjp0cnVlfQ==; _hjSession_5136680=eyJpZCI6ImU5MTM1OTc1LWMxYmEtNGQ2Zi05Njg0LTYxMDVjZjdlMGQ2NSIsImMiOjE3OTE5NTYwMzAyNDgsInMiOjEsInIiOjEsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MX0=; hpip-access-token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MGE4ZDMwLTYzZTAtNDFkMC04ZWQyLTBkMTMzYjVhZDY0NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9jYW5jZWwtd29ya2Zsb3dzLWVjb21tZXJjZS5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9jb3VudGVycy11dGlsaXR5LnN0Zy5vYy5ocC5jb20iLCJodHRwczovL2lkcC1jb25maWctYXV0aC5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly91c2VyLWFnZ3JlZ2F0aW9uLXJlbGF0aW9uc2hpcC5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9yb2xlcy1yZWxhdGlvbnNoaXAuc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vZWNvbW0tc3Vic2NyaXB0aW9ubWd0LWNvbW1lcmNlLnN0Zy5vYy5ocC5jb20iLCJodHRwczovL2lkcC10b2tlbm1nbXQtYXV0aC5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9vcmdhbml6YXRpb24taWRlbnRpdHkuc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vcmVnaXN0cnktcmVsYXRpb25zaGlwLnN0Zy5vYy5ocC5jb20iLCJodHRwczovL3N1YnNjcmlwdGlvbi1zdGF0ZS1jb21tZXJjZS5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9lY29tbS1vcmRlci1zdGF0ZS1jb21tZXJjZS5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9vcmRlci1yZWdpc3RyeS1wZXJzb25hbGl6YXRpb24uc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vc3Vic2NyaXB0aW9uLXN0YXRlLXBlcnNvbmFsaXphdGlvbi5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9pZHAtbG9va3VwLWF1dGguc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vZWxpZ2liaWxpdHktY29tbWVyY2Uuc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vYWdncmVnYXRpb24tcmVsYXRpb25zaGlwLnN0Zy5vYy5ocC5jb20iLCJodHRwczovL29hdXRoLWF1dGguc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vYWRkcmVzcy1pZGVudGl0eS5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9lY29tbS1pbnZvaWNlLXN0YXRlLWNvbW1lcmNlLnN0Zy5vYy5ocC5jb20iLCJodHRwczovL2xlZ2FjeS1zdHJhdHVzLnN0Zy5vYy5ocC5jb20vc2MiLCJodHRwczovL3VzZXItaWRlbnRpdHkuc3RnLm9jLmhwLmNvbSJdLCJhdXRoX3RpbWUiOjEuNzkxOTU1OTc5ZSswOSwiYXV0aG9yaXphdGlvbl9kZXRhaWxzIjpbXSwiY2lkIjoiODM0Mzc0NDQtZmZkMy00NjhkLWE2YzUtYzJhNDVkMDZhNWM0IiwiZXhwIjoxNzkxOTU2OTgwLCJleHRlcm5hbE9yZ1JlZklEcyI6W10sImV4dGVybmFsVXNlclJlZklEcyI6W10sImlhdCI6MTc5MTk1NjA4MCwiaWRwX3R5cGUiOiJocGlkIiwiaWRwX3VzZXJfaWQiOiJycnR1MWRlZ3ljaDl4eTRpN3BpNHc2b2sxYnJhemd0MyIsImlkdHlwIjoidXNlciIsImlzcyI6Imh0dHBzOi8vb2F1dGgtYXV0aC5zdGcub2MuaHAuY29tL29hdXRoMi92MS9ocG9jLXN0ZyIsImp0aSI6IjFjOTAwNzdmLWU5NDYtNDQxNC04NzNhLTM1MzY0M2E0MGVhYSIsInByb2pfcmVmIjoiOGY4M2I0NGQtYmEzZi00MzZkLWFlZjMtMWY5MmU5MmIwYzc3Iiwic2EiOiJhdXRoQG1vdHVzLXN0Zy5ocG9jLXNhLmNvbSIsInNjcCI6WyJvcGVuaWQiLCJvZmZsaW5lIl0sInN1YiI6ImJmOGY1OGFlLTczZTEtNGI0MC04NjRkLTUxZTgwMWQ4NmZhNCIsInRlbmFudHMiOlt7Im9uX2JlaGFsZl9vZiI6W10sInBlcm1pc3Npb25fbWFza3MiOltdLCJyb2xlcyI6WyI3NjBkNGU4My1iNGUzLTQ2MDYtYjZlNy1jOGYwNzZkZGZmZjQiLCI3NTUzN2JlMS1iYTI4LTQwZWYtYWQ0Ny1mZjkzYWU2MjFmMjEiXSwidGVuYW50X2ZxaWQiOiI1YzFjMjU0N2JmOTY1ZGVlMDA0NjVhM2IvYjQyYjNlZTQtZjI4ZS00ZTE5LThjYzUtMGI3YTAzOGQwZjA4L2FlODdkOWFiLTkyNWEtNGE5ZS04NzcyLTJlMDg0ZTczZmRkNCIsInRlbmFudF9pZCI6ImFlODdkOWFiLTkyNWEtNGE5ZS04NzcyLTJlMDg0ZTczZmRkNCJ9XX0.Nwi5vPBkMrnsIfUHzIIv41feGs71GLaz6NTL72TklSok6GadSm3nHsBeZSGa6aRXgN62KJJZiM2jX1SwHymJRLoas1UWqI9WF054SzWFKryvUGy2XSJtpo_6KIurjiWRAHnYf7MdiEe1tgk-Ie27qKIa7RFMR5ur4_dDYOrj5S7xwKnzpEQdAwRISR0sTguLAg8xqljVAv5dpybpoe8pfEhwnoLYo9raCNuZKhmtunSng3C7B8KdvngrubPDmxYKpuNoAy-bJh0Uac0340ld7ZUTAARQ41-xt7ja42SMJLGirtGyG61Vv2DCn6U_jiY7JJmcw4sf1NIMjHGAAV90bQ; hpip-refresh-token=rhJf450ik7jCZlH0Rew6c3lvTQL78O7Nrux8UcPhZlA.RjSPayDKR4duL1F_B6qIKAiOPMO95nD6NinFXjtnPFw.1791984779; hpip-session=eyJocElwVXNlcklkIjoiYmY4ZjU4YWUtNzNlMS00YjQwLTg2NGQtNTFlODAxZDg2ZmE0IiwidG9rZW5UeXBlIjoib3JnLWF3YXJlIiwiYWNjZXNzVG9rZW5FeHBpcmF0aW9uVGltZSI6IjIwMjYtMTAtMTRUMDU6NDk6NDAuMzEyODgyMDQyWiIsInJlZnJlc2hUb2tlbkV4cGlyYXRpb25UaW1lIjoiMjAyNi0xMC0xNFQxMzozNDo0MS4zMTI4ODQ0NDVaIiwiaHBJcE9yZ0lkIjoiYWU4N2Q5YWItOTI1YS00YTllLTg3NzItMmUwODRlNzNmZGQ0In0=; _ga_0XZCN59JDM=GS2.1.s1791956029$o1$g1$t1791956092$j59$l0$h0",
+  "origin": "https://aec-itg.hpcloud.hp.com",
+  "referer": "https://aec-itg.hpcloud.hp.com/",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjAxSFc1TVRTUDFaNVRXSDZNQVpBQURQTkpHIiwidHlwIjoiSldUIn0.eyJzZXNzaW9uX2lkIjoiMTZiYzQwYjgtM2IxMi00OWI5LTgxY2EtZGRkNWZiZTVkZGZiIiwiY2xpZW50X2lkIjoiMDFIVzgyTVpSR1oyREJRUzBEVjFGNURKUTUiLCJ1c2VyX2lkIjoiMDFNNEZWNkdDS0Q5VFJHTVlZUUdLWVNBNEUiLCJmaXJzdF9uYW1lIjoiaHBidyIsImxhc3RfbmFtZSI6ImYiLCJlbWFpbCI6ImhwYncucWF1c2VyLmZAeW9wbWFpbC5jb20iLCJyZXNlbGxlcl9pZCI6bnVsbCwiY3VzdG9tZXJfaWQiOiIwMU00RlY2R0NTN042NUtIUVk5OEtWRldSTSIsInVzZXJfZmVhdHVyZXMiOltdLCJ1c2VyX2FjdGlvbnMiOlsiQURNSU4iLCJDX01FTSIsIkNfUkVTX0NVU1QiLCJEX01FTSIsIkRfUkVTX0NVU1QiLCJFX01FTSIsIkZGX0MiLCJGRl9DUyIsIkZGX0ZSIiwiRkZfRlQiLCJGRl9OQ0YiLCJGRl9ORVdfTUVNQl9OQU1FIiwiRkZfUklGIiwiTV9GRl9ORVdfUk9MRVMiLCJWX01FTSIsIlZfUkVTX0NVU1QiLCJEX0NVU1QiLCJFX0NVU1QiLCJGRl9BVFJDUEYiLCJGRl9BViIsIkZGX0JEIiwiRkZfQkkiLCJGRl9CVVBGIiwiRkZfQ19QIiwiRkZfQ0MiLCJGRl9DTlAiLCJGRl9DUldTIiwiRkZfQ1QiLCJGRl9ETSIsIkZGX0RNX1BERiIsIkZGX0RSRCIsIkZGX0RURSIsIkZGX0ZDRCIsIkZGX0lBIiwiRkZfSlAiLCJGRl9NQ1MiLCJGRl9NUEEiLCJGRl9NVCIsIkZGX05BUlYiLCJGRl9OT1EiLCJGRl9OUEMiLCJGRl9OUUEiLCJGRl9PUUZBIiwiRkZfUElOIiwiRkZfUFAiLCJGRl9RUiIsIkZGX1JFUVVFU1RfVE9LRU5fRkxPVyIsIkZGX1JGIiwiRkZfUkZEIiwiRkZfUlBQVCIsIkZGX1JUIiwiRkZfUlRBIiwiRkZfU0IiLCJGRl9TQkkiLCJGRl9TQlQiLCJGRl9TRk8iLCJGRl9TRlAiLCJGRl9TTUlCIiwiRkZfU09UUiIsIkZGX1NQREYiLCJGRl9TUlQiLCJGRl9TVFQiLCJGRl9TViIsIkZGX1RBU0tTIiwiRkZfVEMiLCJGRl9URUwiLCJGRl9UUCIsIkZGX1RQTSIsIkZGX1ZDTyIsIkZGX1ZQUiIsIkZGX1ZUIiwiRkZfVlRCIiwiRkZfV01BIiwiTV9GRl9BU1AiLCJNX0ZGX0JBVENIX0VfMiIsIk1fRkZfQkFUQ0hfVSIsIk1fRkZfQ19QIiwiTV9GRl9DX1NNIiwiTV9GRl9GQ18yIiwiTV9GRl9GUCIsIk1fRkZfRlRFIiwiTV9GRl9HQV8yIiwiTV9GRl9MViIsIk1fRkZfTk9RIiwiTV9GRl9OUEQiLCJNX0ZGX1NDQU5fMiIsIk1fRkZfU1YiLCJNX0ZGX1ZGIiwiTV9GRl9WRl9PIiwiTV9GRl9XT1JEX1JFUE9SVCIsIlBfTU9OX1NNIiwiU1BfRkZfQ0FNIiwiU1BfRkZfRElBR19QS0ciLCJWX0FDQyIsIlZfQUNDX1JFQUNUIiwiVl9BQ0NPVU5UX1BST0ZJTEUiLCJWX0NVU1QiLCJWX01EIiwiVl9NUiIsIlZfUFJPSiIsIlZfUkVBQ1QiLCJWX1NNQVJUIiwiVl9TUF9IVUxMIiwiWF9MT0dfUkVQT1JUX0dFTl9WMiJdLCJhZG1pbl9yb2xlIjoiVVNFUiIsImN1c3RvbWVyX3JvbGUiOiJBRE1JTiIsInVzZXJfYWdyZWVtZW50Ijp0cnVlLCJpc3MiOiJodHRwczovL2FwaS1hZWMtaXRnLmhwY2xvdWQuaHAuY29tIiwiZXhwIjoxNzkxOTU2ODg3fQ.CgQDcXX3z3e1JA2Po6CC60FDJsjbmyF8F47hqTz4rvylw_109m8uWi-FTeCRE0h6QC3_PnJ7uzVk0tlH5C47SLg0AqRwdcOLMWWFH9e1XfkiY70noejZ37EbpqvhjpIDMklpZWV3H1malMumuscy-UCyJPs3l8rC68eC_GEMGMjYzTiYn7V98WT1pWZIvau4AzI9i2lB1GgmrVS0_eIl5STV421pZefGn9m48LxnXyCL8kCCsARj_wZC08ew2z0k2kU8RiThhHjR_1cCZ8TRVmgQbyZSBUIoCp1yXrkB7hro9YVZNTcwthFFn1fjy1EO4-qWvU-H_QWhlS1KSMoEc9k-F-pf9WE1U2QPJnwr6dDTJYLxS-DK_PBeFRoy61yxQKVaEbeJ5j9EhkKnQTTJ0Neq63lPTjzTC2g8Fu9BiL5ZGT8bLoPQLJveTC2rD-JaiptSwaB334m3eFoQfSKTrrJA7ITMBIt8deUr1rXHbvbhqRAiErjQ257_Oa2cT54nnHedKGzIlRvRwGqP2DfOcx4oXfbmLnTuCtqnJ1wEggUfx7qu-5Q7KC2wPuMz4RpCz4JZT7ZGgTg-C25PHDqguqq-RsAlZgNJhwWOle_ohn4pF2MR1EPW-GVEY2CdyHRMm384GY798vVnxHB8aP7vNCu2fuiBLq7KcROaLmrAS7U",
+  "content-language": "en",
+  "sec-ch-ua": "\"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"Windows\""
+}
+detail API request body: 
+detail API response details: {
+  "url": "https://api-aec-itg.hpcloud.hp.com/v1/tokens/01M4FV6GCS7N65KHQY98KVFWRM/01M4FV6GCKD9TRGMYYQGKYSA4E/detail",
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "access-control-allow-origin": "https://aec-itg.hpcloud.hp.com",
+    "content-length": "497",
+    "content-type": "application/json",
+    "vary": "Origin",
+    "access-control-allow-credentials": "true"
+  },
+  "body": "{\"customerId\":\"01M1DS0V20EQDPHHAJ4X3N5FK8\",\"userId\":\"01M1DS0V1YJSMSE0JN7HS1XPRD\",\"freeTokens\":0,\"welcomeTokens\":1,\"demoTokens\":0,\"customerTokens\":1,\"tokens\":[{\"tokenType\":\"WELCOME\",\"skuType\":\"\",\"orderItem\":null,\"description\":null,\"originalQuantity\":1,\"quantity\":1,\"registeredAt\":\"2026-09-01T06:03:07Z\",\"expiresAt\":\"2027-08-31T06:03:07Z\",\"subscriptionRegisteredAt\":\"2026-09-01T06:03:07Z\",\"subscriptionExpiresAt\":\"2027-08-31T06:03:07Z\"}],\"unlimited\":null,\"hasPermissionToConsumeCustomerTokens\":true}"
+}
+Clicked on Get more tokens
+Clicked on 1 token package
+Clicked on 5 token package
+Clicked on Proceed to Checkout
+{
+  "FirstName": "Tom",
+  "LastName": "Cruise",
+  "AddressLine1": "151 KAPAHULU AVE",
+  "City": "Honolulu",
+  "State": "Hawaii",
+  "ZipCode": "96815",
+  "PhoneNumber": "857-245-7473",
+  "CompanyName": "Apple Inc."
+}
+Entered Tom data in getByRole('textbox', { name: 'First name' })
+Entered Cruise data in getByRole('textbox', { name: 'Last name' })
+Entered 151 KAPAHULU AVE data in getByRole('textbox', { name: 'Address line 1' })
+Entered Honolulu data in getByRole('textbox', { name: 'City' })
+Entered 96815 data in getByRole('textbox', { name: 'Zip code' })
+Entered 857-245-7473 data in getByRole('textbox', { name: 'Phone number' })
+Entered Apple Inc. data in locator('//input[@data-testid=\'billing-company\']')
+Clicked on use this address
+4111111111111111 12/34 123
+Entered card number 4111111111111111
+Entered card number 4111111111111111
+Entered expiry date 12/34
+Entered cvv 123
+Clicked on use this card
+Clicked on confirm and purchase
+Clicked on back to HPBW tokens pack
+Clicked on locator('//span[text()=\' Tokens \']')
+Tokens API response: {
+  "purchaseAvailable": true,
+  "products": [
+    {
+      "sku": "HPBW-TOKENS-PACK",
+      "type": "tokens",
+      "name": "1 Token Package",
+      "description": "HPBW Tokens Pack Offer",
+      "quantity": 1,
+      "price": "35",
+      "currencySymbol": "USD"
+    },
+    {
+      "sku": "HPBW-TOKENS-PACK",
+      "type": "tokens",
+      "name": "5 Token Package",
+      "description": "HPBW Tokens Pack Offer",
+      "quantity": 5,
+      "price": "160",
+      "currencySymbol": "USD"
+    },
+    {
+      "sku": "HPBW-TOKENS-PACK",
+      "type": "tokens",
+      "name": "10 Token Package",
+      "description": "HPBW Tokens Pack Offer",
+      "quantity": 10,
+      "price": "302",
+      "currencySymbol": "USD"
+    }
+  ]
+}
+detail API response: {
+  "customerId": "01M1DS0V20EQDPHHAJ4X3N5FK8",
+  "userId": "01M1DS0V1YJSMSE0JN7HS1XPRD",
+  "freeTokens": 0,
+  "welcomeTokens": 1,
+  "demoTokens": 0,
+  "customerTokens": 1,
+  "tokens": [
+    {
+      "tokenType": "WELCOME",
+      "skuType": "",
+      "orderItem": null,
+      "description": null,
+      "originalQuantity": 1,
+      "quantity": 1,
+      "registeredAt": "2026-09-01T06:03:07Z",
+      "expiresAt": "2027-08-31T06:03:07Z",
+      "subscriptionRegisteredAt": "2026-09-01T06:03:07Z",
+      "subscriptionExpiresAt": "2027-08-31T06:03:07Z"
+    }
+  ],
+  "unlimited": null,
+  "hasPermissionToConsumeCustomerTokens": true
+}
+detail API request headers: {
+  "accept": "application/json",
+  "accept-language": "en-US",
+  "cookie": "OptanonAlertBoxClosed=2026-10-14T05:33:47.642Z; hpeuck_prefs=1111; hpeuck_answ=1; _hjSessionUser_5136680=eyJpZCI6Ijk4ZjZmMGJhLTJlNDktNTQ3OS1iZGZkLTRmMDA1ODA5N2U2NyIsImNyZWF0ZWQiOjE3OTE5NTYwMzAyNDcsImV4aXN0aW5nIjp0cnVlfQ==; _hjSession_5136680=eyJpZCI6ImU5MTM1OTc1LWMxYmEtNGQ2Zi05Njg0LTYxMDVjZjdlMGQ2NSIsImMiOjE3OTE5NTYwMzAyNDgsInMiOjEsInIiOjEsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MX0=; OptanonConsent=isGpcEnabled=0&datestamp=Wed+Oct+14+2026+11%3A05%3A02+GMT%2B0530+(India+Standard+Time)&version=202608.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=3c2ea9ac-113b-4094-a2ba-8c05d970bc25&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=1%3A1%2C2%3A1%2C3%3A1%2C4%3A1&fclco=&lastConsentTs=1791956027&intType=1&crTime=1791956028128&geolocation=IN%3BTN&AwaitingReconsent=false; hpip-access-token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MGE4ZDMwLTYzZTAtNDFkMC04ZWQyLTBkMTMzYjVhZDY0NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9jYW5jZWwtd29ya2Zsb3dzLWVjb21tZXJjZS5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9jb3VudGVycy11dGlsaXR5LnN0Zy5vYy5ocC5jb20iLCJodHRwczovL2lkcC1jb25maWctYXV0aC5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly91c2VyLWFnZ3JlZ2F0aW9uLXJlbGF0aW9uc2hpcC5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9yb2xlcy1yZWxhdGlvbnNoaXAuc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vZWNvbW0tc3Vic2NyaXB0aW9ubWd0LWNvbW1lcmNlLnN0Zy5vYy5ocC5jb20iLCJodHRwczovL2lkcC10b2tlbm1nbXQtYXV0aC5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9vcmdhbml6YXRpb24taWRlbnRpdHkuc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vcmVnaXN0cnktcmVsYXRpb25zaGlwLnN0Zy5vYy5ocC5jb20iLCJodHRwczovL3N1YnNjcmlwdGlvbi1zdGF0ZS1jb21tZXJjZS5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9lY29tbS1vcmRlci1zdGF0ZS1jb21tZXJjZS5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9vcmRlci1yZWdpc3RyeS1wZXJzb25hbGl6YXRpb24uc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vc3Vic2NyaXB0aW9uLXN0YXRlLXBlcnNvbmFsaXphdGlvbi5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9pZHAtbG9va3VwLWF1dGguc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vZWxpZ2liaWxpdHktY29tbWVyY2Uuc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vYWdncmVnYXRpb24tcmVsYXRpb25zaGlwLnN0Zy5vYy5ocC5jb20iLCJodHRwczovL29hdXRoLWF1dGguc3RnLm9jLmhwLmNvbSIsImh0dHBzOi8vYWRkcmVzcy1pZGVudGl0eS5zdGcub2MuaHAuY29tIiwiaHR0cHM6Ly9lY29tbS1pbnZvaWNlLXN0YXRlLWNvbW1lcmNlLnN0Zy5vYy5ocC5jb20iLCJodHRwczovL2xlZ2FjeS1zdHJhdHVzLnN0Zy5vYy5ocC5jb20vc2MiLCJodHRwczovL3VzZXItaWRlbnRpdHkuc3RnLm9jLmhwLmNvbSJdLCJhdXRoX3RpbWUiOjEuNzkxOTU1OTc5ZSswOSwiYXV0aG9yaXphdGlvbl9kZXRhaWxzIjpbXSwiY2lkIjoiODM0Mzc0NDQtZmZkMy00NjhkLWE2YzUtYzJhNDVkMDZhNWM0IiwiZXhwIjoxNzkxOTU3MDU5LCJleHRlcm5hbE9yZ1JlZklEcyI6W10sImV4dGVybmFsVXNlclJlZklEcyI6W10sImlhdCI6MTc5MTk1NjE1OSwiaWRwX3R5cGUiOiJocGlkIiwiaWRwX3VzZXJfaWQiOiJycnR1MWRlZ3ljaDl4eTRpN3BpNHc2b2sxYnJhemd0MyIsImlkdHlwIjoidXNlciIsImlzcyI6Imh0dHBzOi8vb2F1dGgtYXV0aC5zdGcub2MuaHAuY29tL29hdXRoMi92MS9ocG9jLXN0ZyIsImp0aSI6ImFkNDc5MGVjLWE2ZjEtNDBjYi05MzNkLTQ4YTU1MTBlNjZlMiIsInByb2pfcmVmIjoiOGY4M2I0NGQtYmEzZi00MzZkLWFlZjMtMWY5MmU5MmIwYzc3Iiwic2EiOiJhdXRoQG1vdHVzLXN0Zy5ocG9jLXNhLmNvbSIsInNjcCI6WyJvcGVuaWQiLCJvZmZsaW5lIl0sInN1YiI6ImJmOGY1OGFlLTczZTEtNGI0MC04NjRkLTUxZTgwMWQ4NmZhNCIsInRlbmFudHMiOlt7Im9uX2JlaGFsZl9vZiI6W10sInBlcm1pc3Npb25fbWFza3MiOltdLCJyb2xlcyI6WyI3NjBkNGU4My1iNGUzLTQ2MDYtYjZlNy1jOGYwNzZkZGZmZjQiLCI3NTUzN2JlMS1iYTI4LTQwZWYtYWQ0Ny1mZjkzYWU2MjFmMjEiXSwidGVuYW50X2ZxaWQiOiI1YzFjMjU0N2JmOTY1ZGVlMDA0NjVhM2IvYjQyYjNlZTQtZjI4ZS00ZTE5LThjYzUtMGI3YTAzOGQwZjA4L2FlODdkOWFiLTkyNWEtNGE5ZS04NzcyLTJlMDg0ZTczZmRkNCIsInRlbmFudF9pZCI6ImFlODdkOWFiLTkyNWEtNGE5ZS04NzcyLTJlMDg0ZTczZmRkNCJ9XX0.Es2o--mlDQo88j4bp4ZF9LEyzx2416UqkrlOyKltsax91_Qc-KXwP61Ia_p057oT7_VAkhBb5GX6PjI3a-59aE0N93kUB39aaHZpKPrfWVln9HhB751pBbd_bS8rtArAuKckuVLK644eDwSmWP_jCnZ4-d-HhWHzrPmKB-8VwhWH-GDbmw4fA56qgN1WUk7tLAHK8-8D8qSKNwv1gVb4Ld8-SHwGGNX4YmRrjivYZM6IleFrssGzUj0woB5G9Fc9O2y7GpJal5564YL61W8EHWxv9QctnkYZXf4tOi7c58WvdDcwX9hyOB6YY3uJ6d7cUA8XlDXkR-wdIrKUHsFQog; hpip-refresh-token=A5sHe1WlAsaaq-P8KN7Y7qdUpmiVVgxamwTi8MvE8Js.6rGoqrW3JRPsLmhN3e2ANOFdhEDoloILqIP-XsHP5uo.1791984779; hpip-session=eyJocElwVXNlcklkIjoiYmY4ZjU4YWUtNzNlMS00YjQwLTg2NGQtNTFlODAxZDg2ZmE0IiwidG9rZW5UeXBlIjoib3JnLWF3YXJlIiwiYWNjZXNzVG9rZW5FeHBpcmF0aW9uVGltZSI6IjIwMjYtMTAtMTRUMDU6NTA6NTguODc0NzkyNzQ2WiIsInJlZnJlc2hUb2tlbkV4cGlyYXRpb25UaW1lIjoiMjAyNi0xMC0xNFQxMzozNTo1OS44NzQ3OTUxODdaIiwiaHBJcE9yZ0lkIjoiYWU4N2Q5YWItOTI1YS00YTllLTg3NzItMmUwODRlNzNmZGQ0In0=; _ga_0XZCN59JDM=GS2.1.s1791956169$o1$g0$t1791956170$j59$l0$h0",
+  "origin": "https://aec-itg.hpcloud.hp.com",
+  "referer": "https://aec-itg.hpcloud.hp.com/",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjAxSFc1TVRTUDFaNVRXSDZNQVpBQURQTkpHIiwidHlwIjoiSldUIn0.eyJzZXNzaW9uX2lkIjoiMTZiYzQwYjgtM2IxMi00OWI5LTgxY2EtZGRkNWZiZTVkZGZiIiwiY2xpZW50X2lkIjoiMDFIVzgyTVpSR1oyREJRUzBEVjFGNURKUTUiLCJ1c2VyX2lkIjoiMDFNNEZWNkdDS0Q5VFJHTVlZUUdLWVNBNEUiLCJmaXJzdF9uYW1lIjoiaHBidyIsImxhc3RfbmFtZSI6ImYiLCJlbWFpbCI6ImhwYncucWF1c2VyLmZAeW9wbWFpbC5jb20iLCJyZXNlbGxlcl9pZCI6bnVsbCwiY3VzdG9tZXJfaWQiOiIwMU00RlY2R0NTN042NUtIUVk5OEtWRldSTSIsInVzZXJfZmVhdHVyZXMiOltdLCJ1c2VyX2FjdGlvbnMiOlsiQURNSU4iLCJDX01FTSIsIkNfUkVTX0NVU1QiLCJEX01FTSIsIkRfUkVTX0NVU1QiLCJFX01FTSIsIkZGX0MiLCJGRl9DUyIsIkZGX0ZSIiwiRkZfRlQiLCJGRl9OQ0YiLCJGRl9ORVdfTUVNQl9OQU1FIiwiRkZfUklGIiwiTV9GRl9ORVdfUk9MRVMiLCJWX01FTSIsIlZfUkVTX0NVU1QiLCJEX0NVU1QiLCJFX0NVU1QiLCJGRl9BVFJDUEYiLCJGRl9BViIsIkZGX0JEIiwiRkZfQkkiLCJGRl9CVVBGIiwiRkZfQ19QIiwiRkZfQ0MiLCJGRl9DTlAiLCJGRl9DUldTIiwiRkZfQ1QiLCJGRl9ETSIsIkZGX0RNX1BERiIsIkZGX0RSRCIsIkZGX0RURSIsIkZGX0ZDRCIsIkZGX0lBIiwiRkZfSlAiLCJGRl9NQ1MiLCJGRl9NUEEiLCJGRl9NVCIsIkZGX05BUlYiLCJGRl9OT1EiLCJGRl9OUEMiLCJGRl9OUUEiLCJGRl9PUUZBIiwiRkZfUElOIiwiRkZfUFAiLCJGRl9RUiIsIkZGX1JFUVVFU1RfVE9LRU5fRkxPVyIsIkZGX1JGIiwiRkZfUkZEIiwiRkZfUlBQVCIsIkZGX1JUIiwiRkZfUlRBIiwiRkZfU0IiLCJGRl9TQkkiLCJGRl9TQlQiLCJGRl9TRk8iLCJGRl9TRlAiLCJGRl9TTUlCIiwiRkZfU09UUiIsIkZGX1NQREYiLCJGRl9TUlQiLCJGRl9TVFQiLCJGRl9TViIsIkZGX1RBU0tTIiwiRkZfVEMiLCJGRl9URUwiLCJGRl9UUCIsIkZGX1RQTSIsIkZGX1ZDTyIsIkZGX1ZQUiIsIkZGX1ZUIiwiRkZfVlRCIiwiRkZfV01BIiwiTV9GRl9BU1AiLCJNX0ZGX0JBVENIX0VfMiIsIk1fRkZfQkFUQ0hfVSIsIk1fRkZfQ19QIiwiTV9GRl9DX1NNIiwiTV9GRl9GQ18yIiwiTV9GRl9GUCIsIk1fRkZfRlRFIiwiTV9GRl9HQV8yIiwiTV9GRl9MViIsIk1fRkZfTk9RIiwiTV9GRl9OUEQiLCJNX0ZGX1NDQU5fMiIsIk1fRkZfU1YiLCJNX0ZGX1ZGIiwiTV9GRl9WRl9PIiwiTV9GRl9XT1JEX1JFUE9SVCIsIlBfTU9OX1NNIiwiU1BfRkZfQ0FNIiwiU1BfRkZfRElBR19QS0ciLCJWX0FDQyIsIlZfQUNDX1JFQUNUIiwiVl9BQ0NPVU5UX1BST0ZJTEUiLCJWX0NVU1QiLCJWX01EIiwiVl9NUiIsIlZfUFJPSiIsIlZfUkVBQ1QiLCJWX1NNQVJUIiwiVl9TUF9IVUxMIiwiWF9MT0dfUkVQT1JUX0dFTl9WMiJdLCJhZG1pbl9yb2xlIjoiVVNFUiIsImN1c3RvbWVyX3JvbGUiOiJBRE1JTiIsInVzZXJfYWdyZWVtZW50Ijp0cnVlLCJpc3MiOiJodHRwczovL2FwaS1hZWMtaXRnLmhwY2xvdWQuaHAuY29tIiwiZXhwIjoxNzkxOTU2ODg3fQ.CgQDcXX3z3e1JA2Po6CC60FDJsjbmyF8F47hqTz4rvylw_109m8uWi-FTeCRE0h6QC3_PnJ7uzVk0tlH5C47SLg0AqRwdcOLMWWFH9e1XfkiY70noejZ37EbpqvhjpIDMklpZWV3H1malMumuscy-UCyJPs3l8rC68eC_GEMGMjYzTiYn7V98WT1pWZIvau4AzI9i2lB1GgmrVS0_eIl5STV421pZefGn9m48LxnXyCL8kCCsARj_wZC08ew2z0k2kU8RiThhHjR_1cCZ8TRVmgQbyZSBUIoCp1yXrkB7hro9YVZNTcwthFFn1fjy1EO4-qWvU-H_QWhlS1KSMoEc9k-F-pf9WE1U2QPJnwr6dDTJYLxS-DK_PBeFRoy61yxQKVaEbeJ5j9EhkKnQTTJ0Neq63lPTjzTC2g8Fu9BiL5ZGT8bLoPQLJveTC2rD-JaiptSwaB334m3eFoQfSKTrrJA7ITMBIt8deUr1rXHbvbhqRAiErjQ257_Oa2cT54nnHedKGzIlRvRwGqP2DfOcx4oXfbmLnTuCtqnJ1wEggUfx7qu-5Q7KC2wPuMz4RpCz4JZT7ZGgTg-C25PHDqguqq-RsAlZgNJhwWOle_ohn4pF2MR1EPW-GVEY2CdyHRMm384GY798vVnxHB8aP7vNCu2fuiBLq7KcROaLmrAS7U",
+  "content-language": "en",
+  "sec-ch-ua": "\"Google Chrome\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"Windows\""
+}
+detail API request body: 
+detail API response details: {
+  "url": "https://api-aec-itg.hpcloud.hp.com/v1/tokens/01M4FV6GCS7N65KHQY98KVFWRM/01M4FV6GCKD9TRGMYYQGKYSA4E/detail",
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "access-control-allow-origin": "https://aec-itg.hpcloud.hp.com",
+    "content-length": "497",
+    "content-type": "application/json",
+    "vary": "Origin",
+    "access-control-allow-credentials": "true"
+  },
+  "body": "{\"customerId\":\"01M1DS0V20EQDPHHAJ4X3N5FK8\",\"userId\":\"01M1DS0V1YJSMSE0JN7HS1XPRD\",\"freeTokens\":0,\"welcomeTokens\":1,\"demoTokens\":0,\"customerTokens\":1,\"tokens\":[{\"tokenType\":\"WELCOME\",\"skuType\":\"\",\"orderItem\":null,\"description\":null,\"originalQuantity\":1,\"quantity\":1,\"registeredAt\":\"2026-09-01T06:03:07Z\",\"expiresAt\":\"2027-08-31T06:03:07Z\",\"subscriptionRegisteredAt\":\"2026-09-01T06:03:07Z\",\"subscriptionExpiresAt\":\"2027-08-31T06:03:07Z\"}],\"unlimited\":null,\"hasPermissionToConsumeCustomerTokens\":true}"
+}
+Clicked on Get more tokens
+Clicked on 10 token package
+Clicked on 5 token package
+Clicked on Proceed to Checkout
+{
+  "FirstName": "Tom",
+  "LastName": "Cruise",
+  "AddressLine1": "151 KAPAHULU AVE",
+  "City": "Honolulu",
+  "State": "Hawaii",
+  "ZipCode": "96815",
+  "PhoneNumber": "857-245-7473",
+  "CompanyName": "Apple Inc."
+}
+Entered Tom data in getByRole('textbox', { name: 'First name' })
+Entered Cruise data in getByRole('textbox', { name: 'Last name' })
+Entered 151 KAPAHULU AVE data in getByRole('textbox', { name: 'Address line 1' })
+Entered Honolulu data in getByRole('textbox', { name: 'City' })
+Entered 96815 data in getByRole('textbox', { name: 'Zip code' })
+Entered 857-245-7473 data in getByRole('textbox', { name: 'Phone number' })
+Entered Apple Inc. data in locator('//input[@data-testid=\'billing-company\']')
+Clicked on use this address
+4111111111111111 12/34 123
+Entered card number 4111111111111111
+Entered card number 4111111111111111
+Entered expiry date 12/34
+Entered cvv 123
+Clicked on use this card
+Clicked on confirm and purchase
+Clicked on back to HPBW tokens pack

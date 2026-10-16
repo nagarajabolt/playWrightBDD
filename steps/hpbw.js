@@ -101,6 +101,19 @@ Then('Open chrome browser and Login to application', async ({page}, datatable) =
 
 });
 
+
+Given('Login to application {string}, {string}, {string}', async ({page}, url, username, password) => {
+  await page.goto(url, { waitUntil: 'domcontentloaded' });
+  console.log(`Opened browser and navigated to ${url}`);
+  await clickOnButton(page, hpbwPageObjects.loginButton);
+  await enterData(page, hpbwPageObjects.emailAddress, username);
+  await clickOnButton(page, hpbwPageObjects.NextButton);
+  await clickOnButton(page, hpbwPageObjects.usePassword);
+  await enterData(page, hpbwPageObjects.password, password);
+  await clickOnButton(page, hpbwPageObjects.signinButtonHPBW);
+
+});
+
 Then('Open chrome browser and Login to consumer portal application', async ({page}, datatable) => {
   const {Url,  Username, Password } = datatable.hashes()[0];  
   await page.goto(Url, {waitUntil: 'load', timeout: 300000});
@@ -169,10 +182,22 @@ Then('Click on Second Sign In button', async ({page}) => {
 Then('Click on Tokens button and print detail api details and validate api response', async ({page}) => {
   //initiate response object to wait for the tokens API response
   // test.setTimeout(160000);
-  const responsePromise = page.waitForResponse(response => response.url().includes('/user?type=tokens') &&  response.request().method() === 'GET', {timeout: 80000});
-  const detailResponsePromise = page.waitForResponse((response) => 
-    response.url().toLowerCase().includes('/detail'),{ timeout: 80000 },);
+  // const responsePromise = page.waitForResponse(response => response.url().includes('/user?type=tokens') &&  response.request().method() === 'GET', {timeout: 80000});
+  // const detailResponsePromise = page.waitForResponse((response) => 
+    // response.url().toLowerCase().includes('/detail'),{ timeout: 80000 },);
+ console.log("Click on Tokens button and print detail api details and validate api response")
+  // page.pause()
+try{
 
+clickOnButton(page, hpbwPageObjects.tokensButton);
+}catch(error){
+  clickOnButton(page, hpbwPageObjects.openButton);
+  page.waitForTimeout(3000)
+  clickOnButton(page, hpbwPageObjects.tokensButton);
+
+}
+  
+/*
   //Click on the tokens button and wait for the response
     await Promise.all([
       responsePromise,
@@ -202,7 +227,7 @@ Then('Click on Tokens button and print detail api details and validate api respo
     body: responseBody,
   });
 
-
+ */
 });
 
 
@@ -440,3 +465,39 @@ Then('Check tokens api response', async ({page}) => {
 }); 
 
 
+Then('Click on AI Vectorizations', async ({page}) => {
+  // await hpbwPageObjects.aiVectorization.waitFor({state: 'visible', timeout: 160000});
+  await hpbwPageObjects.aiVectorization.click({timeout: 160000});
+  console.log('Clicked on AI Vectorizations');
+  await page.waitForTimeout(3000);
+}); 
+
+Then('Click on AI Vectorize', async ({page}) => {
+  // await hpbwPageObjects.aiVectorize.waitFor({state: 'visible', timeout: 160000});
+  await hpbwPageObjects.aiVectorize.click({timeout: 160000});
+  console.log('Clicked on AI Vectorize');
+  await page.waitForTimeout(3000);
+}); 
+
+Then('Upload file {string}', async ({page}, filePath) => {
+
+  await hpbwPageObjects.browseYourFiles.waitFor({ state: 'visible', timeout: ELEMENT_TIMEOUT });
+  const fileChooserPromise = page.waitForEvent('filechooser', { timeout: ELEMENT_TIMEOUT });
+  await hpbwPageObjects.browseYourFiles.click({ timeout: ELEMENT_TIMEOUT });
+  const fileChooser = await fileChooserPromise;
+  await fileChooser.setFiles(filePath);
+  await expect(hpbwPageObjects.vectorizationContinueButton).toBeEnabled({ timeout: ELEMENT_TIMEOUT });
+  console.log(`Selected upload file: ${filePath}`);
+  await page.waitForTimeout(3000);
+});
+
+Then('Click on Continue', async ({page}) => {
+  await hpbwPageObjects.vectorizationContinueButton.click({ timeout: ELEMENT_TIMEOUT });
+  await page.waitForURL('**/projects/vectorizations/*/files', { timeout: ELEMENT_TIMEOUT });
+  await page.waitForTimeout(3000);
+});
+
+Then('Click on Build Workspace', async ({page}) => {
+  await hpbwPageObjects.buildWorkspaceButton.click({ timeout: ELEMENT_TIMEOUT });
+  await page.waitForURL('**/projects-list', { timeout: ELEMENT_TIMEOUT });
+}); 

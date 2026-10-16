@@ -1,7 +1,0 @@
-Opened browser and navigated to https://aec-itg.hpcloud.hp.com/projects
-Clicked on getByRole('button', { name: /log\s*in/i }).first()
-Entered hpbw.qauser.e@yopmail.com data in locator('span').filter({ hasText: /^Email address$/ })
-Clicked on getByText('Next', { exact: true })
-Clicked on getByText('Use password', { exact: true })
-Entered test123@ data in locator('#password')
-Clicked on getByRole('button', { name: 'submit-button' })

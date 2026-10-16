@@ -1,0 +1,2 @@
+Opened browser and navigated to https://aec-itg.hpcloud.hp.com/projects
+Click on Tokens button and print detail api details and validate api response

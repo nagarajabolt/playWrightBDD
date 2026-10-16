@@ -1,0 +1,3 @@
+Opened browser and navigated to https://aec-itg.hpcloud.hp.com/projects
+Click on Tokens button and print detail api details and validate api response
+Clicked on getByRole('button', { name: /log\s*in/i }).first()
